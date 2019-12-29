@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.4 (1/1/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de) with commenting modifications by:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% GNU General Public License (v2)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+		twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+	 	footinclude=true,cleardoublepage=empty,
+		dottedtoc, % Make page numbers in the table of contents flushed right with dots leading to them
+		BCOR=5mm,paper=a4,fontsize=11pt, % Binding correction, paper type and font size
+		ngerman,american, % Languages, change this to your language(s)
+		]{scrreprt} 
+                
+% Includes the file which contains all the document configurations and packages - make sure to edit this file
+\input{classicthesis-config}
+
+\addbibresource{Bibliography.bib} % The file housing your bibliography
+%\addbibresource[label=ownpubs]{Self_Publications.bib} % Uncomment for optional self-publications
+
+%\hyphenation{Put special hyphenation here}
+
+\begin{document}
+
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{new name} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\include{FrontBackMatter/Titlepage} % Main title page
+
+\include{FrontBackMatter/Titleback} % Back of the title page
+
+\cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page
+
+%\cleardoublepage\include{FrontBackMatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
+
+\cleardoublepage\include{FrontBackMatter/Abstract} % Abstract page
+
+\cleardoublepage\include{FrontBackMatter/Publications} % Publications from the thesis page
+
+\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+\cleardoublepage\include{FrontBackMatter/Contents} % Contents, list of figures/tables/listings and acronyms
+
+\cleardoublepage
+
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\ctparttext{Turbulent multiphase flows are present in numerous natural systems. They are a matter of current studies in many fields, including atmospheric physics, oceanography, astrophysics and technology. Such flows are characterized by a large complexity, due to the nonlinear nature and mutual couplings between different physical phenomena, i.e. flow dynamics, phase transitions, heat transfer, phase-to-phase interactions etc. One of such turbulent multiphase systems is an atmospheric cloud.  Its complexity should encourage in-depth research, because according to latest IPCC report \citep{IPCC_2013} "Clouds and aerosols continue to contribute the largest uncertainty to estimates and interpretations of the Earth’s changing energy budget."   
+However the cloud research has been progressing very slowly. One of the reasons for this is the poor understanding of the basics of turbulence phenomenon itself, including its multi-scale nature and the couplings between the many scales. Phenomena occurring in a cloud on a millimetre scale can be of great importance for a whole cloud system of hundreds of meters in size \citep{Bodenschatz_2010}. Therefore, it is perfectly justified to study very simplistic models operating even only on a small part of the cloud. The research presented in this thesis is motivated by such simplistic approach. Methods used in the following thesis neglect many effects connected to large scale dynamics in the atmosphere, as well as thermodynamic, radiative and chemical effects. These simplifications enable us to treat the cloud as a model set of polydisperse, heavy, inertial, sedimenting particles interacting with an incompressible, turbulent air flow. The work is aimed at studying spatial patterns of cloud droplets formed due to a presence of a single vortex model - a substiture of a turbulent flow. This way one of the mechanisms of interaction between particles and turbulence, particle clustering, is examined.  The problems stated in the thesis are universal and fit into the current research on the general interaction between particles and flow in multiphase turbulent flows. The following introductory chapter states the research questions and hypotheses as well as put them into the perspective of recent advances in the topics of turbulence structure, atmospheric turbulece, particle clustering and its role in cloud evolution.\\
+}% Text on the Part 1 page describing  the content in Part 1
+
+\section{Organization of the thesis - to be filled}
+%A very important factor for successful thesis writing is the organization of the material. This template suggests a structure as the following:
+%\begin{itemize}
+%\marginpar{You can use these margins for summaries of the text body\dots}
+%\item\texttt{Chapters/} is where all the ``real'' content 
+%\emph{Make your changes and adjustments here.} This means that you specify here the options you want to load \texttt{classicthesis.sty} with. You also adjust the title of your thesis, your name, and all similar information here. Refer to \autoref{sec:custom} for more information.
+%
+%This had to change as of version 3.0 in order to enable an easy transition from the ``basic'' style to \mLyX.
+%\end{itemize}
+%
+%\noindent In total, this should get you started in no time.
+
+\part{INTRODUCTION} % First part of the thesis
+
+
+\subfile{Chapters/Chapter01} % Chapter 1
+\subfile{Chapters/Chapter02} % Chapter 2
+\cleardoublepage % Empty page before the start of the next part
+
+%------------------------------------------------
+
+\ctparttext{Tu znajdzie sie kilka zdan opisu, co mozna znalezc w poszczegolnych rozdzialach wynikowych pracy.} 
+%To address theoretically the issue of cloud void origin, we follow the concept of the polydisperse inertial droplet population response to a coherent vortex pattern.
+%This is done in order to evaluate cloud droplets field response to coherent vortex presence.
+
+\part{Results} % Second part of the thesis
+
+
+\subfile{Chapters/Chapter03} % Chapter 3
+\subfile{Chapters/Chapter04} % Chapter 4 - empty template
+\subfile{Chapters/Chapter05} % Chapter 4 - empty template
+
+\cleardoublepage % Empty page before the start of the next part
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+\part{Appendix} % New part of the thesis for the appendix
+
+%\include{Chapters/Chapter0A} % Appendix A
+%\include{Chapters/Chapter0B} % Appendix B - empty template
+
+%----------------------------------------------------------------------------------------
+%	POST-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage\include{FrontBackMatter/Bibliography} % Bibliography
+
+\cleardoublepage\include{FrontBackMatter/Declaration} % Declaration
+
+\cleardoublepage\include{FrontBackMatter/Colophon} % Colophon
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
