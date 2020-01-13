@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  31 OCT 2019 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  13 JAN 2020 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,6 +422,17 @@ Now handling font encoding U ...
 \c@dummy=\count89
 \abcd=\skip48
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
 )
@@ -460,7 +471,7 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \csq@qlevel=\count96
 \csq@maxlvl=\count97
 \csq@tshold=\count98
-\csq@ltx@everypar=\toks19
+\csq@ltx@everypar=\toks20
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
@@ -685,7 +696,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks21
 \ex@=\dimen105
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -715,21 +726,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \dotsspace@=\muskip11
 \c@parentequation=\count288
 \dspbrk@lvl=\count289
-\tag@help=\toks21
+\tag@help=\toks22
 \row@=\count290
 \column@=\count291
 \maxfields@=\count292
-\andhelp@=\toks22
+\andhelp@=\toks23
 \eqnshift@=\dimen108
 \alignsep@=\dimen109
 \tagshift@=\dimen110
 \tagwidth@=\dimen111
 \totwidth@=\dimen112
 \lineht@=\dimen113
-\@envbody=\toks23
+\@envbody=\toks24
 \multlinegap=\skip59
 \multlinetaggap=\skip60
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
@@ -922,7 +933,7 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\AC@clearlist=\toks25
+\AC@clearlist=\toks26
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -959,7 +970,7 @@ Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen116
 \extrarowheight=\dimen117
-\NC@list=\toks26
+\NC@list=\toks27
 \extratabsurround=\skip61
 \backup@length=\skip62
 )
@@ -969,7 +980,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@target=\dimen121
 \TX@delta=\dimen122
 \TX@cols=\count296
-\TX@ftn=\toks27
+\TX@ftn=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -1007,7 +1018,7 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count305
 \lst@gtempboxa=\box29
-\lst@token=\toks28
+\lst@token=\toks29
 \lst@length=\count306
 \lst@currlwidth=\dimen131
 \lst@column=\count307
@@ -1223,7 +1234,7 @@ File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
-\symupright=\mathgroup4
+\symupright=\mathgroup6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
@@ -1233,7 +1244,7 @@ Package: eulervm 2005/01/11 v4.0 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks29
+\MT@toks=\toks30
 \MT@count=\count322
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen139
@@ -1336,7 +1347,7 @@ Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
 \aftertitleunit=\skip71
 \ttl@plus=\dimen153
 \ttl@minus=\dimen154
-\ttl@toksa=\toks30
+\ttl@toksa=\toks31
 \titlewidth=\dimen155
 \titlewidthlast=\dimen156
 \titlewidthfirst=\dimen157
@@ -1498,12 +1509,12 @@ Package biblatex Info: Reference segment=0 on input line 6.
 \scratchbox=\box32
 \nofMPsegments=\count331
 \nofMParguments=\count332
-\everyMPshowfont=\toks31
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count333
 \MPscratchDim=\dimen159
 \MPnumerator=\count334
 \makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks32
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1598,6 +1609,12 @@ LaTeX Font Info:    Try loading font information for U+zeuex on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 18.
 
@@ -1723,73 +1740,60 @@ Package pdftex.def Info: ../gfx/eq_stability_3D.png used on input line 108.
 (pdftex.def)             Requested size: 240.0pt x 420.52812pt.
 
 
-LaTeX Warning: Citation 'ChaosBook' on page 5 undefined on input line 123.
+LaTeX Warning: Citation 'ChaosBook' on page 5 undefined on input line 122.
+
+
+LaTeX Warning: Citation 'Kuznetsov2004' on page 5 undefined on input line 123.
 
 [5 <../gfx/eq_stability_2D.png>] [6 <../gfx/eq_stability_3D.png>]
 <../gfx/Hopf_bifur.png, id=114, 403.5075pt x 228.10219pt>
 File: ../gfx/Hopf_bifur.png Graphic file (type png)
 
 <use ../gfx/Hopf_bifur.png>
-Package pdftex.def Info: ../gfx/Hopf_bifur.png used on input line 128.
+Package pdftex.def Info: ../gfx/Hopf_bifur.png used on input line 127.
 (pdftex.def)             Requested size: 240.0pt x 135.672pt.
 
 
-LaTeX Warning: Citation 'Kuznetsov2004' on page 7 undefined on input line 129.
+LaTeX Warning: Citation 'Kuznetsov2004' on page 7 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'Kuznetsov2004' on page 7 undefined on input line 129.
+LaTeX Warning: Citation 'Kuznetsov2004' on page 7 undefined on input line 128.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-LaTeX Warning: Reference `ch1:eq04' on page 7 undefined on input line 141.
+LaTeX Warning: Reference `ch1:eq04' on page 7 undefined on input line 138.
 
 
-LaTeX Warning: Reference `def:Bur' on page 7 undefined on input line 141.
+LaTeX Warning: Reference `def:Bur' on page 7 undefined on input line 138.
 
 
-Underfull \vbox (badness 4441) has occurred while \output is active []
+LaTeX Warning: Reference `ch1:eq04' on page 7 undefined on input line 148.
 
- [7 <../gfx/Hopf_bifur.png>]
+[7 <../gfx/Hopf_bifur.png>]
 
-LaTeX Warning: Reference `ch1:eq04' on page 8 undefined on input line 151.
-
-
-LaTeX Warning: Reference `ch3:eq03a' on page 8 undefined on input line 158.
+LaTeX Warning: Reference `ch3:eq03a' on page 8 undefined on input line 155.
 
 
-LaTeX Warning: Reference `ch3:eq03c' on page 8 undefined on input line 158.
+LaTeX Warning: Reference `ch3:eq03c' on page 8 undefined on input line 155.
 
 
-! Package amsmath Error: Multiple \label's: label 'ch2:eq03b' will be lost.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 \end{align}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Reference `ch3:eq03c' on page 8 undefined on input line 163.
 
 
-LaTeX Warning: Reference `ch3:eq03c' on page 8 undefined on input line 166.
+LaTeX Warning: Reference `ch3:eq03a' on page 8 undefined on input line 163.
 
 
-LaTeX Warning: Reference `ch3:eq03a' on page 8 undefined on input line 166.
+LaTeX Warning: Reference `ch3:eq03b' on page 8 undefined on input line 163.
 
 
-LaTeX Warning: Reference `ch3:eq03b' on page 8 undefined on input line 166.
+LaTeX Warning: Citation 'Marcu1995' on page 8 undefined on input line 163.
 
 
-LaTeX Warning: Citation 'Marcu1995' on page 8 undefined on input line 166.
-
-
-Overfull \hbox (119.37848pt too wide) in paragraph at lines 179--179
+Overfull \hbox (119.37848pt too wide) in paragraph at lines 176--176
 [] 
  []
 
@@ -1797,76 +1801,76 @@ Overfull \hbox (119.37848pt too wide) in paragraph at lines 179--179
 File: ../gfx/vortex_domain.png Graphic file (type png)
 
 <use ../gfx/vortex_domain.png>
-Package pdftex.def Info: ../gfx/vortex_domain.png used on input line 196.
+Package pdftex.def Info: ../gfx/vortex_domain.png used on input line 193.
 (pdftex.def)             Requested size: 240.0pt x 239.99147pt.
  [9 <../gfx/vortex_domain.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 
-LaTeX Warning: Citation 'Risius2015' on page 10 undefined on input line 223.
+LaTeX Warning: Citation 'Risius2015' on page 10 undefined on input line 220.
 
 
-LaTeX Warning: Citation 'Siebert2015' on page 10 undefined on input line 223.
+LaTeX Warning: Citation 'Siebert2015' on page 10 undefined on input line 220.
 
 <../gfx/Zugspitze_view.png, id=158, 631.35072pt x 485.94348pt>
 File: ../gfx/Zugspitze_view.png Graphic file (type png)
 
 <use ../gfx/Zugspitze_view.png>
-Package pdftex.def Info: ../gfx/Zugspitze_view.png used on input line 226.
+Package pdftex.def Info: ../gfx/Zugspitze_view.png used on input line 223.
 (pdftex.def)             Requested size: 360.0pt x 277.08705pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 226--227
+Overfull \hbox (24.0pt too wide) in paragraph at lines 223--224
  [] 
  []
 
 
-LaTeX Warning: Reference `def:Ek_inertial' on page 10 undefined on input line 2
-32.
+LaTeX Warning: Reference `def:struct_fun_inertial' on page 10 undefined on inpu
+t line 229.
 
 
-LaTeX Warning: Citation 'Chuang2008' on page 10 undefined on input line 233.
+LaTeX Warning: Citation 'Chuang2008' on page 10 undefined on input line 230.
 
 
-LaTeX Warning: Citation 'Siebert2015' on page 10 undefined on input line 234.
+LaTeX Warning: Citation 'Siebert2015' on page 10 undefined on input line 231.
 
 
-Overfull \hbox (2.10266pt too wide) in paragraph at lines 232--235
+Overfull \hbox (2.10266pt too wide) in paragraph at lines 229--232
 \T1/pplj/m/n/10.95 High-resolution mea-sure-ments of small-scale tur-bu-lence d
 ur-ing cloud
  []
 
 
-Overfull \hbox (5.6723pt too wide) in paragraph at lines 232--235
+Overfull \hbox (5.6723pt too wide) in paragraph at lines 229--232
 \T1/pplj/m/n/10.95 het-ero-dyne de-tec-tion of Doppler-shifted light from in-di
 -vid-ual droplets,
  []
 
 
-Overfull \hbox (4.2671pt too wide) in paragraph at lines 232--235
+Overfull \hbox (4.2671pt too wide) in paragraph at lines 229--232
 \T1/pplj/m/n/10.95 on-site as well. Rel-a-tive hu-mid-ity dur-ing cloud im-mer-
 sion was around
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
 
  []
 
 [10]
 
-LaTeX Warning: Citation 'Olsen2000' on page 11 undefined on input line 238.
+LaTeX Warning: Citation 'Olsen2000' on page 11 undefined on input line 235.
 
 
-LaTeX Warning: Reference `fig:ch_07' on page 11 undefined on input line 239.
+LaTeX Warning: Reference `fig:ch_07' on page 11 undefined on input line 236.
 
 [11 <../gfx/Zugspitze_view.png>]
 <../gfx/I_vs_angle_multiple.png, id=169, 590.205pt x 537.50812pt>
 File: ../gfx/I_vs_angle_multiple.png Graphic file (type png)
 
 <use ../gfx/I_vs_angle_multiple.png>
-Package pdftex.def Info: ../gfx/I_vs_angle_multiple.png used on input line 243.
+Package pdftex.def Info: ../gfx/I_vs_angle_multiple.png used on input line 240.
 
 (pdftex.def)             Requested size: 240.0pt x 218.56717pt.
 
@@ -1874,28 +1878,23 @@ Underfull \vbox (badness 3646) has occurred while \output is active []
 
  [12 <../gfx/I_vs_angle_multiple.png (PNG copy)>]
 
-LaTeX Warning: Citation 'Bohren2007' on page 13 undefined on input line 256.
+LaTeX Warning: Citation 'Bohren2007' on page 13 undefined on input line 253.
 
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 256.
+LaTeX Warning: Reference `' on page 13 undefined on input line 253.
 
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 256.
+LaTeX Warning: Reference `' on page 13 undefined on input line 253.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
- (./Chapter02.aux
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
+ (./Chapter02.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
 Package rerunfilecheck Info: File `Chapter02.out' has not changed.
 (rerunfilecheck)             Checksum: 269157B8F623F12B10181DF0ABA61AB1;752.
 
@@ -1916,13 +1915,13 @@ Package logreq Info: Writing requests to 'Chapter02.run.xml'.
  )
 (\end occurred when \iftrue on line 6 was incomplete) 
 Here is how much of TeX's memory you used:
- 22563 strings out of 494877
- 386460 string characters out of 6179085
- 818069 words of memory out of 5000000
- 25350 multiletter control sequences out of 15000+600000
- 74125 words of font info for 124 fonts, out of 8000000 for 9000
+ 22866 strings out of 494877
+ 390060 string characters out of 6179085
+ 817569 words of memory out of 5000000
+ 25640 multiletter control sequences out of 15000+600000
+ 75372 words of font info for 130 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 63i,23n,89p,1987b,1942s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,23n,89p,1987b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
@@ -1941,7 +1940,7 @@ bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Chapter02.pdf (14 pages, 12296003 bytes).
+Output written on Chapter02.pdf (14 pages, 12295818 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  209 compressed objects within 3 object streams

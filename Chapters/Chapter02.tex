@@ -87,10 +87,10 @@ hence the stability of equillibrium point $\mathbf{x_k}$ is determined by eigenv
 that these eigenvalues are non-degenerate, $\lambda^{(l)} \neq \lambda^{(m)}$ for any pair of eigenvalues, the following claims are present.
 
 \begin{itemize}
-\item If all $a^{(l)} < 0$, then the equilibrium is stable - a \emph{sink}. For $b^{(l)} = 0$, it is an \emph{stable node}; for $b^{(l)} \neq 0$, it is an \emph{stable spiral}.
+\item If all $a^{(l)} < 0$, then the equilibrium is stable - a \emph{sink}. For $b^{(l)} = 0$, it is an \emph{stable node}; for $b^{(l)} \neq 0$, it is an \emph{stable spiral/focus}.
 \item If some $a^{(l)} < 0$, and other $a^{(l)} > 0$, the equilibrium is hyperbolic, or a \emph{saddle}.
 \item If all $a^{(l)} > 0$, then the equilibrium is repelling, or a \emph{source}. For $b^{(l)} = 0$, it
-is an \emph{unstable node}; for $b(j) \neq 0$, it is an \emph{unstable spiral}.
+is an \emph{unstable node}; for $b(j) \neq 0$, it is an \emph{unstable spiral/focus}.
 \item If $\det A(x_k)=0$, $tr A(x_k) \neq 0$ it is neutral, a \emph{center} (elliptic).
 \item If some $a^{(l)} = 0$ there is a symmetry or a bifurcation.
 \end{itemize}
@@ -119,9 +119,8 @@ A periodic orbit of a continuous-time flow can be:
 \item partially hyperbolic,
 \item repelling, or a source, unstable to any perturbation
 \end{itemize}
-The range of system parameter values for which a periodic orbitis stable is called its \emph{the stability window}. The set of initial points that are asymptotically
-attracted to stable periodic orbit in infinity (for a fixed set of system parameter values) is called \emph{the basin of attraction} of the limit cycle. For the detailed analysis of periodic orbit stability conditions see \citep{ChaosBook}.\\
-\emph{Bifurcation} is a change of the topological type of the system as its parameters pass through a \emph{bifurcation (critical) value}. One of the classes of bifurcations is so called \emph{Hopf bifurcation}. \marginpar{Hopf bifurcation}Suppose $\alpha$ is a bifurcation parameter and $\alpha_{cr}=0$ is the critical value. In Hopf bifurcation, for $\alpha \leq 0$ the equilibrium is a stable focus. If $\alpha > 0$ the equilibrium becomes an unstable focus and the system has a stable periodic orbit. This is presented schematically in Fig.\ref{fig:ch2_04}.
+The range of system parameter values for which a periodic orbitis stable is called its \emph{the stability window}. The set of initial points that are asymptotically attracted to stable periodic orbit in infinity (for a fixed set of system parameter values) is called \emph{the basin of attraction} of the limit cycle. For the detailed analysis of periodic orbit stability conditions see \citep{ChaosBook}.\\
+\emph{Bifurcation} is a change of the topological type of the system as its parameters pass through a \emph{bifurcation (critical) value}. One of the classes of bifurcations is so called \emph{Hopf bifurcation} \citep{Kuznetsov2004}. \marginpar{Hopf bifurcation}Suppose $\alpha$ is a bifurcation parameter and $\alpha_{cr}=0$ is the critical value. In Hopf bifurcation, for $\alpha \leq 0$ the equilibrium is a stable focus. If $\alpha > 0$ the equilibrium becomes an unstable focus and the system has a stable periodic orbit. This is presented schematically in Fig.\ref{fig:ch2_04}.
 
 \begin{figure*}
 \centering
@@ -131,8 +130,6 @@ attracted to stable periodic orbit in infinity (for a fixed set of system parame
 \end{figure*}
 
 In order to use the methodology described above to analyze the motion of a particle in a vortex of axial symmetry, it is necessary to first define the state space. When choosing a cylindrical coordinates in $\Re^3$ the position vector is $\vec{r}=\vec{r}(r,\varphi,z)$, the state vector is $\mathbf{x}=(r,\varphi,z,\dot{r},\dot{\varphi},\dot{z})$ and generalized velocity $\mathbf{v}=(\dot{r},\dot{\varphi},\dot{z},\ddot{r},\ddot{\varphi},\ddot{z})$.\\
-
-Tutaj byc moze jeszcze cos dopisac o tym, jak sie to ma do naszej kwestii (po przepisaniu rozdzialu 3 w tym formalizmie dokladniej).
 
 \section{Numerical simulations}
 \label{ch2s3}
@@ -155,11 +152,11 @@ Equation \ref{ch1:eq04} decomposed into components looks therefore as follows:
 \ddot{z}=\tau_p^{-1}\left(\gamma z - \dot{z}\right) - g \cos{\theta}
 \label{ch2:eq02}
 \end{align}
-The system is primarely dependend on a set of six dimensional parameters: $\{\Gamma, \gamma, \theta, \tau_p, g, \nu \}$. The non-dimensionalization however leads to Eq. \ref{ch3:eq03a}-\ref{ch3:eq03c} and gives a set of 4 dimensionless parameters $\{St, S_v, \theta, A \}$. to be defined below Dimensionless variables are denoted henceforth by $^{+}$.
+The system is primarely dependent on a set of six dimensional parameters: $\{\Gamma, \gamma, \theta, \tau_p, g, \nu \}$. The non-dimensionalization however leads to Eq. \ref{ch3:eq03a}-\ref{ch3:eq03c} and gives a set of 4 dimensionless parameters $\{St, S_v, \theta, A \}$. to be defined below Dimensionless variables are denoted henceforth by $^{+}$.
 
 \begin{align}
-\ddot{r^+}-r^+\dot{\varphi^+}^2=-St^{-1}\left(A r^++\dot{r^+}+S_v \sin\varphi\right) \\ \label{ch2:eq03a}
-2\dot{r^+}\dot{\varphi^+}+r^+\ddot{\varphi^+}=St^{-1}\left(\frac{1}{2 \pi r^+}(1-e^{-\frac{r^{+ 2}}{2}})-r^+\dot{\varphi^+}-S_v\cos\varphi\right)\\ \label{ch2:eq03b}
+\ddot{r^+}-r^+\dot{\varphi^+}^2=-St^{-1}\left(A r^++\dot{r^+}+S_v \sin\varphi\right) \label{ch2:eq03a} \\
+2\dot{r^+}\dot{\varphi^+}+r^+\ddot{\varphi^+}=St^{-1}\left(\frac{1}{2 \pi r^+}(1-e^{-\frac{r^{+ 2}}{2}})-r^+\dot{\varphi^+}-S_v\cos\varphi\right) \label{ch2:eq03b} \\
 \ddot{z^+}=St^{-1}\left(A z - \dot{z^+} - S_v \cot\theta\right) \label{ch2:eq03c}
 \end{align}
 
@@ -179,7 +176,7 @@ M_1 z^+-M_2 \dot{z^+} - M_4
 \end{gather}
 while for convenience, new equation parameters are defined:
 \begin{align}
-M_1=\frac{\tau_p}{\gamma^{-1}}St^{-2},\\ \nonumber
+M_1=\frac{2A}{St}=\frac{\tau_p}{\gamma^{-1}}St^{-2},\\ \nonumber
 M_2=St^{-1},\\ 
 M_3=Fr^{-2},\\ \nonumber
 M_4=Fr^{-2} \cot{\theta}. \nonumber
@@ -229,7 +226,7 @@ slopes of Zugspitze in the German Alps. Each time, the cloud event lasted for se
 \end{figure*}
 
  \subsection{Atmospheric turbulence measurements}
-High-resolution measurements of small-scale turbulence during cloud void events were performed by 3D ultrasonic anemometers operated at 10~Hz, providing digital outputs for three components of wind velocity $\vec{u}=(u,v,w)$, where $u$ and $v$ are horizontal components and $w$ is vertical velocity. Having 3D velocity, the mean wind velocity and its fluctuations are estimated in appropriately selected time intervals (also by running average). The time series is treated as spatial series on the basis of Taylor’s frozen-flow hypothesis. Velocity fluctuations' 2nd order structure functions are calculated. The Kolmogorov law formulated for the structure functions analogous to 5/3 law for energy spectrum in inertial range \ref{def:Ek_inertial}) determines mean energy dissipation rate $\rangle\epsilon\langle$ and further the Kolmogorov spatial scale $\rangle\eta\langle$.\\
+High-resolution measurements of small-scale turbulence during cloud void events were performed by 3D ultrasonic anemometers operated at 10~Hz, providing digital outputs for three components of wind velocity $\vec{u}=(u,v,w)$, where $u$ and $v$ are horizontal components and $w$ is vertical velocity. Having 3D velocity, the mean wind velocity and its fluctuations are estimated in appropriately selected time intervals (also by running average). The time series is treated as spatial series on the basis of Taylor’s frozen-flow hypothesis. Velocity fluctuations' 2nd order structure functions are calculated. The Kolmogorov "2/3 law" formulated for the structure functions (Eq. \ref{def:struct_fun_inertial}) determines mean energy dissipation rate $\rangle\epsilon\langle$ and further the Kolmogorov spatial scale $\langle\eta\rangle$.\\
 Droplet size distribution was measured by a phase Doppler interferometer (PDI) probe mounted approximately 6~m down from the cloud voids observation point. The principle of the device is based on heterodyne detection of Doppler-shifted light from individual droplets, that results in a robust measurement of the droplet diameter and a single component of the droplet velocity vector \citep{Chuang2008}.\\
 Relative humidity and temperature measurements were conducted on-site as well. Relative humidity during cloud immersion was around 100\%. More on cloud microphysical properties measurements can be found in \citet{Siebert2015}.\\
 

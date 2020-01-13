@@ -11,6 +11,10 @@ White space in argument---line 23 of file Chapter01.aux
  : \citation{Richard
  :                   Feynmann}
 I'm skipping whatever remains of this command
+White space in argument---line 163 of file Chapter01.aux
+ : \citation{Jaczewski
+ :                     2005}
+I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -22,6 +26,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 22097 items from 5000.
 Database file #1: Chapter01-blx.bib
 Warning--I didn't find a database entry for "Feynmann_I"
 Warning--I didn't find a database entry for "Orlanski1975"
@@ -33,12 +38,124 @@ Warning--I didn't find a database entry for "Tsinober2001"
 Warning--I didn't find a database entry for "Saeedipour2014"
 Warning--I didn't find a database entry for "Gotoh2002"
 Warning--I didn't find a database entry for "Jen-LaPlante2016"
+Warning--I didn't find a database entry for "Waclawczyk2017"
+Warning--I didn't find a database entry for "cos"
+Warning--I didn't find a database entry for "cos2"
+Warning--I didn't find a database entry for "Kholmyansky2001"
+Warning--I didn't find a database entry for "Ishihara2007"
+Warning--I didn't find a database entry for "cos3"
+Warning--I didn't find a database entry for "cos4"
+Warning--I didn't find a database entry for "Mouri2003"
+Warning--I didn't find a database entry for "Moisy2004"
+Warning--I didn't find a database entry for "Wallace2009"
+Warning--I didn't find a database entry for "Vlaykov2019"
+Warning--I didn't find a database entry for "Yeung2012"
+Warning--I didn't find a database entry for "Danish2018"
+Warning--I didn't find a database entry for "Yeung2015"
+Warning--I didn't find a database entry for "Bodenschatz2010"
+Warning--I didn't find a database entry for "Ma2017"
+Warning--I didn't find a database entry for "Pedersen2018"
+Warning--I didn't find a database entry for "Warhaft2002"
+Warning--I didn't find a database entry for "Takahashi2018"
+Warning--I didn't find a database entry for "Siebert2009"
+Warning--I didn't find a database entry for "Zilitinkevich2019"
+Warning--I didn't find a database entry for "Maxey1983"
+Warning--I didn't find a database entry for "Calzavarini2012"
+Warning--I didn't find a database entry for "Biferale2005"
+Warning--I didn't find a database entry for "Arneodo2008"
+Warning--I didn't find a database entry for "Toschi2009"
+Warning--I didn't find a database entry for "Scatamacchia2012"
+Warning--I didn't find a database entry for "Dhariwal2018"
+Warning--I didn't find a database entry for "Bourgoin2014"
+Warning--I didn't find a database entry for "Dou2018"
+Warning--I didn't find a database entry for "Saw2014"
+Warning--I didn't find a database entry for "Ireland2016a"
+Warning--I didn't find a database entry for "Ireland2016b"
+Warning--I didn't find a database entry for "Chen2018"
+Warning--I didn't find a database entry for "Vaillancourt2000"
+Warning--I didn't find a database entry for "Shaw2003"
+Warning--I didn't find a database entry for "Devenish2012"
+Warning--I didn't find a database entry for "Grabowski2013"
+Warning--I didn't find a database entry for "Pumir2016"
+Warning--I didn't find a database entry for "Saito2018"
+Warning--I didn't find a database entry for "Kostinski2005"
+Warning--I didn't find a database entry for "Bec2016"
+Warning--I didn't find a database entry for "Madival2019"
+Warning--I didn't find a database entry for "Chaumat2001"
+Warning--I didn't find a database entry for "Pinsky2001"
+Warning--I didn't find a database entry for "Kostinski2001"
+Warning--I didn't find a database entry for "Shaw2002"
+Warning--I didn't find a database entry for "Knyazikhin2005"
+Warning--I didn't find a database entry for "Marshak2005"
+Warning--I didn't find a database entry for "Lehmann2007"
+Warning--I didn't find a database entry for "Glienke2017"
+Warning--I didn't find a database entry for "Warhaft2008"
+Warning--I didn't find a database entry for "Larsen2018"
+Warning--I didn't find a database entry for "Gustavsson2016"
+Warning--I didn't find a database entry for "Falkovich2003"
+Warning--I didn't find a database entry for "Bec2005"
+Warning--I didn't find a database entry for "Bec2006b"
+Warning--I didn't find a database entry for "Bec2007"
+Warning--I didn't find a database entry for "Bragg2014"
+Warning--I didn't find a database entry for "Saw2008"
+Warning--I didn't find a database entry for "Maxey1987"
+Warning--I didn't find a database entry for "Sigurgeirsson2002"
+Warning--I didn't find a database entry for "Cencini2006"
+Warning--I didn't find a database entry for "Bhatnagar2018"
+Warning--I didn't find a database entry for "Goto2008"
+Warning--I didn't find a database entry for "Coleman2009"
+Warning--I didn't find a database entry for "Falkovich2002"
+Warning--I didn't find a database entry for "Hartlep2017"
+Warning--I didn't find a database entry for "Bragg2015a"
+Warning--I didn't find a database entry for "Baker2017"
+Warning--I didn't find a database entry for "Momenifar2019"
+Warning--I didn't find a database entry for "Monchaux2010"
+Warning--I didn't find a database entry for "Monchaux2012"
+Warning--I didn't find a database entry for "Obligado2014"
+Warning--I didn't find a database entry for "Sumbekova2017"
+Warning--I didn't find a database entry for "Manish2018"
+Warning--I didn't find a database entry for "Marcu1995"
+Warning--I didn't find a database entry for "Falkovich2007"
+Warning--I didn't find a database entry for "Bec2011"
+Warning--I didn't find a database entry for "Bewley2013"
+Warning--I didn't find a database entry for "Ravichandran2015"
+Warning--I didn't find a database entry for "Deepu2017"
+Warning--I didn't find a database entry for "Olivieri2014"
+Warning--I didn't find a database entry for "Monchaux2017"
+Warning--I didn't find a database entry for "Yavuz2018"
+Warning--I didn't find a database entry for "Wang2006"
+Warning--I didn't find a database entry for "Ayala2008"
+Warning--I didn't find a database entry for "Woittiez2009"
+Warning--I didn't find a database entry for "Dejoan2013"
+Warning--I didn't find a database entry for "Gustavsson2014"
+Warning--I didn't find a database entry for "Bec2014"
+Warning--I didn't find a database entry for "Park2014"
+Warning--I didn't find a database entry for "Bragg2015b"
+Warning--I didn't find a database entry for "Rosa2016"
+Warning--I didn't find a database entry for "Rosa_Pozorski2017"
+Warning--I didn't find a database entry for "Tom2019"
+Warning--I didn't find a database entry for "Calzavarini2008"
+Warning--I didn't find a database entry for "Saw2012a"
+Warning--I didn't find a database entry for "Saw2012b"
+Warning--I didn't find a database entry for "Lian2013"
+Warning--I didn't find a database entry for "Lian2019"
+Warning--I didn't find a database entry for "Minier2016"
+Warning--I didn't find a database entry for "Davila2001"
+Warning--I didn't find a database entry for "Bec2006a"
+Warning--I didn't find a database entry for "Biferale2016"
+Warning--I didn't find a database entry for "Bhatnagar2016"
+Warning--I didn't find a database entry for "Perrin2016"
+Warning--I didn't find a database entry for "Markowicz2000"
+Warning--I didn't find a database entry for "Hill2005"
+Warning--I didn't find a database entry for "Ravichandran2014"
+Warning--I didn't find a database entry for "Picardo2019"
+Warning--I didn't find a database entry for "Xu2012"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 1 entry,
             6047 wiz_defined-function locations,
-            1149 strings with 8338 characters,
+            1369 strings with 10683 characters,
 and the built_in function-call counts, 1306 in all, are:
 = -- 64
 > -- 58
@@ -77,4 +194,4 @@ warning$ -- 0
 while$ -- 50
 width$ -- 0
 write$ -- 20
-(There were 2 error messages)
+(There were 3 error messages)
