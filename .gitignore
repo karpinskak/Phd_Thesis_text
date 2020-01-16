@@ -1,5 +1,6 @@
 .directory
-.nfs0000000302301048000094ca
+.nfs0000*
+Chapters/.nfs0000*
 Examples/
 Guidlines.pdf
 classicthesis-config.log
