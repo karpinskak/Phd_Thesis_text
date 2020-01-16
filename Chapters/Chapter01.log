@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  13 JAN 2020 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  15 JAN 2020 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1756,6 +1756,10 @@ LaTeX Warning: Citation 'Waclawczyk2017' on page 5 undefined on input line 107.
 
 
 
+LaTeX Warning: Citation 'Zilitinkevich2019' on page 5 undefined on input line 1
+07.
+
+
 LaTeX Warning: Citation 'Warhaft2000' on page 5 undefined on input line 108.
 
 [5 <../gfx/POST_spectra_struct.png>]
@@ -2435,7 +2439,7 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Chapter01.pdf (18 pages, 706527 bytes).
+Output written on Chapter01.pdf (18 pages, 706539 bytes).
 PDF statistics:
  245 PDF objects out of 1000 (max. 8388607)
  198 compressed objects within 2 object streams

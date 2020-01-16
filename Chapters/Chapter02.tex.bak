@@ -225,15 +225,15 @@ slopes of Zugspitze in the German Alps. Each time, the cloud event lasted for se
 \label{fig:ch2_06}
 \end{figure*}
 
- \subsection{Atmospheric turbulence measurements}
-High-resolution measurements of small-scale turbulence during cloud void events were performed by 3D ultrasonic anemometers operated at 10~Hz, providing digital outputs for three components of wind velocity $\vec{u}=(u,v,w)$, where $u$ and $v$ are horizontal components and $w$ is vertical velocity. Having 3D velocity, the mean wind velocity and its fluctuations are estimated in appropriately selected time intervals (also by running average). The time series is treated as spatial series on the basis of Taylor’s frozen-flow hypothesis. Velocity fluctuations' 2nd order structure functions are calculated. The Kolmogorov law formulated for the structure functions analogous to 5/3 law for energy spectrum in inertial range \ref{def:Ek_inertial}) determines mean energy dissipation rate $\rangle\epsilon\langle$ and further the Kolmogorov spatial scale $\langle\eta\rangle$.\\
+\subsection{Atmospheric turbulence measurements}
+High-resolution measurements of small-scale turbulence during cloud void events were performed by 3D ultrasonic anemometers operated at 10~Hz, providing digital outputs for three components of wind velocity $\vec{u}=(u,v,w)$, where $u$ and $v$ are horizontal components and $w$ is vertical velocity. Having 3D velocity, the mean wind velocity and its fluctuations are estimated in appropriately selected time intervals (also by running average). The time series is treated as spatial series on the basis of Taylor’s frozen-flow hypothesis. Velocity fluctuations' 2nd order structure functions are calculated. The Kolmogorov "2/3 law" formulated for the structure functions (Eq. \ref{def:struct_fun_inertial}) determines mean energy dissipation rate $\langle\epsilon\rangle$ and further the Kolmogorov spatial scale $\langle\eta\rangle$.\\
 Droplet size distribution was measured by a phase Doppler interferometer (PDI) probe mounted approximately 6~m down from the cloud voids observation point. The principle of the device is based on heterodyne detection of Doppler-shifted light from individual droplets, that results in a robust measurement of the droplet diameter and a single component of the droplet velocity vector \citep{Chuang2008}.\\
 Relative humidity and temperature measurements were conducted on-site as well. Relative humidity during cloud immersion was around 100\%. More on cloud microphysical properties measurements can be found in \citet{Siebert2015}.\\
 
 \subsection{Lasersheet photography}
 
-In laserheet photography particles are illuminated by a plane of light, and a camera placed at a certain angle to this plane collects images of the light scattered on the particles. Generally particle image recorded by a camera depends on the incoming light, the mutual position of light sheet and camera sensor, sensor properties and the certain characteristics of the scattering itself. Firstly, the light incident on the particle is characterized by its spectrum and spatial structure of the incident beam, what depends on the particle position with respect to width, length and divergence of laser sheet. Secondly, the camera sensor pixel responds with a signal registration only if it receives an amount of energy exceeding a certain threshold. The amount of light received by the camera depends on aperture and exposure time. Light scattered by a particle passes through the optics and undergoes some transformations, specific to a camera. What is more, the particle image on the sensor is characterized by the internal intensity distribution (diffraction pattern). All this influences single pixel signal intensity. Image size depends on particle size, optics’ magnification, position with respect to the focus and other factors\citep{Olsen2000}. Thirdly, the scattered light intensity at an arbitrary angle depends nonlinearly on particle size when comes to light scattering on cloud-like particles. A larger particle can give a lower scattered intensity than a smaller one, or there may be several orders of magnitude difference in intensity between particles differing by 1 order of magnitude in size. The scattering theory applied for cloud droplets and visible light is called Mie theory and is summarised next.\\
-The Mie scattering theory is a rigorous mathematical theory describing the problem of elastic scattering of light by a dielectric sphere of arbitrary size and homogeneous refractive index in the case in which a sphere size is similar to or larger than the wavelength of the incident light. It shows a complex angular and particle size dependency of the scattered light intensity (van de Hulst, 1957). Figure \ref{fig:ch_07} presents this dependency for chosen parameter ranges. Thus, brightness of images of laser light scattered by polydisperse set of droplets is not expected to be monotonic with the particle size.
+In laserheet photography particles are illuminated by a sheet of laser light. A camera placed at a certain angle to this plane collects images of the light scattered by the particles. In general, particle image recorded by the camera depends on the incoming light, the mutual position of the light sheet and the camera sensor, sensor properties and the nature of scattering process itself. Firstly, the light incident on the particle is characterized by its spectrum and spatial structure of the incident beam, what depends on the particle position with respect to width, length and divergence of laser sheet. Secondly, the camera sensor pixel responds with a signal registration only if it receives an amount of energy exceeding a certain threshold. The amount of light received by the camera depends on aperture and exposure time. Light scattered by a particle passes through the optics and undergoes some transformations, specific to a camera. What is more, the particle image on the sensor is characterized by the internal intensity distribution (diffraction pattern). All this influences single pixel signal intensity. Image size depends on particle size, optics’ magnification, position with respect to the focus and other factors\citep{Olsen2000}. Thirdly, the scattered light intensity at an arbitrary angle depends nonlinearly on particle size when comes to light scattering on cloud-like particles. A larger particle can give a lower scattered intensity than a smaller one, or there may be several orders of magnitude difference in intensity between particles differing by one order of magnitude in size. The scattering theory applied for cloud droplets and visible light is called Mie theory and is summarised next.\\
+The Mie scattering theory is a rigorous mathematical theory describing the problem of elastic scattering of light by a dielectric sphere of arbitrary size and homogeneous refractive index in the case in which a sphere size is similar to or larger than the wavelength of the incident light. It shows a complex angular and particle size dependency of the scattered light intensity (van de Hulst, 1957). Figure \ref{fig:ch_07} presents this dependency for chosen parameter ranges. Thus, brightness of images of laserlight scattered by polydisperse set of droplets is not expected to be monotonic with the particle size.
 
 \begin{figure*}
 \centering
@@ -242,7 +242,16 @@ The Mie scattering theory is a rigorous mathematical theory describing the probl
 \label{fig:ch2_07}
 \end{figure*}
 
-In cloud void observations in 2011 clouds were illuminated by a laser sheet created with a frequency-doubled high-power Nd:YAG laser (532~nm, 45~W). The sheet was set either vertical or oblique with respect to gravity. The angle between the laser sheet plane and camera recording plane in the oblique case was chosen to increase the scattering intensity on droplets and falls within the range of 30–40~$\deg$. The laser sheet in the observation region was around 50~cm wide and 1~cm thick. Images covering the approximately 2~m long section of the sheet at a distance approximately 10~m from the source were taken with a Nikon D3s 12 MP DSLR camera. Aquired images were used for size estimation of cloud voids, i.e. small (a few centimeters’ scale) clear-air regions in cloud droplet field of round or elliptic shapes. Each one’s size was manually determined. In the case of a round void, the diameter was taken as the size; in the case of flattened or ellipsoidal void, the maximal chord was taken. The imprecise setting of the measurement system does not allow to evaluate the influence of the lasersheet geometry on droplet imaging in and around cloud voids.  \\
+In cloud void observations in 2011 clouds were illuminated by a laser sheet created with a frequency-doubled high-power Nd:YAG laser (532~nm, 45~W). The sheet was set either vertical or oblique with respect to gravity. The angle between the laser sheet plane and camera recording plane in the oblique case was chosen to increase the scattering intensity on droplets and falls within the range of 30–40~$\deg$. The laser sheet in the observation region was around 50~cm wide and 1~cm thick. Images covering the approximately 2~m long section of the sheet at a distance approximately 10~m from the source were taken with a Nikon D3s 12 MP DSLR camera. Figure \ref{fig:ch2_08} shows an example of an unprocessed image.
+
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=20pc]{gfx/imaging_example_1617.jpg}
+\caption{Image of mountain-top cloud particles, illuminated by a laser sheet light (Nd:YAG laser, 532~nm, 45~W), taken at 8:24~AM on 27th of August 2011 by Markus Neumann. Exposure time: 1/3200~s,focal length: 200~mm, f/2.8.}
+\label{fig:ch2_08}
+\end{figure*}
+
+Aquired images were used for size estimation of cloud voids, i.e. small (a few centimeters’ scale) clear-air regions in cloud droplet field of round or elliptic shapes. Each one’s size was manually determined. In the case of a round void, the diameter was taken as the size; in the case of flattened or ellipsoidal void, the maximal chord was taken. The imprecise setting of the measurement system does not allow to evaluate the influence of the lasersheet geometry on droplet imaging in and around cloud voids.  \\
 In order to compare measurements with the results of the numerical simulations, a simplified procedure of droplet size scaling and color scaling, including the effects of laser imaging technique, is proposed. For this purpose, the following assumptions are made:
 \begin{itemize}
 \item one particle image is recorded by one pixel,
@@ -250,37 +259,66 @@ In order to compare measurements with the results of the numerical simulations, 
 \item each particle is in focus and its image size depends linearly on the particle size,
 \item the experiment in clouds was set up to allow best visualization of maximal number of particles possible.
 \end{itemize}
-Calculation of the Mie scattering intensity is performed with the help of an algorithm that was described in \citep{Bohren2007}. The scattering angle corresponds to 40~$\deg$. In the size range of cloud particles, the light intensity has a general growing tendency, but it is still strongly nonlinear. There are 3 orders of magnitude difference between particles of 1 and 30~$\mu m$ radius. Relative intensity is calculated on this basis. Next, the brightness scaling is made. It assumes that experiment was set up to enable visualization of 95~\% of particle size spectrum. The particle size at which the cumulant of the particle size distribution reaches 95~\% was calculated. Particles larger than this size have brightness equal to 1 in the simulation visualisations. Brightness for the other particles scales linearly with relative scattered light intensity. To mimic camera sensitivity, there is a threshold below which particles get brightness equal to 0. In the plot with white background, the relation is opposite, so the brightest particles are black, and the least bright are white. This color scaling was used in Section \ref{} of Chapter \ref{} for numerical simulation plots and calculations.\\
-Może tutaj dwa zdania o próbie z ramka swiatła?
+Calculation of the Mie scattering intensity is performed with the help of an algorithm that was described in \citet{Bohren2007}. The scattering angle corresponds to 40~$\deg$. In the size range of cloud particles, the light intensity has a general growing tendency, but it is still strongly nonlinear. There are 3 orders of magnitude difference between particles of 1 and 30~$\mu m$ radius. Relative intensity is calculated on this basis. Next, the brightness scaling is made. It assumes that experiment was set up to enable visualization of 95~\% of particle size spectrum. The particle size at which the cumulant of the particle size distribution reaches 95~\% was calculated. Particles larger than this size have brightness equal to 1 in the simulation visualisations. Brightness for the other particles scales linearly with relative scattered light intensity. To mimic camera sensitivity, there is a threshold below which particles get brightness equal to 0. In the plot with white background, the relation is opposite, so the brightest particles are black, and the least bright are white. This color scaling was used in Section \ref{} of Chapter \ref{} for numerical simulation plots and calculations.\\
+Dwa zdania o próbie z ramka swiatła (opcjonalnie).
 
 \section{Cloud-like conditions}
 \label{ch2s5}
 
-In this section I present collection of cloud turbulence and microphysic data from different experiments and the ones chosen for numerical simulation here.
+In order to draw meaningful conclusions from numerical experiments, it is necessary to determine the parameter space for the simulations. In this case, cloud particle and turbulence data is needed, what is further called "cloud-like" conditions. However simultaneuos measurements of cloud droplet microphysics and tubulence properties, as stated before, are scarce. Here, some data collected in various clouds during different experiments are presented. Table \ref{tab:ch2_01} contains basic variables, such as mean TKE dissipation rate $\langle\epsilon\rangle$, $\eta$ calulated with the use of mean dissipation rate, Tylor microscale Reynolds number $Re_{\lambda}$ (calculated according to Eq.\ref{def:Tylor_scale}), droplet radius range $R$, mean droplet radius $\langle R \rangle$ and mean concentration. It is important to remember that mean values estimations may significantly differ between papers. Fig.\ref{fig:ch2_09} presents in addition the Stokes number $St$ and settling parameter $S_v$ space corresponding to some data in Table \ref{tab:ch2_01}.
 
 \begin{table}[h!]
 \centering
- \begin{tabular}{||c| c| c| c||} 
+\begin{tabular}{|l|l|c|c|c|c|c|c|c|} 
+\hline
+lala & unit & \multicolumn{3}{|c|}{UFS, Zugspitze \citep{Siebert2015}} & \multicolumn{2}{|c|}{POST \citep{Jen-LaPlante2016}} & \multicolumn{2}{|c|}{CARRIBA \citep{Siebert2013}}\\ [0.5ex]
+\hline \hline
+ clouds & - & no clouds & small Cu$^{c}$, thin Sc$^{c}$ & Sc$^{c}$ & Sc$^{m}$ TISL & Sc$^{m}$ CTMSL & \multicolumn{2}{|c|}{shallow Cu$^{m}$}  \\ 
+$\langle\epsilon\rangle$ & $m^2 s^{-3}$ & $8.5 \cdot 10^{-2}$ & $10^{-1}$ & $10^{-1}$  & $0.07-0.32\cdot 10^{-3}$ &$0.38-1.46\cdot 10^{-3}$ & $2\cdot 10^{-3}$ & $3\cdot 10^{-3}$\\
+$\eta$ & mm & 0.4 & - & - & 2.39-3.32 &1.24-1.78 & - & - \\
+$Re_{\lambda}$& - & 6200 & - & - &- & - & - & -\\
+$R$ & $\mu m $ & - & 2.5-10 & 3-17 & - & - & 4-47 & 4-45\\ 
+$\langle R \rangle$ & $\mu m$ & - & 4.45 & 6.45 & - & -& 19 & 13.5\\
+$\langle n \rangle$ & $cm^{-3}$ & - & 532 &  275 & - &-& 42 & 80 \\ [1ex] 
  \hline
- Parameter & Col2 \citep{} & Col2\citep{} & Col3\citep{} \\ [0.5ex] 
- \hline\hline
-  [$R_{min},R_{max}$][$\mu m$] &  &  &  \\ 
-  $\langle R \rangle$ [$\mu m$]&  &  &  \\
-  $\langle St\rangle$ &  &  &  \\
-  $n$ [$cm^{-3}$] &  &  &  \\
-  $\epsilon$[$m^2 s^{-3}$] &  &  &  \\
-  $\eta$ [mm] &  &  &  \\
-  $Re$ &  &  &  \\
-  $\lambda$ [mm]? &  &  &  \\
-  $Re_{\lambda}$        &  &  &  \\
-  $\nu$[$m^2 s^{-1}$] &  &  &  \\
-  $\mu$[?] &  &  &  \\
-  $\rho_p$[kg $m^{-3}$] &  &  &  \\
-  $\rho_f$[kg $m^{-3}$] &  &  &  \\
-  $g \ [m s^{-2}]$ &  &  &  \\[1ex] 
- \hline
+\multicolumn{8}{l}{$^{c}$ - continental, $^{m}$ - maritime clouds}
  \end{tabular}
  \label{tab:ch2_01}
 \end{table}
+
+
+\begin{table}
+\centering
+\refstepcounter{table}
+\label{tab:ch2_01}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{|>{\hspace{0pt}}p{0.131\linewidth}|>{\hspace{0pt}}p{0.081\linewidth}|>{\centering\hspace{0pt}}p{0.106\linewidth}|>{\centering\hspace{0pt}}p{0.145\linewidth}|>{\centering\hspace{0pt}}p{0.064\linewidth}|>{\centering\hspace{0pt}}p{0.127\linewidth}|>{\centering\hspace{0pt}}p{0.129\linewidth}|>{\centering\hspace{0pt}}p{0.091\linewidth}|>{\centering\arraybackslash\hspace{0pt}}p{0.091\linewidth}|} 
+\toprule
+lala                      & unit          & \multicolumn{3}{>{\centering\hspace{0pt}}p{0.315\linewidth}|}{UFS, Zugspitze Siebert2015} & \multicolumn{2}{>{\centering\hspace{0pt}}p{0.256\linewidth}|}{POST Jen-LaPlante2016} & \multicolumn{2}{>{\centering\arraybackslash\hspace{0pt}}p{0.182\linewidth}|}{CARRIBA Siebert2013}  \\ 
+\hhline{|=-=======|}
+{[}0.5ex] clouds          & -             & no clouds            & small Cu$^{c}$, thin Sc$^{c}$  & Sc$^{c}$                          & Sc$^{m}$ TISL             & Sc$^{m}$ CTMSL                                           & \multicolumn{2}{>{\centering\arraybackslash\hspace{0pt}}p{0.182\linewidth}|}{shallow Cu$^{m}$ }    \\
+$\langle\epsilon\rangle$  & $m^2 s^{-3}$  & $8.5 \cdot 10^{-2}$  & $10^{-1}$                      & $10^{-1}$                         & $0.07-0.32\cdot 10^{-3}$  & $0.38-1.46\cdot 10^{-3}$                                 & $2\cdot 10^{-3}$  & $3\cdot 10^{-3}$                                                               \\
+$\eta$                    & mm            & 0.4                  & -                              & -                                 & 2.39-3.32                 & 1.24-1.78                                                & -                 & -                                                                              \\
+$Re_{\lambda}$            & -             & 6200                 & -                              & -                                 & -                         & -                                                        & -                 & -                                                                              \\
+$R$                       & $\mu m $      & -                    & 2.5-10                         & 3-17                              & -                         & -                                                        & 4-47              & 4-45                                                                           \\
+$\langle R \rangle$       & $\mu m$       & -                    & 4.45                           & 6.45                              & -                         & -                                                        & 19                & 13.5                                                                           \\
+$\langle n \rangle$       & $cm^{-3}$     & -                    & 532                            & 275                               & -                         & -                                                        & 42                & 80                                                                             \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/Sv_vs_St_experimental_Siebert2015.png}
+\caption{Stokes number $St$ and settling parameter $S_v$ space. Each point is based on a 1~s average of cloud data. The CARRIBA data represent typical conditions for clean (red) and slightly more polluted (yellow) cases and provide a reference for typical trade wind cumuli (see \citep{Siebert2013} for more details). Reprinted from \citep{Siebert2015}.}
+\label{fig:ch2_09}
+\end{figure*}
+
  
+%  $\nu$ & $m^2 s^{-1}$ & - &  &  \\
+%  $\mu$ & $kg \ m^{-1} s^{-1}$ & - &  &  \\
+%  $\rho_p$ & $kg \ m^{-3}$ & - &  &  \\
+%  $\rho_f$ & $kg \ m^{-3}$ & - &  &  \\
+%  $g$ & $m s^{-2}$ & - &  &  \\
 \end{document}

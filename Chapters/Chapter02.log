@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  13 JAN 2020 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  16 JAN 2020 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1874,27 +1874,151 @@ Package pdftex.def Info: ../gfx/I_vs_angle_multiple.png used on input line 240.
 
 (pdftex.def)             Requested size: 240.0pt x 218.56717pt.
 
-Underfull \vbox (badness 3646) has occurred while \output is active []
+<../gfx/imaging_example_1617.jpg, id=171, 2842.62pt x 4271.96pt>
+File: ../gfx/imaging_example_1617.jpg Graphic file (type jpg)
 
- [12 <../gfx/I_vs_angle_multiple.png (PNG copy)>]
+<use ../gfx/imaging_example_1617.jpg>
+Package pdftex.def Info: ../gfx/imaging_example_1617.jpg used on input line 249
+.
+(pdftex.def)             Requested size: 240.0pt x 360.66737pt.
 
-LaTeX Warning: Citation 'Bohren2007' on page 13 undefined on input line 253.
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [12 <../gfx/I_vs_angle_multiple.png (PNG copy)>] [13 <../gfx/imaging_example_1
+617.jpg>]
+
+LaTeX Warning: Citation 'Bohren2007' on page 14 undefined on input line 262.
 
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 253.
+LaTeX Warning: Reference `' on page 14 undefined on input line 262.
 
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 253.
+LaTeX Warning: Reference `' on page 14 undefined on input line 262.
+
+
+Package caption Warning: \label without proper reference on input line 294.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:ch2_01' on page 14 undefined on input line 268.
+
+
+LaTeX Warning: Reference `def:Tylor_scale' on page 14 undefined on input line 2
+68.
+
+
+Package caption Warning: \label without proper reference on input line 294.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:ch2_01' on page 14 undefined on input line 268.
+
+
+Overfull \hbox (0.69011pt too wide) in paragraph at lines 268--269
+\T1/pplj/m/n/10.95 In or-der to draw mean-ing-ful con-clu-sions from nu-mer-i-c
+al ex-per-i-ments,
+ []
+
+
+LaTeX Warning: Citation 'Siebert2015' on page 14 undefined on input line 274.
+
+
+LaTeX Warning: Citation 'Jen-LaPlante2016' on page 14 undefined on input line 2
+74.
+
+
+LaTeX Warning: Citation 'Siebert2013' on page 14 undefined on input line 274.
+
+
+Overfull \hbox (275.29526pt too wide) in paragraph at lines 272--287
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
+! Undefined control sequence.
+<recently read> \hhline 
+                        
+l.308 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]| \T1/pplj/m/n/10.95 |=-
+ []
+
+
+Overfull \hbox (9.07068pt too wide) in paragraph at lines 308--308
+\T1/pplj/m/n/10.95 =======|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\T1/pplj/m/n/10.95 [0.5ex]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|
+ []
+
+
+Overfull \hbox (5.83351pt too wide) in paragraph at lines 308--308
+\U/zeur/m/n/10.95 m[]s[]$| 
+ []
+
+
+Overfull \hbox (1.96353pt too wide) in paragraph at lines 308--308
+ \U/zeur/m/n/10.95 10[]$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|
+ []
+
+
+Overfull \hbox (0.66496pt too wide) in paragraph at lines 308--308
+\U/zeur/m/n/10.95 cm[]$| 
+ []
+
+
+<../gfx/Sv_vs_St_experimental_Siebert2015.png, id=186, 957.5775pt x 682.04813pt
+>
+File: ../gfx/Sv_vs_St_experimental_Siebert2015.png Graphic file (type png)
+ <use ../gfx/Sv_vs_St_experimental_Siebert2015.png>
+Package pdftex.def Info: ../gfx/Sv_vs_St_experimental_Siebert2015.png used on i
+nput line 313.
+(pdftex.def)             Requested size: 360.0pt x 256.41266pt.
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 313--314
+ [] 
+ []
+
+
+LaTeX Warning: Citation 'Siebert2013' on page 14 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'Siebert2015' on page 14 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'Siebert2013' on page 14 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'Siebert2015' on page 14 undefined on input line 314.
+
+[14] [15 <../gfx/Sv_vs_St_experimental_Siebert2015.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 324.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 324.
  (./Chapter02.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 324.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 324.
 Package rerunfilecheck Info: File `Chapter02.out' has not changed.
 (rerunfilecheck)             Checksum: 269157B8F623F12B10181DF0ABA61AB1;752.
 
@@ -1915,35 +2039,39 @@ Package logreq Info: Writing requests to 'Chapter02.run.xml'.
  )
 (\end occurred when \iftrue on line 6 was incomplete) 
 Here is how much of TeX's memory you used:
- 22866 strings out of 494877
- 390060 string characters out of 6179085
- 817569 words of memory out of 5000000
- 25640 multiletter control sequences out of 15000+600000
+ 22890 strings out of 494877
+ 390631 string characters out of 6179085
+ 828569 words of memory out of 5000000
+ 25655 multiletter control sequences out of 15000+600000
  75372 words of font info for 130 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 63i,23n,89p,1987b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Chapter02.pdf (14 pages, 12295818 bytes).
+ 61i,23n,88p,1987b,1942s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): nam
+e{figure.caption.11} has been referenced but does not exist, replaced by a fixe
+d one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/euler/eufm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/eul
+er/eusm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
+atino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8
+a.pfb>
+Output written on Chapter02.pdf (15 pages, 14988726 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 13433 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 13443 words of extra memory for PDF output out of 14400 (max. 10000000)
 
