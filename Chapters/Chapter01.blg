@@ -7,14 +7,6 @@ I couldn't open database file Bibliography.bib
  : \bibdata{Chapter01-blx,Bibliography
  :                                    }
 I'm skipping whatever remains of this command
-White space in argument---line 23 of file Chapter01.aux
- : \citation{Richard
- :                   Feynmann}
-I'm skipping whatever remains of this command
-White space in argument---line 163 of file Chapter01.aux
- : \citation{Jaczewski
- :                     2005}
-I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -26,8 +18,9 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 22097 items from 5000.
+Reallocated field_info (elt_size=4) to 21819 items from 5000.
 Database file #1: Chapter01-blx.bib
+Warning--I didn't find a database entry for "RichardFeynmann"
 Warning--I didn't find a database entry for "Feynmann_I"
 Warning--I didn't find a database entry for "Orlanski1975"
 Warning--I didn't find a database entry for "Reynolds1883"
@@ -39,12 +32,9 @@ Warning--I didn't find a database entry for "Saeedipour2014"
 Warning--I didn't find a database entry for "Gotoh2002"
 Warning--I didn't find a database entry for "Jen-LaPlante2016"
 Warning--I didn't find a database entry for "Waclawczyk2017"
-Warning--I didn't find a database entry for "cos"
-Warning--I didn't find a database entry for "cos2"
-Warning--I didn't find a database entry for "Kholmyansky2001"
-Warning--I didn't find a database entry for "Ishihara2007"
-Warning--I didn't find a database entry for "cos3"
-Warning--I didn't find a database entry for "cos4"
+Warning--I didn't find a database entry for "Zilitinkevich2019"
+Warning--I didn't find a database entry for "Warhaft2000"
+Warning--I didn't find a database entry for "Tsinober2014"
 Warning--I didn't find a database entry for "Mouri2003"
 Warning--I didn't find a database entry for "Moisy2004"
 Warning--I didn't find a database entry for "Wallace2009"
@@ -58,7 +48,6 @@ Warning--I didn't find a database entry for "Pedersen2018"
 Warning--I didn't find a database entry for "Warhaft2002"
 Warning--I didn't find a database entry for "Takahashi2018"
 Warning--I didn't find a database entry for "Siebert2009"
-Warning--I didn't find a database entry for "Zilitinkevich2019"
 Warning--I didn't find a database entry for "Maxey1983"
 Warning--I didn't find a database entry for "Calzavarini2012"
 Warning--I didn't find a database entry for "Biferale2005"
@@ -89,6 +78,7 @@ Warning--I didn't find a database entry for "Knyazikhin2005"
 Warning--I didn't find a database entry for "Marshak2005"
 Warning--I didn't find a database entry for "Lehmann2007"
 Warning--I didn't find a database entry for "Glienke2017"
+Warning--I didn't find a database entry for "Jaczewski2005"
 Warning--I didn't find a database entry for "Warhaft2008"
 Warning--I didn't find a database entry for "Larsen2018"
 Warning--I didn't find a database entry for "Gustavsson2016"
@@ -155,7 +145,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 1 entry,
             6047 wiz_defined-function locations,
-            1369 strings with 10683 characters,
+            1369 strings with 10716 characters,
 and the built_in function-call counts, 1306 in all, are:
 = -- 64
 > -- 58
@@ -194,4 +184,4 @@ warning$ -- 0
 while$ -- 50
 width$ -- 0
 write$ -- 20
-(There were 3 error messages)
+(There was 1 error message)

@@ -1460,7 +1460,7 @@
 	year = "2008"
 }
 
-@article{Saw2012,
+@article{Saw2012a,
 	abstract = "Particles that are heavy compared to the fluid in which they are embedded (inertial particles) tend to cluster in turbulent flow, with the degree of clustering depending on the particle Stokes number. The phenomenon is relevant to a variety of systems, including atmospheric clouds; in most realistic systems particles have a continuous distribution of sizes and therefore the clustering of {\lq}polydisperse{\rq} particle populations is of special relevance. In this work a theoretical expression for the radial distribution function (RDF) for mono- and bidisperse inertial particles in the low Stokes number limit (Chun et al 2005 J. Fluid Mech. 536 219--51) is compared with the results of a direct numerical simulation of particle-laden turbulence. The results confirm the power-law form of the RDF for monodisperse particles with St ≲ 0.3. The clustering signature occurs at scales ≲10--30 times the Kolmogorov scale, consistent with a dissipation-scale mechanism. The theory correctly predicts the decorrelation scale below which bidisperse particles cease to cluster because of their distinct inertial response. A {\lq}saturation{\rq} effect was observed, however, in which the power-law exponent is limited by the least clustered particle population. An expression is presented with which a polydisperse RDF can be obtained from the mono- and bidisperse RDFs and the particle size distribution. The DNS data clearly show that the effect of polydispersity is to diminish clustering, and place a bound on the level of polydispersity required to approximate a monodisperse system; this result is of relevance to experimental studies and realistic systems.",
 	author = "Saw, Ewe-Wei and Salazar, Juan P L C and Collins, Lance R and Shaw, Raymond A",
 	doi = "10.1088/1367-2630/14/10/105030",
@@ -1788,5 +1788,74 @@
 	publisher = "Cambridge University Press",
 	title = "{Turbulence in the Atmosphere}",
 	year = "2010"
+}
+
+@article{Siebert2013,
+	author = "Siebert, H. and Beals, M. and Bethke, J. and Bierwirth, E. and Conrath, T. and Dieckmann, K. and Ditas, F. and Ehrlich, A. and Farrell, D. and Hartmann, S. and Izaguirre, M. A. and Katzwinkel, J. and Nuijens, L. and Roberts, G. and Sch{\"a}fer, M. and Shaw, R. A. and Schmeissner, T. and Serikov, I. and Stevens, B. and Stratmann, F. and Wehner, B. and Wendisch, M. and Werner, F. and Wex, H.",
+	journal = "Atmospheric Chemistry and Physics",
+	number = "19",
+	pages = "10061--10077",
+	title = "{The fine-scale structure of the trade wind cumuli over Barbados \&ndash; an introduction to the CARRIBA project}",
+	volume = "13",
+	year = "2013"
+}
+
+@inbook{Tsinober2001,
+	author = "Tsinober, A.",
+	doi = "10.1007/0-306-48384-X",
+	journal = "Fluid Mechanics and its Applications",
+	month = "01",
+	pages = "332",
+	title = "{An Informal Introduction to Turbulence}",
+	volume = "63",
+	year = "2004"
+}
+
+@inbook{Tsinober2014,
+	author = "Tsinober, Arkady",
+	doi = "10.1007/978-90-481-3174-7",
+	isbn = "9048131731",
+	journal = "Fluid Mechanics and its Applications",
+	month = "01",
+	title = "{An Informal Conceptual Introduction to Turbulence: Second Edition of An Informal Introduction to Turbulence}",
+	volume = "92",
+	year = "2009"
+}
+
+@article{Siebert2009,
+	abstract = "Abstract Clouds are known to be turbulent, but the details of their internal turbulent structure have been largely unexplored. Measurements of turbulent velocities in stratocumulus clouds presented here reveal an intermittent structure consistent with that observed in classic homogeneous isotropic turbulence. The measurements were taken close to cloud top in a 200-m-thick cloud layer over a path of approximately 6 km, using a hot-wire anemometer below a helicopter as part of the Airborne Cloud Turbulence Observation System (ACTOS) measurement system. Hot-wire signal artifacts resulting from droplet impacts are removed without significantly degrading the signal, such that high-order velocity structure functions can be evaluated. The structure function analysis for orders 2--8 show statistically significant departures from the Kolmogorov{\rq}s 1941 scaling, yielding scaling exponents consistent with the Kolmogorov--Obukhov refined similarity hypothesis, with an intermittency exponent of 0.25. This is in agreement with the accepted value determined in single-phase flows under carefully controlled conditions, and no evidence is found of any departure from the large body of knowledge obtained from the laboratory on the finescale turbulence structure. This suggests that processes depending on the finescale structure of turbulence that cannot presently be measured in clouds can be explored in the laboratory setting. Since these findings pertain to clouds with relatively low liquid water content and weak turbulence, further work will be required to determine their applicability to other cloud types.",
+	author = "Siebert, H. and Shaw, R. A. and Warhaft, Z.",
+	doi = "10.1175/2009JAS3200.1",
+	journal = "Journal of the Atmospheric Sciences",
+	number = "1",
+	pages = "262--273",
+	title = "{Statistics of Small-Scale Velocity Fluctuations and Internal Intermittency in Marine Stratocumulus Clouds}",
+	url = "https://doi.org/10.1175/2009JAS3200.1",
+	volume = "67",
+	year = "2010"
+}
+
+@article{Saw2012b,
+	abstract = "Particles that are heavy compared to the fluid in which they are embedded (inertial particles) tend to cluster in turbulent flow, with the degree of clustering depending on the particle Stokes number. The phenomenon is relevant to a variety of multiphase flows, including atmospheric clouds; in most realistic systems, particles have a continuous distribution of sizes and therefore the clustering of {\lq}polydisperse{\rq} particle populations is of special relevance. In this part of the study, measurements of spatial correlations of particles in high-Reynolds-number turbulence are compared with the results of a direct numerical simulation of particle-laden turbulence. The experimentally derived radial distribution functions (RDFs) exhibit a pronounced scale break at approximately 10--30 times the Kolmogorov scale, with large-scale clustering arising from {\lq}scalar mixing{\rq} of the droplet field, and smaller-scale clustering depending on the particle Stokes numbers. A procedure is outlined for isolating the RDF due to inertial clustering from that resulting from large-scale mixing. Reasonable agreement between the experiment and the direct numerical simulations (DNS) is obtained for St ≲ 0.3 when particle Stokes number distributions in the DNS match those existing in the experiments. The experimental RDFs are consistent with the flattening or saturation scale appearing for bidisperse particles, but as in the companion paper, also support the {\lq}saturation{\rq} effect in the asymmetric response of the power-law slope. The evidence for a universal scale break, as observed in both the DNS and the experiments, suggests that the pre-factor in the theoretical expression for the RDF is inherently tied to the power-law exponent, and an empirical form for this is given. Finally, no strong influence of the turbulence Reynolds number was observed for the clustering phenomenon. The consistency between the carefully analyzed DNS and experiments, in terms of St dependence, dissipation-range scale break and saturation of clustering for polydisperse particles, provides an indirect confirmation of the diffusion-drift theory of Chun et al (2005 J. Fluid Mech. 536 219--51).",
+	author = "Saw, Ewe-Wei and Shaw, Raymond A and Salazar, Juan P L C and Collins, Lance R",
+	doi = "10.1088/1367-2630/14/10/105031",
+	journal = "New Journal of Physics",
+	month = "oct",
+	number = "10",
+	pages = "105031",
+	publisher = "{IOP} Publishing",
+	title = "{Spatial clustering of polydisperse inertial particles in turbulence: {II}. Comparing simulation with experiment}",
+	url = "https://doi.org/10.1088%2F1367-2630%2F14%2F10%2F105031",
+	volume = "14",
+	year = 2012
+}
+
+@article{Xu2012,
+	address = "Leipzig",
+	author = "Xu, H. and Risius, S. and Xi, H. and Bodenschatz, J. and Malinowski, S. P. and Shaw, R. A. and Schmeissner, T. and Siebert, H. and Bodenschatz, E.",
+	location = "Germany",
+	organization = "16th International Conference on Clouds and Precipitation",
+	title = {{Turbulence induced "cloud holes" in mountain-top clouds at Schneefernerhaus research station}},
+	year = "2012"
 }
 

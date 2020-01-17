@@ -233,7 +233,7 @@ Relative humidity and temperature measurements were conducted on-site as well. R
 \subsection{Lasersheet photography}
 
 In laserheet photography particles are illuminated by a sheet of laser light. A camera placed at a certain angle to this plane collects images of the light scattered by the particles. In general, particle image recorded by the camera depends on the incoming light, the mutual position of the light sheet and the camera sensor, sensor properties and the nature of scattering process itself. Firstly, the light incident on the particle is characterized by its spectrum and spatial structure of the incident beam, what depends on the particle position with respect to width, length and divergence of laser sheet. Secondly, the camera sensor pixel responds with a signal registration only if it receives an amount of energy exceeding a certain threshold. The amount of light received by the camera depends on aperture and exposure time. Light scattered by a particle passes through the optics and undergoes some transformations, specific to a camera. What is more, the particle image on the sensor is characterized by the internal intensity distribution (diffraction pattern). All this influences single pixel signal intensity. Image size depends on particle size, optics’ magnification, position with respect to the focus and other factors\citep{Olsen2000}. Thirdly, the scattered light intensity at an arbitrary angle depends nonlinearly on particle size when comes to light scattering on cloud-like particles. A larger particle can give a lower scattered intensity than a smaller one, or there may be several orders of magnitude difference in intensity between particles differing by one order of magnitude in size. The scattering theory applied for cloud droplets and visible light is called Mie theory and is summarised next.\\
-The Mie scattering theory is a rigorous mathematical theory describing the problem of elastic scattering of light by a dielectric sphere of arbitrary size and homogeneous refractive index in the case in which a sphere size is similar to or larger than the wavelength of the incident light. It shows a complex angular and particle size dependency of the scattered light intensity (van de Hulst, 1957). Figure \ref{fig:ch_07} presents this dependency for chosen parameter ranges. Thus, brightness of images of laserlight scattered by polydisperse set of droplets is not expected to be monotonic with the particle size.
+The Mie scattering theory is a rigorous mathematical theory describing the problem of elastic scattering of light by a dielectric sphere of arbitrary size and homogeneous refractive index in the case in which a sphere size is similar to or larger than the wavelength of the incident light. It shows a complex angular and particle size dependency of the scattered light intensity (van de Hulst, 1957). Figure \ref{fig:ch2_07} presents this dependency for chosen parameter ranges. Thus, brightness of images of laserlight scattered by polydisperse set of droplets is not expected to be monotonic with the particle size.
 
 \begin{figure*}
 \centering
@@ -259,7 +259,7 @@ In order to compare measurements with the results of the numerical simulations, 
 \item each particle is in focus and its image size depends linearly on the particle size,
 \item the experiment in clouds was set up to allow best visualization of maximal number of particles possible.
 \end{itemize}
-Calculation of the Mie scattering intensity is performed with the help of an algorithm that was described in \citet{Bohren2007}. The scattering angle corresponds to 40~$\deg$. In the size range of cloud particles, the light intensity has a general growing tendency, but it is still strongly nonlinear. There are 3 orders of magnitude difference between particles of 1 and 30~$\mu m$ radius. Relative intensity is calculated on this basis. Next, the brightness scaling is made. It assumes that experiment was set up to enable visualization of 95~\% of particle size spectrum. The particle size at which the cumulant of the particle size distribution reaches 95~\% was calculated. Particles larger than this size have brightness equal to 1 in the simulation visualisations. Brightness for the other particles scales linearly with relative scattered light intensity. To mimic camera sensitivity, there is a threshold below which particles get brightness equal to 0. In the plot with white background, the relation is opposite, so the brightest particles are black, and the least bright are white. This color scaling was used in Section \ref{} of Chapter \ref{} for numerical simulation plots and calculations.\\
+Calculation of the Mie scattering intensity is performed with the help of an algorithm that was described in \citet{Bohren2007}. The scattering angle corresponds to 40~$\deg$. In the size range of cloud particles, the light intensity has a general growing tendency, but it is still strongly nonlinear. There are 3 orders of magnitude difference between particles of 1 and 30~$\mu m$ radius. Relative intensity is calculated on this basis. Next, the brightness scaling is made. It assumes that experiment was set up to enable visualization of 95~\% of particle size spectrum. The particle size at which the cumulant of the particle size distribution reaches 95~\% was calculated. Particles larger than this size have brightness equal to 1 in the simulation visualisations. Brightness for the other particles scales linearly with relative scattered light intensity. To mimic camera sensitivity, there is a threshold below which particles get brightness equal to 0. In the plot with white background, the relation is opposite, so the brightest particles are black, and the least bright are white. This color scaling was is in Chapter \ref{ch:holes} for numerical simulation plots and calculations.\\
 Dwa zdania o próbie z ramka swiatła (opcjonalnie).
 
 \section{Cloud-like conditions}
@@ -288,6 +288,7 @@ In order to draw meaningful conclusions from numerical experiments, it is necess
 
 \noindent\begin{minipage}{\linewidth}
 \centering
+\captionof{table}{Cloud and turbulence basic data collected in different experiments: at UFS on Zugspitze mountain in Cu and Sc, during POST campaign in Sc, in CARRIBA campaign in Cu.}
 \refstepcounter{table}
 \label{tab:ch2_01}
 \resizebox{\linewidth}{!}{%
@@ -303,10 +304,11 @@ $R$                       & $\mu m $      & -                    & 2.5-10       
 $\langle R \rangle$       & $\mu m$       & -                    & 4.45                           & 6.45                  & -                         & -                                       & 19                & 13.5                                                                        \\
 $\langle n \rangle$       & $cm^{-3}$     & -                    & 532                            & 275                   & -                         & -                                       & 42                & 80                                                                          \\
 \bottomrule
-\line
 \end{tabular}
 }
 \end{minipage}
+
+
 
 \begin{figure*}
 \centering

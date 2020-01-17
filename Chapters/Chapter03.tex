@@ -78,7 +78,7 @@ According to small particles assumption, $\tau_z$ can be approximated as well:
 
 \begin{figure*}
 \centering
-\noindent \includegraphics[width=30pc]{gfx/tau_z_error_vs_delta.png}
+\noindent \includegraphics[width=30pc]{gfx/tau_z_error_tau_z_vs_delta.png}
 \caption{Characteristic time of the motion along vortex axis $\tau_z$ relative error versus vortex core size $\delta$ and particle radius $R$. Color indicates dependence on $R$. Plot variables' ranges correspond to cloud-like conditions.}
 \label{fig:ch3_1}
 \end{figure*}
@@ -111,9 +111,10 @@ where $Z^\ast \in (1,\infty), \ z_0^\ast \in [-Z^\ast,1)\cup (1,Z^\ast]$. For $z
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/Z_log_factor_plot.png}
-\caption{Logarithmic factor in $\tau_{ex}$ vs. ratio of initial position and equillibrium position $a_2$. Line colors present cases of different ratios of vortex half-length and equillibrium position, $a_1$.}
+\caption{Logarithmic factor $logL$ (in $\tau_{ex}$) vs. $z^*_0$ - ratio of initial position and equillibrium position. Line color is scaled by $Z*$ values which refer to different ratios of vortex half-length and equillibrium position.}
 \label{fig:ch3_2}
 \end{figure*}
+
 The logarithmic factor in $\tau_{ex}$ is depicted in Fig. \ref{fig:ch3_2}. It depends on domain half-length $Z$ and initial position $z_0$ ratios to $z_b$. It is hard to draw any direct conlusions for single particle exit time on the basis of Fig.\ref{fig:ch3_2} alone. However there is an interesting feature when thinking about the collection of particles in the vortex. Namely, the mean value of logarithmic factor over $z_0^\ast$ (over all initial positions) equals one for every $Z^\ast$ (for every vortex half-length):
 \begin{equation}
 \langle log\ L(Z^\ast,z_0^\ast)\rangle_{z_0^\ast}=\frac{1}{2 Z^\ast}\int_{-Z^\ast}^{Z^\ast}log\ L(Z^\ast,z_0^\ast)dz_0^\ast=1
@@ -212,7 +213,7 @@ Particle rotation time being an inverse of angular velocity is proportional to v
 
 The previously established assumption of small particles  i.e. $\tau_p<<\gamma^{-1}$ leads to the conclusion that $\tau_{orb}<<\gamma^{-1}$ as well. More on the timescales of motion can be found later in the text.\\
 Having identified system attractors and their basic features, their realistic impact on particle kinematic is studied. The probability that a particle founds itself in phase space exactly in the equilibrium point or on periodic orbit is low. More probable is that it is positioned somewhere else and is pulled towards its attractor/s. That fact is the motivation for the detailed study of particles approaching their attractors conducted below.\\
-I analyze the scales of motion and features of the particle trajectory starting at arbitrary position and approaching its attractor (stable focus at the axis or circular orbit). For the sake of simplicity, the starting radial positions that are selected for analysis are the only ones distinguished by the model. That are position at the axis $r^+(0)=0$ and at $r^+(0)=r_s$. The motion of a particle defined in this way is called here a "docking process".\marginpar{docking process} Time at which the docking process occures is consequently called docking time and noted $t^+_{doc}$. In short, for the purposes of further analysis, I distinguish two types of processes:
+I analyze the scales of motion and features of the particle trajectory starting at arbitrary position and approaching its attractor (stable focus at the axis or circular orbit). For the sake of simplicity, the starting radial positions selected for analysis are the only spatial scales distinguished in the equations. That means: the position at the axis $r^+(0)=0$ and at $r^+(0)=r_s$. The motion of a particle defined in this way is called here a "docking process".\marginpar{docking process} Time at which the docking process occures is consequently called docking time and noted $t^+_{doc}$. In short, for the purposes of further analysis, I distinguish two types of processes:
 \begin{itemize}
 \item in-orbit docking: $r^+(0)=0$, $\dot{r^+}(0)=u_r^+(0)$, particle is attracted by its periodic orbit $r^+_{orb}$
 \item axis docking: $r^+(0)=r_s$, $\dot{r^+}(0)=u_r^+(r_s)$ particle is attracted by a point on vortex axis $r^+=0$.
@@ -223,12 +224,12 @@ Due to the fact, that the particle approaches its destined radial position asymp
 \small
 \tabcolsep=0.2cm
 \centering
-\caption{}
+\caption{Initial ($t^+=0$) and final ($t^+=t^+_{doc}$) particle state in numerical simulations of docking processes. $\sigma$ is an arbitrary small parameter.}
 \centering
-\begin{tabular}{|l|c|c|c|}
+\begin{tabular}{|l||c|c|c|}
 \hline 
 docking& $r^+(0)$ & $\dot{r^+}(0)$ & $r^+(t^+_{doc})$\\
-\hline
+\hline \hline
 in-orbit & $\sigma$ & $u^+_r(\sigma)$ & $r^+_{orb}-\sigma$\\
 \hline
 axis & $r_s-\sigma$ & $u_r^+(r_s-\sigma)$ & $\sigma$\\
@@ -412,10 +413,10 @@ $r_s$ & 1.585201\\
 $S_{v s}$ & 0.0718\\
 \hline
 \end{tabular}
-\label{tab3_2}
+\label{tab:ch3_2}
 \end{table}
 
-Equillibrium curves for a dozen of $A$ values are plotted in Fig. \ref{fig:ch3_6}. It is easy to find that $f_A(0)=0$ and $\lim_{r^+\to\infty} f_A(r^+)=\infty$. Moreover, there exists a critical value of nondimensional strain $A_{cr}$ for which bifurcation from one unique solution (for $A \geq A_{cr}$) to maximally three solutions (for $A<A_{cr}$) occurs. $A_{cr}$ corresponds to the equilibrium curve that has a horizontal slope at the inflection point. $A_{cr}$ value was estimated numerically (see the Table \ref{tab3_2}). It is also easy to prove that the equillibrium curves asymptotically tend to the function $f_{A \rightarrow 0+}(r)=\left( 1-exp(-r^2/2)\right)/2\pi r$. This function, unlike equillibrium curves for $A \in (0,A_{cr})$ does not have a minimum.
+Equillibrium curves for a dozen of $A$ values are plotted in Fig. \ref{fig:ch3_6}. It is easy to find that $f_A(0)=0$ and $\lim_{r^+\to\infty} f_A(r^+)=\infty$. Moreover, there exists a critical value of nondimensional strain $A_{cr}$ for which bifurcation from one unique solution (for $A \geq A_{cr}$) to maximally three solutions (for $A<A_{cr}$) occurs. $A_{cr}$ corresponds to the equilibrium curve that has a horizontal slope at the inflection point. $A_{cr}$ value was estimated numerically (see the Table \ref{tab:ch3_2}). It is also easy to prove that the equillibrium curves asymptotically tend to the function $f_{A \rightarrow 0+}(r)=\left( 1-exp(-r^2/2)\right)/2\pi r$. This function, unlike equillibrium curves for $A \in (0,A_{cr})$ does not have a minimum.
 
 \begin{figure*}
 \centering
@@ -425,13 +426,13 @@ Equillibrium curves for a dozen of $A$ values are plotted in Fig. \ref{fig:ch3_6
 \end{figure*}
 
 For $A \geq A_{cr}$ the equilibrium curve is a monotonically increasing function of $r^+$ so there exists exactly one solution for every $S_v$ value.\\
-For $A<A_{cr}$ the equilibrium curve always has one maximum at $r^+_{max}$ and one minimum at $r^+_{min}$. The inflection point of $A=A _{cr}$ equilibrium curve plot lies at $r_i$ and for $S_{v i}$ (numerical estimations in the Table \ref{tab3_2}). It restricts values of $r^+_{max}$ from above and values of $r^+_{min}$ from below. Let's define:
+For $A<A_{cr}$ the equilibrium curve always has one maximum at $r^+_{max}$ and one minimum at $r^+_{min}$. The inflection point of $A=A _{cr}$ equilibrium curve plot lies at $r_i$ and for $S_{v i}$ (numerical estimations in the Table \ref{tab:ch3_2}). It restricts values of $r^+_{max}$ from above and values of $r^+_{min}$ from below. Let's define:
 \begin{align}
 S_{v\ min}=f_A(r^+_{min}) \\
 S_{v\ max}=f_A(r^+_{max})
 \label{ch3:eq28b}
 \end{align}
-Consequently, for $S_v<S_{v\ min}$ and for $S_v>S_{v\ max}$, there is only one solution. For $S_v=S_{v\ min}$ and for $S_v=S_{v\ max}$, there are two solutions. For $S_{v\ min}<S_v<S_{v\ max}$, there are three solutions. All the conclusions are summarised in Table \ref{tab:ch3_1}.
+Consequently, for $S_v<S_{v\ min}$ and for $S_v>S_{v\ max}$, there is only one solution. For $S_v=S_{v\ min}$ and for $S_v=S_{v\ max}$, there are two solutions. For $S_{v\ min}<S_v<S_{v\ max}$, there are three solutions. All the conclusions are summarised in Table \ref{tab:ch3_2b}.
 
 \begin{table}
 \small
@@ -449,7 +450,7 @@ $\geq A_{cr}$ & arbitrary & 1 \\
 \multirow{3}{*}{\ } & $>S_{v\ max}$  & 1 at $r^+_0>r^+_{min}>r_i$\\
 \hline
 \end{tabular}
-\label{tab:ch3_1}
+\label{tab:ch3_2b}
 \end{table}
 
 Not only is the existence of the multiple solutions important but their stability as well. Let $r^+_0$ denote an arbitrary dimensionless solution of Eq. \ref{ch3:eq27}. The exact form of the stability condition of the solution $r^+_0$ is governed by the function $\phi(r^+_0)$ (as defined in \citet{Marcu1995}). The condition can take two different forms depending on the sign of this function:
@@ -466,7 +467,7 @@ Plots of $\phi(r^+_0)$ and its square root are shown in Fig.\ref{fig:ch3_7}.
 \label{fig:ch3_7}
 \end{figure*}
 
-Function $\phi(r^+_0)$ has only one zero at $r_s$ (see Table \ref{tab3_2}). For small radii, $r^+_0<r_s$, the equilibrium is a spiral/focus, and it is stable if:
+Function $\phi(r^+_0)$ has only one zero at $r_s$ (see Table \ref{tab:ch3_2}). For small radii, $r^+_0<r_s$, the equilibrium is a spiral/focus, and it is stable if:
 
 \begin{equation}
 St \leq \frac{A}{|{\phi(r^+_0)}|}.
@@ -486,7 +487,7 @@ Analysis of the equilibrium point stability conditions by \citet{Marcu1995} is e
 \end{equation}
 In the range between maximum and minimum $r^+_0 \in (r^+_{max},r^+_{min})$ there is $\sqrt{\phi(r^+_0)} > \sqrt{\phi(r^+_{min}(A))}$, so the condition in Eq.\ref{ch3:eq31} is not satisfied and the points in this range are not stable. For $r^+_0 >r^+_{min}$ there is 
 $\sqrt{\phi(r^+_0)} <\sqrt{\phi(r^+_{min}(A))}$, so the condition in Eq.\ref{ch3:eq31} is satisfied and the points in this range are stable.
-In the case $A \geq A_{cr}$ the condition in Eq.\ref{ch3:eq31} is satisfied, because $A>\max_{r^+_0}\left( \sqrt{\varphi(r^+_0)}\right)=A_{cr}$. The unique solution is a stable node. These results are summarised in Table \ref{tab3_3}.
+In the case $A \geq A_{cr}$ the condition in Eq.\ref{ch3:eq31} is satisfied, because $A>\max_{r^+_0}\left( \sqrt{\varphi(r^+_0)}\right)=A_{cr}$. The unique solution is a stable node. These results are summarised in Table \ref{tab:ch3_3}.
 
 \begin{table}
 \small
@@ -502,7 +503,7 @@ $A < A_{cr}$ & \multirow{2}{*}{focus, unstable if $St>A/|\phi(r^+_0)|$} & stable
 $A \geq A_{cr}$ &  \multirow{2}{*}{\ } & \multicolumn{3}{|c|}{stable node}\\
 \hline
 \end{tabular}
-\label{tab3_3}
+\label{tab:ch3_3}
 \end{table}
  
 The stability properties can be analysed with $S_v$ as a leading parameter too, in contrast to equilibrium curve viewpoint. Figure \ref{fig:ch3_8} presents equilibrium point $r^+_0$ plots versus $A$. Line colors refer to various $S_v$ parameters. Continous line represents stable point, dashed - unstable. Three colored regions in the background mark three stability domains: light gray corresponds to condition in Eq.\ref{ch3:eq31} satisfied (a stable node), light green to the same condition not satisfied (a saddle), light red points to the focus region $r^+_0<r_s$. Stability of the focus is governed by Eq.\ref{ch3:eq30}, so $St$ must be considered as well. An example of stability properties in the region $r^+_0<r_s$ is shown by the cross signs - they represent the example of unstable focii for $St=0.5$. $r_s$, $r_i$ and $A_{cr}$ are marked on the axes for reference.
@@ -549,7 +550,7 @@ These scenarios are used later to carry out a search for vortex model parameter 
 Dodac cos tutaj o tej publikacji Sapsin And Haler 2010 o przyciaganiu czastek inercyjnych przez powolne rozmaitosci.
 
 \section{Time scales of single particle motion}
-We were able to find approximate relations of a few timescales for single particle motion in Burgers vortex: exit time $\tau_{ex}$, connected to timescale of motion along the axis $\tau_z$, no-gravity orbit rotation time $\tau_{orb}$ and no-gravity axis docking time $\tau_{d1}$. For ease of reference, these approximations are summarised in Table \ref{tab3_4}. Several conclusions about three dimensional particle motion can be drawn from the comparison of the separately derived time scales:
+We were able to find approximate relations of a few timescales for single particle motion in Burgers vortex: exit time $\tau_{ex}$, connected to timescale of motion along the axis $\tau_z$, no-gravity orbit rotation time $\tau_{orb}$ and no-gravity axis docking time $\tau_{d1}$. For ease of reference, these approximations are summarised in Table \ref{tab:ch3_5}. Several conclusions about three dimensional particle motion can be drawn from the comparison of the separately derived time scales:
 \begin{enumerate}
 \item $\tau_{d1}$ and $\tau_z$ are approximately independent of particle radius $R$ and vortex strain $A$.
 \item $\tau_{orb}<<\tau_z$
@@ -557,6 +558,20 @@ We were able to find approximate relations of a few timescales for single partic
 \item $\frac{\tau_{ex}}{\tau_{d1}}=4 \log L(a_1,a_2)$, which implies that axis docking time and exit time are of the same order as long as $\log L(a_1,a_2)$ is close to $1/4$. It means that particle starting position and vortex length determines the fact if particle is able to approach its stable point on vortex axis befor being expelled.
 \end{enumerate} 
 
+
+\begin{table}
+\small
+\tabcolsep=0.2cm
+\caption{Tabeleczka}.
+\centering
+\begin{tabular}{|c|c|c|}
+\hline 
+ &  & \\
+\\
+\hline
+\end{tabular}
+\label{tab:ch3_5}
+\end{table}
 
 Tu nastapi jakies podsumowanie rozdzialu.
 \end{document}
