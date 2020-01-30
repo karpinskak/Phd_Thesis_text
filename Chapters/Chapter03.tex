@@ -79,7 +79,7 @@ According to small particles assumption, $\tau_z$ can be approximated as well:
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/tau_z_error_tau_z_vs_delta.png}
-\caption{Characteristic time of the motion along vortex axis $\tau_z$ relative error versus vortex core size $\delta$ and particle radius $R$. Color indicates dependence on $R$. Plot variables' ranges correspond to cloud-like conditions.}
+\caption{Characteristic time of the motion along vortex axis $\tau_z$ (green line, right y-axis) versus vortex core size $\delta$ and its relative error (left y-axis, bar chart) versus $\delta$ and particle radius $R$. Colorscale indicates dependence on $R$. Plot variables' ranges correspond to cloud-like conditions.}
 \label{fig:ch3_1}
 \end{figure*}
 
@@ -150,6 +150,8 @@ the only attractor, the equillibrium point at the axis, is a stable focus ($\alp
 \label{fig:ch3_3}
 \end{figure*}
 
+\subsubsection{Stable periodic orbit}
+
 The first type of trajectory that is analysed is the particle moving on stable periodic orbit. The radius of the periodic orbit, denoted as $r^+_{orb}$, satisfies the equation:
 \begin{equation}
  \left[1-\exp\left( -r^{+ 2}/2 \right) \right]/2 \pi r^{+ 2}=\sqrt{A/St}, 
@@ -213,6 +215,8 @@ Particle rotation time being an inverse of angular velocity is proportional to v
 
 The previously established assumption of small particles  i.e. $\tau_p<<\gamma^{-1}$ leads to the conclusion that $\tau_{orb}<<\gamma^{-1}$ as well. More on the timescales of motion can be found later in the text.\\
 Having identified system attractors and their basic features, their realistic impact on particle kinematic is studied. The probability that a particle founds itself in phase space exactly in the equilibrium point or on periodic orbit is low. More probable is that it is positioned somewhere else and is pulled towards its attractor/s. That fact is the motivation for the detailed study of particles approaching their attractors conducted below.\\
+
+\subsubsection{Stable focus or stable periodic orbit attraction}
 I analyze the scales of motion and features of the particle trajectory starting at arbitrary position and approaching its attractor (stable focus at the axis or circular orbit). For the sake of simplicity, the starting radial positions selected for analysis are the only spatial scales distinguished in the equations. That means: the position at the axis $r^+(0)=0$ and at $r^+(0)=r_s$. The motion of a particle defined in this way is called here a "docking process".\marginpar{docking process} Time at which the docking process occures is consequently called docking time and noted $t^+_{doc}$. In short, for the purposes of further analysis, I distinguish two types of processes:
 \begin{itemize}
 \item in-orbit docking: $r^+(0)=0$, $\dot{r^+}(0)=u_r^+(0)$, particle is attracted by its periodic orbit $r^+_{orb}$
@@ -239,46 +243,47 @@ axis & $r_s-\sigma$ & $u_r^+(r_s-\sigma)$ & $\sigma$\\
 \end{table}
 
 The choice of small $\sigma$ parameter will be elaborated on later.\\
-Figure \ref{fig:ch3_41} and Fig. \ref{fig:ch3_42} show particle docking in-orbit and on axis respectively, differing in parameters $St$ and $A$, for $\sigma=10^{-4}$. Line color corresponds to the value of parameter $St/A$. Fig.\ref{fig:ch3_43} and Fig.\ref{fig:ch3_44} represent the same data, but rescaled:
-\begin{itemize}
-\item $t^+$ is scaled for each particle separately by its $t^+_{doc}$.
-\item radial velocity $\dot{r^+}$ is scaled by radial fluid velocity $u_r$ at the starting position
-\item angular velocity $\varphi^+$ is scaled by rotational fluid velocity $u_{\varphi}^+(\sigma)/\sigma$ (axis docking) or circular orbit velocity $\omega_{orb}$ (in-orbit docking).
-\end{itemize}
-
-\begin{figure*}
-\centering
-\noindent \includegraphics[width=30pc]{gfx/orbit_docking_vel_traj_in_time_noscal.png}
-\caption{Particle docking in orbit for different parameters $St$ and $A$, $\sigma=10^{-4}$. Line color corresponds to the value of parameter $St/A$. Panel \textbf{a} - radial coordinate,\textbf{b} - polar angle, \textbf{c} - radial velocity, \textbf{d} - angular velocity.}
-\label{fig:ch3_41}
-\end{figure*}
-
-\begin{figure*}
-\centering
-\noindent \includegraphics[width=30pc]{gfx/orbit_docking_vel_traj_in_time_scal.png}
-\caption{Same as in Fig. \ref{fig:ch3_41}, but time is scaled by each particles docking time, \textbf{c} - radial velocity is scaled by the fluid velocity  at the starting point $u_r(\sigma)$, \textbf{d} - angular velocity is scaled by the particle orbit angular velocity $\omega_{orb}$.}
-\label{fig:ch3_43}
-\end{figure*}
 
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/point_docking_vel_traj_in_time_noscal.png}
-\caption{Particle docking on axis for different parameters $St$ and $A$, $\sigma=10^{-4}$. Line color corresponds to the value of parameter $St/A$. Panel \textbf{a} - radial coordinate,\textbf{b} - polar angle, \textbf{c} - radial velocity, \textbf{d} - angular velocity.}
+\caption{Tracking of a particle while docking on axis, for  $\sigma=10^{-4}$. Line color corresponds to $St/A$ value, line color intensity to different $St$ and $A$ representations. Upper panel- radial coordinate, middle panel - radial velocity, lower panel - angular velocity.}
 \label{fig:ch3_42}
 \end{figure*}
 
 \begin{figure*}
 \centering
+\noindent \includegraphics[width=30pc]{gfx/orbit_docking_vel_traj_in_time_noscal.png}
+\caption{Tracking of a particle while docking in orbit, for $\sigma=10^{-4}$. Line color corresponds to $St/A$ value, line color intensity to different $St$ and $A$ representations. Upper panel- radial coordinate, middle panel - radial velocity, lower panel - angular velocity.}
+\label{fig:ch3_41}
+\end{figure*}
+
+Figure~\ref{fig:ch3_42} and Fig.~\ref{fig:ch3_41} show tracking particles wich undergoes docking process, on axis and in-orbit respectively. Three panels show radial position, radial velocity and angular velocity of particles. Each line represents a particle with different $St$ and $A$ parameters. Line color corresponds to $St/A$ value, line color intensity to different $St$ and $A$ representations of the same $St/A$ value. From Fig.~\ref{fig:ch3_42} it is hard to see any rule on parameter dependence. All the particles tend to have the same angular velocity when they dock on the axis, the radial velocity towards the axis dimnish in time in a kind of exponential manner. The ratio at which it happens depends on both $St$ and $A$, the same is for $t^+_{doc}$. In Fig.~\ref{fig:ch3_42} one can notice, that particles has the same angular velocity at the start and it decreases to a value determined by $St/A$ only. The same time the radial velocity rises and falls again to zero almost symmetrically in time, when the particle reaches its orbit at $r^+_{orb}$. 
+
+\begin{figure*}
+\centering
 \noindent \includegraphics[width=30pc]{gfx/point_docking_vel_traj_in_time_scal.png}
-\caption{Same as in Fig. \ref{fig:ch3_42}, but time is scaled by each particles docking time, \textbf{c} - radial velocity is scaled by the fluid velocity  at the starting point $u_r(r_s)$, \textbf{d} - angular velocity is scaled by the fluid angular velocity $u_{\varphi}(\sigma)/\sigma$.}
+\caption{Same as in Fig. \ref{fig:ch3_42}, but X-axis is scaled separately for each trajectory by a docking time. On Y-axes, the radial velocity is scaled by the fluid velocity at the starting point $u_r(r_s)$, angular velocity is scaled by the fluid angular velocity at the final position $\sigma$, so $u_{\varphi}(\sigma)/\sigma$.}
 \label{fig:ch3_44}
 \end{figure*}
 
-Figures \ref{fig:ch3_41} and \ref{fig:ch3_43} reveal that when the particle is docking in-orbit, it first followes the fluid motion around the axis, with radial velocity close to zero. With rotational velocity, the centrifugal force starts acting on it and causes a rapid increase in radial speed in the direction away from the vortex axis. Increasing distance from the axis in turn results in a steep decrease of the rotational velocity, and further the decrease of the radial velocity. Then the particle approaches its periodic orbit: radial velocity goes to zero, rotational velocity goes to $\omega_{orb}$. The rate of these changes depends on the parameters of the model in a complex way. After scaling the time by $t^+_{doc}$ it can be noticed that the docking process depends mainly monotonically on the parameter $St/A$. When its value decreases towards $16 \pi^2$ the docking time $t^+_{doc}$ tends to infinity.\\
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/orbit_docking_vel_traj_in_time_scal.png}
+\caption{Same as in Fig. \ref{fig:ch3_41}, but X-axis is scaled separately for each trajectory by docking time. On Y-axes, radial position is scaled by circular orbit radius, radial velocity is scaled by the opposite of fluid velocity at the starting point $-u_r(\sigma)$, angular velocity is scaled by the fluid angular velocity  $u_{\varphi}(r^+)/r^+$.}
+\label{fig:ch3_43}
+\end{figure*}
 
-\textit{Jakies pomysly, jak mozna opisac ten ruch kropli? Chodzi przeciez tylko o znalezienie skal czasowych ruchu, a nie o dokladne oszacowanie $t_{doc}$, ktory moze bardzo zalezec od warunkow poczatkowych i brzegowych.}\\
+Figure~\ref{fig:ch3_44} and Fig.~\ref{fig:ch3_43} represent the same data, but rescaled. X-axis is scaled separately for each trajectory by docking time. In Fig.~\ref{fig:ch3_44}, on Y-axes, the radial velocity is scaled by the fluid velocity at the starting point $u_r(r_s)$, angular velocity is scaled by the fluid angular velocity at the final position $\sigma$, so $u_{\varphi}(\sigma)/\sigma$. In Fig.~\ref{fig:ch3_43},
+on Y-axes, radial position is scaled by circular orbit radius, radial velocity is scaled by the opposite of fluid velocity at the starting point $-u_r(\sigma)$, angular velocity is scaled by the fluid angular velocity  $u_{\varphi}(r^+)/r^+$. By doing so, one can obtain trajectories that depend almost only on $St/A$ parameter - lines of the same color, but different intensity, converge. The greatest difference is seen in particle angular velocity response to fluid, which is caused by different $St$. Fig.\ref{fig:ch3_43} reveals that when the particle is docking in-orbit, it first followes the fluid motion around the axis, with radial velocity close to zero. With rotational velocity, the centrifugal force starts acting on it and causes a rapid increase in radial speed in the direction away from the vortex axis. Increasing distance from the axis in turn results in a steep decrease of the angular velocity, and further the decrease of the radial velocity. Then the particle approaches its periodic orbit: radial velocity goes to zero, rotational velocity goes to $\omega_{orb}$. The rate of these changes depends on the parameters of the model in a complex way. The attempt to find the approximate dependence is conducted below.\\
 
-Now lets look closer at the axis docking process. Figures \ref{fig:ch3_42} and \ref{fig:ch3_44} show that  the particle firstly move with radial velocity the same as fluid's velocity: $v^+_r(r_s-\sigma)$. Next the particle radial velocity decreases almost exponentially in time. When the time is scaled by docking time, $t^+/t^+_{doc}$, the rate of exponential decrease depends on $St/A$ parameter only. Angular velocity increases towards fluid velocityclose to the axis, $v^+_{\varphi}(\sigma)/\sigma$, when particle is approching the axis . Another obsevation is that when $St/A$ increases towards the critical value $16 \pi^2$, the docking time $t^+_{doc}$  tends to infinity.\\
+
+
+% tutaj o probie oszacowania ruchu dokowania na orbicie
+
+
+
+Now lets look closer at the axis docking process. Figures \ref{fig:ch3_42} and \ref{fig:ch3_44} show that  the particle firstly move with radial velocity the same as fluid's velocity: $v^+_r(r_s-\sigma)$. Next the particle radial velocity decreases almost exponentially in time. When the time is scaled by docking time, $t^+/t^+_{doc}$, the rate of exponential decrease depends on $St/A$ parameter only. Angular velocity increases towards fluid velocity close to the axis, $v^+_{\varphi}(\sigma)/\sigma$, when particle is approching the axis.\\
 \noindent The first glance at \ref{fig:ch3_42} and \ref{fig:ch3_44} leads to the observation that the radial motion (as for $r(t)$ and $\dot{r}(t)$) of the particle docking on the axis is close to exponential. Therefore, a simplified model of this process is proposed below and an attempt is made to estimate axis docking timescale $\tau^+_{d1}$.\\
 Lets assume that in the axis docking process we have:
 \begin{equation}
@@ -322,6 +327,17 @@ In Fig. \ref{fig:ch3_45} fitted values $\tau^+_{d1} \cdot A$ are close to one. T
 \label{ch3:eq26}
 \end{equation}
 Estimated dimensional timescale $\tau_{d1}$ depends primarily on $\gamma^{-1}$. This is exactly the same as in the case of motion along vortex axis (see Eq.\ref{ch3:eq10}).\\
+
+
+
+
+%in-orbit
+fter scaling the time by $t^+_{doc}$ it can be noticed that the docking process depends mainly monotonically on the parameter $St/A$. When its value decreases towards $16 \pi^2$ the docking time $t^+_{doc}$ tends to infinity.
+%%%
+Another obsevation is that when $St/A$ increases towards the critical value $16 \pi^2$, the docking time $t^+_{doc}$  tends to infinity.
+%%%%
+
+
 
 Further the analysis of $t^+_{doc}$ for arbitrary parameter ranges was conducted. Figure \ref{fig:ch3_4} and \ref{fig:ch3_4x} present the results of $t^+_{doc}$ numerical calculation, with respect to $St$ and $A$ in 3D and 2D plots respectively. Blank spaces in the figures represent sets of parameters for which calculation was numerically expensive and hence the result was not included. Vertical axis in \ref{fig:ch3_4} and colorscale in both figures are logarithmic. Black line in Fig. \ref{fig:ch3_4x} respresents the $St=St_{cr}(A)$.
 

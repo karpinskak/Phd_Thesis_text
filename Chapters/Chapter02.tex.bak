@@ -24,7 +24,7 @@ Burgers vortex is a 3D steady velocity field $\vec{u}$ determined by two paramet
 \end{figure*}
 If vortex axis is aligned with $z$-axis in the cylindrical coordinate system $(r, \varphi, z)$, then its vorticity:
 \begin{equation}
-\vec{\omega}=\frac{\Gamma}{2 \pi \delta^2} e^{-\frac{r^2}{2 \delta^2}} \hat{e}_z
+\vec{\omega}_{Bur}=\frac{\Gamma}{2 \pi \delta^2} e^{-\frac{r^2}{2 \delta^2}} \hat{e}_z
 \label{def:omega_Bur}
 \end{equation}
 and velocity field:
@@ -47,7 +47,7 @@ where $A=Re_{\nu}^{-1}$ is vortex strain parameter, defined later in the text, a
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/Burg_vor_vel_comp.png}
-\caption{Burgers vortex dimensionless velocity components in cylindrical coordinates for arbitrary strain parameter $A=0.001$. $r_s$ is defined in the text.}
+\caption{Burgers vortex dimensionless velocity components in cylindrical coordinates. $u_{\varphi}$ does not depend on any parameter. The rest is plotted for an arbitrarily chosen strain parameter $A=0.001$. $r_s$ is defined in the text.}
 \label{fig:ch2_01b}
 \end{figure*}
 
