@@ -275,8 +275,8 @@ Figure~\ref{fig:ch3_42} and Fig.~\ref{fig:ch3_41} show tracking particles wich u
 \end{figure*}
 
 Figure~\ref{fig:ch3_44} and Fig.~\ref{fig:ch3_43} represent the same data, but rescaled. X-axis is scaled separately for each trajectory by docking time. In Fig.~\ref{fig:ch3_44}, on Y-axes, the radial velocity is scaled by the fluid velocity at the starting point $u_r(r_s)$, angular velocity is scaled by the fluid angular velocity at the final position $\sigma$, so $u_{\varphi}(\sigma)/\sigma$. In Fig.~\ref{fig:ch3_43},
-on Y-axes, radial position is scaled by circular orbit radius, radial velocity is scaled by the opposite of fluid velocity at the starting point $-u_r(\sigma)$, angular velocity is scaled by the particle angular velocity at the circular orbit $\omega^+_{orb}$. By doing so, one can obtain trajectories that depend almost only on $St/A$ parameter - lines of the same color, but different intensity, converge. The greatest difference is seen in particle angular velocity response to fluid, which is caused by different $St$. Fig.\ref{fig:ch3_43} reveals that when the particle is docking in-orbit, it first followes the fluid motion around the axis, with radial velocity close to zero. With rotational velocity, the centrifugal force starts acting on it and causes a rapid increase in radial speed in the direction away from the vortex axis. Increasing distance from the axis in turn results in a steep decrease of the angular velocity, and further the decrease of the radial velocity. Then the particle approaches its periodic orbit: radial velocity goes to zero, rotational velocity goes to $\omega_{orb}$. The rate of these changes depends on the parameters of the model in a complex way. The attempt to find the approximate dependence is conducted below.\\
-There is strong time correlation between radial and angular velocity change. In fact when one looks closer at the angular velocity at the particle, it is possible to notice that it depends the most on the radial position of the particle. Figure \ref{fig:ch3_450} presents particle angular velocity in the docking processes, scaled by fluid angular velocity at the position of the particle. It seems that the particles, although their Stokes number can reach value of 1, almost follow the flow when it comes to angular motion.
+on Y-axes, radial position is scaled by circular orbit radius, radial velocity is scaled by the opposite of fluid velocity at the starting point $-u_r(\sigma)$, angular velocity is scaled by the particle angular velocity at the circular orbit $\omega^+_{orb}$. By doing so, one can obtain trajectories that depend almost only on $St/A$ parameter - lines of the same color, but different intensity, converge. The greatest difference is seen in particle angular velocity response to fluid, which is caused by different $St$. Fig.\ref{fig:ch3_43} reveals that when the particle is docking in-orbit, it first follows the fluid motion around the axis, with radial velocity close to zero. With rotational velocity, the centrifugal force starts acting on it and causes a rapid increase in radial speed in the direction away from the vortex axis. Increasing distance from the axis in turn results in a steep decrease of the angular velocity, and further the decrease of the radial velocity. Then the particle approaches its periodic orbit: radial velocity goes to zero, rotational velocity goes to $\omega_{orb}$. The rate of these changes depends on the parameters of the model in a complex way. The attempt to find the approximate dependence is conducted below.\\
+There is strong time correlation between radial and angular velocity change. In fact when one looks closer at the angular velocity at the particle, it is possible to notice that it depends the most on the radial position of the particle. Figure \ref{fig:ch3_450} presents particle angular velocity in the docking processes, scaled by fluid angular velocity at the position of the particle. It seems that the particles, although their Stokes number can reach value of 1, when it comes to angular motion almost follow the flow from the beginning of the motion, and then asymptotically reach fluid velocity.
 
 \begin{figure*}
 \centering
@@ -285,60 +285,55 @@ There is strong time correlation between radial and angular velocity change. In 
 \label{fig:ch3_450}
 \end{figure*}
 
-The attempt to simplify the equation of motion by assuming that particle angular velocity is equal to the fluid velocity leads to a contradiction - such an assumption could be made only for the linear vortex model. Even then the first of Eq.\ref{ch3:eq16} is what is called a Chini equation and in general it is not possible to solve it analytically. In-orbit docking radial velocity resembles a gaussian function and the radial position the error function, but it was tested they are not.\\
+Unfortunately the attempt to simplify the equation of motion by assuming that particle angular velocity is equal to the fluid velocity at particle position leads to a contradiction - such an assumption could be made only in the linear vortex model. Even then the first of Eq.\ref{ch3:eq16} is a case of a Chini equation and in general it is not possible to solve it analytically. In-orbit docking radial velocity resembles a gaussian function and the radial position the error function (see Fig.\ref{fig:ch3_43}, but the tests proved they are not.\\
 Now lets look closer at the axis docking process. Figures \ref{fig:ch3_42} and \ref{fig:ch3_44} show that  the particle firstly move with radial velocity the same as fluid's velocity: $v^+_r(r_s-\sigma)$. Next the particle radial velocity decreases rapidly in time. When the time is scaled by docking time, $t^+/t^+_{doc}$, the rate of this decrease depends on $St/A$ parameter only. Angular velocity increases towards fluid velocity close to the axis, $v^+_{\varphi}(\sigma)/\sigma$, when particle is approching the axis.\\
-\noindent The first glance at \ref{fig:ch3_42} and \ref{fig:ch3_44} leads to the observation that the radial motion (as for $r(t)$ and $\dot{r}(t)$) of the particle docking on the axis resembles exponential decay. Therefore, a simplified model of this process is proposed below and an attempt is made to estimate axis docking timescale $\tau^+_{d1}$.\\
+\noindent The first glance at \ref{fig:ch3_42} and \ref{fig:ch3_44} leads to the observation that the radial motion (as for $r(t)$ and $\dot{r}(t)$) of the particle docking on the axis resembles exponential decay. Logarithmic plots show these clearly linear dependence in time except for small times ($t^+<<t^+_{doc}$). Therefore, a simplified model of this process is proposed below and an attempt is made to estimate axis docking timescale $\tau^+_{d1}$.\\
 Lets assume that in the axis docking process we have:
 \begin{equation}
-\left\{\begin{array}{l}
-\dot{r}^+(t)=u_r^+(r_s-\sigma) \exp \frac{-t^+}{\tau^+_{d1}}, \\
-r^+(0)=r_s-\sigma, \\
-r^+(t^+_{doc})=\sigma 
-\end{array}.\right.
+r^+(t) \propto \exp \frac{-t^+}{\tau^+_{d1}}
 \label{ch3:eq22}
 \end{equation}
-Then:
-\begin{equation}
-r^+(t^+)=r_s-\sigma+(r_s-\sigma)A\tau^+_{d1}\left(\exp\frac{-t^+}{\tau^+_{d1}}-1\right).
-\label{ch3:eq23}
-\end{equation}
-
-The numerical simulations' results presented in Fig. \ref{fig:ch3_44} suggest that it is reasonable to assume: $t^+_{doc}/\tau^+_{d1}= h\left(St/A\right)$ where $h\left(St/A\right)$ is an unknown function of its single parameter. This assumption used in the relation for $t^+_{doc}$ based on Eq.\ref{ch3:eq22} gives:
-
-\begin{equation}
-r^+(t^+_{doc})=r_s-\sigma+(r_s-\sigma)A\tau^+_{d1} (\exp\left(-h\left(St/A\right)\right)-1)=\sigma
-\label{ch3:eq24}
-\end{equation}
-and further:
-\begin{equation}
-\tau^+_{d1} \simeq \frac{r_s-2\sigma}{r_s-\sigma} \frac{1}{A} \left[1-\exp\left(-h\left(St/A\right)\right)\right]^{-1}
-\label{ch3:eq25}
-\end{equation}
-
-This could suggest that first order approximation for point docking timescale is $\tau^+_{d1} \sim \ A^{-1}$. In order to numerically verify accuracy of this approximation, the relation proposed in Eq. \ref{ch3:eq22} was fitted to particle trajectories, with $\tau^+_{d1}$ serving as the fitting parameter. Fig. \ref{fig:ch3_45} presents the scatter plot of the fitting results times $A$. Point color represents Stokes number, point size refers to $A$. Mind, that the lower Y-axis limit is 1.
-
+and that $\tau^+_{d1}=\tau^+_{d1}(St,A)$.
 \begin{figure*}
 \centering
-\noindent \includegraphics[width=30pc]{gfx/point_docking_taud1A_vs_St_A.png}
-\caption{Results of fitting the relation proposed in Eq. \ref{ch3:eq22} to particle trajectories with the fitting parameter $\tau^+_{d1}$. For transparency Y axis shows fitting parameter times $A$. Point color represent Stokes number, point size - strain parameter $A$.}
-\label{fig:ch3_45}
+\noindent \includegraphics[width=30pc]{gfx/tau_d1_fit_vs_StA.png}
+\caption{}
+\label{fig:ch3_451}
 \end{figure*}
-In Fig. \ref{fig:ch3_45} fitted values $\tau^+_{d1} \cdot A$ are close to one. This leads to the conclusion that axis docking timescale can be estimated by $A^{-1}$. Dimensional axis docking timescale is then:
+
+I performed linear fit of the function $y=-a*x +b$ on the numerical trajectories for a range of $St$ and $A$, taking $y=\log r^+(t^+)$ and $x=t^+$. Figure \ref{fig:ch3_451} presents the directional coefficient fitted values in a way that reveals the relation with system parameters: on X-axis there is $St/A$ and on the Y-axis there is $a_{fit}/A$. It is clear that $\frac{a_{fit}}{A}$ depends only on $St/A$. In conclusion:
 
 \begin{equation}
-\tau_{d1} \simeq A^{-1} \tau_f=2 \gamma^{-1}
+\frac{a_{fit}}{A} \approx \left(1-\frac{1}{16 \pi^2}\frac{St}{A}\right)
+\label{ch3:eq22b}
+\end{equation}
+
+and further:
+\begin{equation}
+\tau^+_{d1}(St,A)\approx A^{-1}\left(1-(16 \pi^2)^{-1}\frac{St}{A}\right)^{-1}.
+\label{ch3:eq22c}
+\end{equation}
+Dimensional axis docking timescale is then:
+\begin{equation}
+\tau_{d1} = \tau^+_{d1} \tau_f=2 \gamma^{-1} \left(1-(16 \pi^2)^{-1}\frac{St}{A}\right)^{-1}
 \label{ch3:eq26}
 \end{equation}
 Estimated dimensional timescale $\tau_{d1}$ depends primarily on $\gamma^{-1}$. This is exactly the same as in the case of motion along vortex axis (see Eq.\ref{ch3:eq10}).\\
 
-
-
-
-%in-orbit
-fter scaling the time by $t^+_{doc}$ it can be noticed that the docking process depends mainly monotonically on the parameter $St/A$. When its value decreases towards $16 \pi^2$ the docking time $t^+_{doc}$ tends to infinity.
-%%%
-Another obsevation is that when $St/A$ increases towards the critical value $16 \pi^2$, the docking time $t^+_{doc}$  tends to infinity.
+%When the time is scaled by docking time, $t^*=t^+/t^+_{doc}$, we expect as was stated before, that the exponential decay rate depends only on the parameter $St/A$:
+%\begin{equation}
+%r^+(t^*)\propto \exp\left(-h\left(St/A\right)t^*\right).
+%\label{ch3:eq23}
+%\end{equation}
+%So in the end the docking time and timescale are related: $\tau^+_{d1}=t^+_{doc}(St,A))/h(St/A)$.
+%
+%
+%
+%%in-orbit
+%After scaling the time by $t^+_{doc}$ it can be noticed that the docking process depends mainly monotonically on the parameter $St/A$. When its value decreases towards $16 \pi^2$ the docking time $t^+_{doc}$ tends to infinity.
 %%%%
+%Another obsevation is that when $St/A$ increases towards the critical value $16 \pi^2$, the docking time $t^+_{doc}$  tends to infinity.
+%%%%%
 
 
 
