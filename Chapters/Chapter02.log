@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  23 JAN 2020 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  25 FEB 2020 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1515,11 +1515,11 @@ Package biblatex Info: Data encoding 'ascii' specified.
 \openout3 = `Chapter02-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Chapter02.bbl' not found.
-
-No file Chapter02.bbl.
+Package biblatex Info: ... file 'Chapter02.bbl' found.
+ (./Chapter02.bbl)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count330
@@ -1645,7 +1645,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<../gfx/Burg_vortex_scheme.png, id=50, 411.5375pt x 457.71pt>
+<../gfx/Burg_vortex_scheme.png, id=54, 411.5375pt x 457.71pt>
 File: ../gfx/Burg_vortex_scheme.png Graphic file (type png)
 
 <use ../gfx/Burg_vortex_scheme.png>
@@ -1682,7 +1682,7 @@ Package microtype Info: Loading generic settings for font family
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<../gfx/Burg_vor_vel_comp.png, id=76, 850.67813pt x 637.63219pt>
+<../gfx/Burg_vor_vel_comp.png, id=80, 850.67813pt x 637.63219pt>
 File: ../gfx/Burg_vor_vel_comp.png Graphic file (type png)
 
 <use ../gfx/Burg_vor_vel_comp.png>
@@ -1737,7 +1737,7 @@ LaTeX Font Info:    Try loading font information for TS1+pplj on input line 90.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
-<../gfx/eq_stability_2D.png, id=98, 748.7975pt x 738.76pt>
+<../gfx/eq_stability_2D.png, id=102, 748.7975pt x 738.76pt>
 File: ../gfx/eq_stability_2D.png Graphic file (type png)
 
 <use ../gfx/eq_stability_2D.png>
@@ -1750,7 +1750,7 @@ LaTeX Warning: Citation 'ChaosBook' on page 5 undefined on input line 102.
 
 LaTeX Warning: Citation 'ChaosBook' on page 5 undefined on input line 102.
 
-<../gfx/eq_stability_3D.png, id=99, 457.71pt x 801.99625pt>
+<../gfx/eq_stability_3D.png, id=103, 457.71pt x 801.99625pt>
 File: ../gfx/eq_stability_3D.png Graphic file (type png)
 
 <use ../gfx/eq_stability_3D.png>
@@ -1763,7 +1763,7 @@ LaTeX Warning: Citation 'ChaosBook' on page 7 undefined on input line 122.
 
 LaTeX Warning: Citation 'Kuznetsov2004' on page 7 undefined on input line 123.
 
-<../gfx/Hopf_bifur.png, id=114, 403.5075pt x 228.10219pt>
+<../gfx/Hopf_bifur.png, id=118, 403.5075pt x 228.10219pt>
 File: ../gfx/Hopf_bifur.png Graphic file (type png)
 
 <use ../gfx/Hopf_bifur.png>
@@ -1814,7 +1814,7 @@ Overfull \hbox (119.37848pt too wide) in paragraph at lines 176--176
 [] 
  []
 
-[8] <../gfx/vortex_domain.png, id=143, 632.3625pt x 632.3625pt>
+[8] <../gfx/vortex_domain.png, id=147, 632.3625pt x 632.3625pt>
 File: ../gfx/vortex_domain.png Graphic file (type png)
 
 <use ../gfx/vortex_domain.png>
@@ -1831,7 +1831,7 @@ LaTeX Warning: Citation 'Risius2015' on page 10 undefined on input line 220.
 
 LaTeX Warning: Citation 'Siebert2015' on page 10 undefined on input line 220.
 
-<../gfx/Zugspitze_view.png, id=158, 631.35072pt x 485.94348pt>
+<../gfx/Zugspitze_view.png, id=162, 631.35072pt x 485.94348pt>
 File: ../gfx/Zugspitze_view.png Graphic file (type png)
 
 <use ../gfx/Zugspitze_view.png>
@@ -1844,74 +1844,74 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 223--224
 
 
 LaTeX Warning: Reference `def:struct_fun_inertial' on page 10 undefined on inpu
-t line 229.
+t line 230.
 
 
-LaTeX Warning: Citation 'Chuang2008' on page 10 undefined on input line 230.
+LaTeX Warning: Citation 'Chuang2008' on page 10 undefined on input line 231.
 
 
-LaTeX Warning: Citation 'Siebert2015' on page 10 undefined on input line 231.
+LaTeX Warning: Citation 'Siebert2015' on page 10 undefined on input line 232.
 
 
-Overfull \hbox (2.10266pt too wide) in paragraph at lines 229--232
+Overfull \hbox (2.10266pt too wide) in paragraph at lines 230--233
 \T1/pplj/m/n/10.95 High-resolution mea-sure-ments of small-scale tur-bu-lence d
 ur-ing cloud
  []
 
 
-Overfull \hbox (5.6723pt too wide) in paragraph at lines 229--232
+Overfull \hbox (5.6723pt too wide) in paragraph at lines 230--233
 \T1/pplj/m/n/10.95 het-ero-dyne de-tec-tion of Doppler-shifted light from in-di
 -vid-ual droplets,
  []
 
 
-Overfull \hbox (4.2671pt too wide) in paragraph at lines 229--232
+Overfull \hbox (4.2671pt too wide) in paragraph at lines 230--233
 \T1/pplj/m/n/10.95 on-site as well. Rel-a-tive hu-mid-ity dur-ing cloud im-mer-
 sion was around
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--232
+Underfull \hbox (badness 10000) in paragraph at lines 230--233
 
  []
 
 [10]
 
-LaTeX Warning: Citation 'Olsen2000' on page 11 undefined on input line 235.
+LaTeX Warning: Citation 'Olsen2000' on page 11 undefined on input line 236.
 
 [11 <../gfx/Zugspitze_view.png>]
-<../gfx/I_vs_angle_multiple.png, id=170, 590.205pt x 537.50812pt>
+<../gfx/I_vs_angle_multiple.png, id=174, 590.205pt x 537.50812pt>
 File: ../gfx/I_vs_angle_multiple.png Graphic file (type png)
 
 <use ../gfx/I_vs_angle_multiple.png>
-Package pdftex.def Info: ../gfx/I_vs_angle_multiple.png used on input line 240.
+Package pdftex.def Info: ../gfx/I_vs_angle_multiple.png used on input line 241.
 
 (pdftex.def)             Requested size: 240.0pt x 218.56717pt.
 
-<../gfx/imaging_example_1617.jpg, id=172, 2842.62pt x 4271.96pt>
+<../gfx/imaging_example_1617.jpg, id=176, 2842.62pt x 4271.96pt>
 File: ../gfx/imaging_example_1617.jpg Graphic file (type jpg)
 
 <use ../gfx/imaging_example_1617.jpg>
-Package pdftex.def Info: ../gfx/imaging_example_1617.jpg used on input line 249
+Package pdftex.def Info: ../gfx/imaging_example_1617.jpg used on input line 250
 .
 (pdftex.def)             Requested size: 240.0pt x 360.66737pt.
 
-Underfull \vbox (badness 1533) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <../gfx/I_vs_angle_multiple.png (PNG copy)>] [13 <../gfx/imaging_example_1
 617.jpg>]
 
-LaTeX Warning: Citation 'Bohren2007' on page 14 undefined on input line 262.
+LaTeX Warning: Citation 'Bohren2007' on page 14 undefined on input line 264.
 
 
-LaTeX Warning: Reference `ch:holes' on page 14 undefined on input line 262.
+LaTeX Warning: Reference `ch:holes' on page 14 undefined on input line 264.
 
 
 LaTeX Warning: Reference `def:Tylor_scale' on page 14 undefined on input line 2
-68.
+70.
 
 
-Overfull \hbox (0.69011pt too wide) in paragraph at lines 268--269
+Overfull \hbox (0.69011pt too wide) in paragraph at lines 270--271
 \T1/pplj/m/n/10.95 In or-der to draw mean-ing-ful con-clu-sions from nu-mer-i-c
 al ex-per-i-ments,
  []
@@ -1919,62 +1919,62 @@ al ex-per-i-ments,
 [14]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 291.
+(caption)                particular \caption on input line 293.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Citation 'Siebert2015' on page 15 undefined on input line 308.
+LaTeX Warning: Citation 'Siebert2015' on page 15 undefined on input line 310.
 
 
 LaTeX Warning: Citation 'Jen-LaPlante2016' on page 15 undefined on input line 3
-08.
+10.
 
 
-Overfull \hbox (44.1276pt too wide) in paragraph at lines 308--308
+Overfull \hbox (44.1276pt too wide) in paragraph at lines 310--310
  \T1/pplj/m/n/10.95 POST[[]]| 
  []
 
 
-LaTeX Warning: Citation 'Siebert2013' on page 15 undefined on input line 308.
+LaTeX Warning: Citation 'Siebert2013' on page 15 undefined on input line 310.
 
 
-Overfull \hbox (61.126pt too wide) in paragraph at lines 308--308
+Overfull \hbox (61.126pt too wide) in paragraph at lines 310--310
  \T1/pplj/m/n/10.95 CARRIBA[[]]| 
  []
 
 
-<../gfx/Sv_vs_St_experimental_Siebert2015.png, id=192, 957.5775pt x 682.04813pt
+<../gfx/Sv_vs_St_experimental_Siebert2015.png, id=196, 957.5775pt x 682.04813pt
 >
 File: ../gfx/Sv_vs_St_experimental_Siebert2015.png Graphic file (type png)
  <use ../gfx/Sv_vs_St_experimental_Siebert2015.png>
 Package pdftex.def Info: ../gfx/Sv_vs_St_experimental_Siebert2015.png used on i
-nput line 315.
+nput line 317.
 (pdftex.def)             Requested size: 360.0pt x 256.41266pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 315--316
+Overfull \hbox (24.0pt too wide) in paragraph at lines 317--318
  [] 
  []
 
 
-LaTeX Warning: Citation 'Siebert2013' on page 15 undefined on input line 316.
+LaTeX Warning: Citation 'Siebert2013' on page 15 undefined on input line 318.
 
 
-LaTeX Warning: Citation 'Siebert2015' on page 15 undefined on input line 316.
+LaTeX Warning: Citation 'Siebert2015' on page 15 undefined on input line 318.
 
 
-LaTeX Warning: Citation 'Siebert2013' on page 15 undefined on input line 316.
+LaTeX Warning: Citation 'Siebert2013' on page 15 undefined on input line 318.
 
 
-LaTeX Warning: Citation 'Siebert2015' on page 15 undefined on input line 316.
+LaTeX Warning: Citation 'Siebert2015' on page 15 undefined on input line 318.
 
 [15 <../gfx/Sv_vs_St_experimental_Siebert2015.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (./Chapter02.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
 Package rerunfilecheck Info: File `Chapter02.out' has not changed.
-(rerunfilecheck)             Checksum: 269157B8F623F12B10181DF0ABA61AB1;752.
+(rerunfilecheck)             Checksum: A6D1DECB5F419274CEBDCB9A240FE8B0;877.
 
 
 LaTeX Warning: There were undefined references.
@@ -1990,10 +1990,10 @@ Package logreq Info: Writing requests to 'Chapter02.run.xml'.
  )
 (\end occurred when \iftrue on line 6 was incomplete) 
 Here is how much of TeX's memory you used:
- 22962 strings out of 494877
- 391903 string characters out of 6179085
+ 22970 strings out of 494877
+ 392038 string characters out of 6179085
  823306 words of memory out of 5000000
- 25718 multiletter control sequences out of 15000+600000
+ 25723 multiletter control sequences out of 15000+600000
  75372 words of font info for 130 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  62i,23n,90p,1987b,1983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2015,10 +2015,10 @@ bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Chapter02.pdf (15 pages, 14973789 bytes).
+Output written on Chapter02.pdf (15 pages, 14973943 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 13443 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 13451 words of extra memory for PDF output out of 14400 (max. 10000000)
 
