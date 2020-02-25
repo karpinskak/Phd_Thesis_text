@@ -1,0 +1,35 @@
+% Chapter V
+\makeatletter
+\def\input@path{{../}}
+\makeatother
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\chapter{Summary and discussion} % Chapter title
+
+\label{ch:summ} % For referencing the chapter elsewhere, use \autoref{ch:name} 
+
+%----------------------------------------------------------------------------------------
+
+\section{Section Title}
+
+Content
+
+%------------------------------------------------
+
+\subsection{Subsection Title}
+
+Content
+
+%------------------------------------------------
+
+\subsection{Subsection Title}
+
+Content
+
+%----------------------------------------------------------------------------------------
+
+\section{Section Title}
+
+Content
+
+\end{document}
