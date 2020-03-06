@@ -136,7 +136,7 @@ The system without gravity force in 2D space is equal to the system in which gra
 \end{array}.\right.
 \label{ch3:eq16}
 \end{equation}
-and the system posses axial symmetry. This set of equations depends on two parameters only: $St/A$ and $St$. The attractors: an equillibrium point positioned on the vortex axis $r^+=0$ or a circular orbit of radius $r^+_{orb}$ (defined later), inherit the axial symmetry. The system changes according to Hopf bifurcation scheme when $\alpha=16 \pi^2-St/A$ is a bifurcation parameter. This translates to the fact, that if:
+and the system posses axial symmetry. This set of equations depends on two parameters only: $St/A$ and $St$. The attractors: an equillibrium point positioned on the vortex axis $r^+=0$ or a circular orbit of radius $r^+_{orb}$ (defined later), inherit the axial symmetry. The system changes according to Hopf bifurcation scheme. Lets put $\alpha=16 \pi^2-St/A$ as a bifurcation parameter. This translates to the fact, that if:
 \begin{equation}
 St \geq St_{cr}(A) \equiv 16 \pi^2 A,
 \label{ch3:eq17}
@@ -422,7 +422,7 @@ $\geq A_{cr}$ & arbitrary & 1 \\
 \label{tab:ch3_2b}
 \end{table}
 
-Not only is the existence of the multiple solutions important but their stability as well. Let $r^+_0$ denote an arbitrary dimensionless solution of Eq. \ref{ch3:eq27}. The exact form of the stability condition of the solution $r^+_0$ is governed by the function $\phi(r^+_0)$ (as defined in \citet{Marcu1995}). The condition can take two different forms depending on the sign of this function:
+Not only is the existence of the multiple solutions important but their stability as well. Let $r^+_0$ denote an arbitrary dimensionless solution of Eq. \ref{ch3:eq27}. The exact form of the stability condition of the solution $r^+_0$ is governed by the function $\phi(r^+_0)$ (defined in \citet{Marcu1995}). The condition can take two different forms depending on the sign of this function:
 \begin{equation}
 \phi(r^+_0)=\frac{1}{(2 \pi)^2} \left[\frac{1-\exp(-r^{+ 2}_0/2)}{r^{+ 2}_0} \right] \left[\frac{1-\exp(-r^{+ 2}_0/2)}{r^{+ 2}_0}-\exp(-r^{+ 2}_0/2) \right].
 \label{ch3:eq29}
@@ -493,7 +493,7 @@ In Fig. \ref{fig:ch3_8}, the following conclusions about stability can be drawn.
 \label{fig:ch3_9}
 \end{figure*}
 
-The combination of multiple point existence conditions with stability conditions creates a variety of single particle motion scenarios. Some of them were shown in Fig.4-9 in \citet{Marcu1995}. Fig. \ref{fig:ch3_9} here illustrates all nine of these combinations, by showing trajectory plots of particles initially positioned on the chosen grid with zero velocity. Trajectories were calculated numerically for representative sets of parameters. Different line colors are only intended to improve the plot clarity. Singular markers indicate the position of the equilibrium points, while their shape - their dynamic character. Tab.\ref{tab:ch3_4} summarises the analysis by showing $A$ and $Sv$ parameter ranges with relevant scenarios, as pictured in Fig. \ref{fig:ch3_9}.
+The combination of multiple point existence conditions with stability conditions creates a variety of single particle motion scenarios. Some of them were shown in Fig.4-9 in \citet{Marcu1995}. Fig. \ref{fig:ch3_9} here illustrates all nine of these combinations, by showing trajectory plots of particles initially positioned on the chosen grid with zero velocity. Trajectories were calculated numerically for representative sets of parameters. Different line colors are only intended to improve the plot clarity. Singular markers indicate the position of the equilibrium points, while their shape - their dynamic character. Tab.\ref{tab:ch3_4} summarises the analysis by showing $A$ and $Sv$ parameter ranges with relevant scenarios, as pictured in Fig. \ref{fig:ch3_9}. These scenarios are of particular interest in the context of void phenomenon explanation, especially the cases with limit cycle. This special solution and its properties are adressed next.
 
 \begin{table}
 \small
@@ -514,8 +514,34 @@ $S_v>S_{v i}$ & (5) & (3) (5) (6)\\
 \label{tab:ch3_4}
 \end{table}
 
-These scenarios are used later to carry out a search for vortex model parameter values that produce a void. 
-\\
+Finding limit cycles in general is a very difficult problem, although there are important in many scientific applications. Numerical simulations show, that as $St/A-|\phi(r^+_0)|^{-1}$ passes through zero, Hopf bifurcation occures. It means that if the focus near the axis is unstable according to \ref{ch3:eq30}, then it is accompanied by a stable limic cycle. The limit cycle cannot be calculated analytically or approximately. However the condition in Eq.\ref{ch3:eq30} for unstable focus can be approximated. The assumption needed is that $r^\ast \leq r^\ast_s$. Firstly it allows to expand the relation for equillibrium point position as in Eq. \ref{eq27} in the vicinity of $r^{\ast}=0$. The other assumption is that in this vicinity the dependence on $A$ is weak (see Fig.2 in \citet{Marcu_95}).
+\begin{equation}
+\left(\frac{Sv}{A}\right)^2=r^{\ast 2} \left[1+ \left( \frac{1-\exp \left(-r^{\ast 2}/2\right)}{2\pi Ar^{\ast 2}} \right)^2 \right]=r^{\ast 2}+\frac{(1-\exp \left(-r^{\ast 2}/2\right))^2}{(2\pi A r^{\ast})^2}\simeq r^{\ast 2}+\frac{1}{4 \pi^2 A^2} \frac{r^{\ast 2}}{4}=r^{\ast 2}\left( 1+(4 \pi A)^{-2}\right),
+\label{ch3:eq34}
+\end{equation}
+so in the end:
+\begin{equation}
+r^{\ast}_0\simeq 4 \pi Sv \left(1+(4\pi A)^2\right)^{-\frac{1}{2}}.
+\label{eq11}
+\end{equation}
+It is equivalent to approximating vortex angular motion by rigid body rotation $u^+_{\varphi}=r^+/4\pi$.\\
+Secondly, the function $\phi(r^\ast_0)$ is approximated as follows:
+\begin{equation}
+\phi(r^\ast_0)\simeq-(16 \pi^2)^{-1}(1-r^\ast_0).
+\label{ch3:eq35}
+\end{equation}
+
+At $r^{\ast}=0$ it has the same form as obtained for the case without gravity.\\
+\noindent The (un)stability condition, which is to the best knowledge equivalent to existance of a limit cycle, after algebraic transformations comes down to the requirement that the strain parameter $A$ is small enough $A < A_{max}$ and consequently circulation $\Gamma$ large enough $\Gamma > \Gamma_{min}$, where the value is estimated as:
+\begin{equation}
+A_{max}=2^{-\frac{1}{2}} (4\pi)^{-1} \sqrt{(1+\nu^{-1}g^2\tau_p^3\sin^2\theta-\tau_p\gamma/2 \sqrt{1+\frac{2\tau_p\gamma}{1+\nu^{-1}g^2\tau_p^3\sin^2\theta-\tau_p\gamma/2}} - 1}.
+\label{ch3:eq36}
+\end{equation}
+
+\noindent The maximal strain parameter $A_{max}$ (minimal circulation $\Gamma_{min}$) increases (decreases) weakly with $B$. So the larger the vortex core size $\delta$ and gravity influence $g sin\theta$ the larger the minimal circulation needed
+
+
+...\\
 Dodac cos tutaj o tej publikacji Sapsin And Haler 2010 o przyciaganiu czastek inercyjnych przez powolne rozmaitosci. - jesli starczy czasu.
 
 \section{Time scales of single particle motion}
