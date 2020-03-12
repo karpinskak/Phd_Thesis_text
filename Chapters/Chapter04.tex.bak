@@ -109,12 +109,7 @@ In order to obtain a void, a majority of the droplets must circle around the axi
 Firstly, a basic vortex spatial scale is established for the measurement conditions. Premises found in the literature discussed in the introduction were used for making the assumption that the proportionality constant in Eq. \ref{eq1} is in the range $m\in[3.5, 24]$. It means $\delta \in [0.18,1.20]$~cm for August 27th measurements.
 Secondly, the droplet trajectory curvature radius is approximated by the periodic orbit radius which is a solution of Eq. \ref{eq5}. For this reason, solutions of Eq.\ref{eq5} are presented in Fig.\ref{fig05} for various representative vortex parameters. Every color represents one of droplet sizes: $R=3,13,23$~$\mu m$ chosen to be within the experimental range for August 27th (see Table \ref{tab01}). Overlapping colored surfaces match regions in which solutions can exist (what corresponds to the condition $St<St_{cr}$). Dashed lines are contour plots of solutions of chosen (close to experimental) void sizes: 0.5~cm, 1.5~cm, 3~cm. Using the information presented in this plot, the analysed strain parameter was further limited, from $A<A_{cr}$ down to $A \in [10^{-4}, 8\cdot10^{-3}]$.
 
-\begin{figure*}
-\centering
-\noindent \includegraphics[width=30pc]{gfx/fig05.png}
-\caption{ Contour plot of stable periodic 2D orbit radius for droplets of radii $R=3,13,23 \ \mu m$ covering the experimental range on August 27th. Selected ranges of vortex parameters: vortex core size $\delta$ and strain $A$ are in x an y axes, respectively. Overlapping (blue on a top, then pink and green) colored surfaces match subspaces in which stable periodic 2D orbit exist for droplet radius given by its colour. Dashed lines are contour plots of solutions of chosen void sizes:0.5~cm ,1.5~cm, 3~cm. Black points represent parameters set for simulations as described in Sect.\ref{sec:Mie}.}
-\label{fig05}
-\end{figure*}
+
 
 \subsection{Timescales of motion}
 %------------------------------------------------

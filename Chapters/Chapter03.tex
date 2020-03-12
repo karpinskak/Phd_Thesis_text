@@ -9,8 +9,8 @@
 \label{ch:single} % For referencing the chapter elsewhere, use \autoref{ch:single}
 
 %----------------------------------------------------------------------------------------
-This chapter addresses the dynamics of the system, which is the particle moving in a Burgers vortex, defined by the set of differential equations (Eq.\ref{ch2:eq03a}-\ref{ch2:eq03c} and its dimensional counterpart). First, with the use of dynamical system formalism, the system is stratified into its orbits and dynamics of these orbits is determined. Second, particular emphasis is placed on describing the characteristic time scales of the motion and their mutual relations.These tasks are performed with the hope of finding a measure of spatial pattern formation efficiencyn in relation to model parametes.\\
-It was stated before, that the equation describing particle motion along the vortex axis (Eq. \ref{ch2:eq03c}) is independent from the ones describing motion in 2~D space (Eq.\ref{ch2:eq03a}-\ref{ch2:eq03b}). Thus in this chapter they are analysed in separate sections.
+This chapter addresses the dynamics of the system, which is the particle moving in a Burgers vortex, defined by the set of differential equations (Eq.\ref{ch2:eq03a}-\ref{ch2:eq03c} and its dimensional counterpart). The system differs significantly depending on gravity presence. First, with the use of dynamical system formalism, the system is stratified into its orbits and dynamics of these orbits is determined. Second, particular emphasis is placed on describing the characteristic time scales of the motion and their mutual relations. These tasks are performed with the hope of finding a measure of spatial pattern formation efficiencyn in relation to model parametes.\\
+It was stated before, that the equation describing particle motion along the vortex axis (Eq. \ref{ch2:eq03c}) is independent from the ones describing motion in 2D space (Eq.\ref{ch2:eq03a}-\ref{ch2:eq03b}). Thus in this chapter they are analysed in separate sections.
  
 \section{Motion along the vortex axis}
 % In this thesis analytical solution presented in \citep{Karpinska2014} is extended to accound for (...).
@@ -141,14 +141,7 @@ and the system posses axial symmetry. This set of equations depends on two param
 St \geq St_{cr}(A) \equiv 16 \pi^2 A,
 \label{ch3:eq17}
 \end{equation}
-the only attractor, the equillibrium point at the axis, is a stable focus ($\alpha \leq 0$). In the opposite case $St < St_{cr}$, the equilibrium point is an unstable focus, accompanied by a stable periodic cicular orbit ($\alpha>0$). Particle trajectories around such attractors are presented schematically in Fig. \ref{fig:ch2_04}. Having established the existence of attractors, their impact on particle kinematics is studied.\\
-
-\begin{figure*}
-\centering
-\noindent \includegraphics[width=30pc]{gfx/r0_2_sqrt_St_A_omega_r0_2.png}
-\caption{Particle stable orbit radius $r^+_{orb}$ square (left y-axis) and orbit nondimensional angular momentum (right y-axis) with respect to parameter $\sqrt{St/A}$. Dashed lines represent asymptotic relations.}
-\label{fig:ch3_3}
-\end{figure*}
+the only attractor, the equillibrium point at the axis, is a stable focus ($\alpha \leq 0$). In the opposite case $St < St_{cr}$, the equilibrium point is an unstable focus, accompanied by a stable periodic cicular orbit ($\alpha>0$). Particle trajectories around such attractors are presented schematically in Fig. \autoref{fig:ch2_04}. Having established the existence of attractors, their impact on particle kinematics is studied.\\
 
 \subsubsection{Stable periodic orbit}
 
@@ -173,6 +166,14 @@ r^+_{orb} \approx \frac{1}{2\pi} \sqrt{\frac{St}{A}}
 \label{ch3:eq18c}
 \end{equation}
 shown in Fig.\ref{fig:ch3_3} as straight dashed blue line.
+
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/r0_2_sqrt_St_A_omega_r0_2.png}
+\caption{Particle stable periodic orbit radius $r^+_{orb}$ square (left y-axis) and orbit nondimensional angular momentum (right y-axis) with respect to parameter $\sqrt{St/A}$. Dashed lines represent asymptotic relations.}
+\label{fig:ch3_3}
+\end{figure*}
+
 The second conclusion based on the solution to equation \ref{ch3:eq18} is that nondimensional angular velocity at circular periodic orbit is: $\omega^{+}_{orb}=\sqrt{A/St}$, or in other words, particle rotation time $\tau^+_{orb}=\sqrt{St/A}$. What is interesting, particle angular momentum $\omega^{+} r^{+ 2}$ on circular orbit (orange line plot in Fig. \ref{fig:ch3_3}, right Y-axis) in large radius limit is approximately constant in time and independent of particle size, equal to $(2 \pi)^{-1}$. \\
 A cloud-like view at the periodic orbit issue is considered below. Periodic orbit existence condition from Eq.\ref{ch3:eq17} is reformulated to:
 \begin{equation}
@@ -184,12 +185,21 @@ The numerical solution presented in Fig.\ref{fig:ch3_3} are now shown in the Fig
 r_{orb}\propto R^{1/2} \delta^{1/2} A^{-1/2}
 \label{ch3:eq19b}
 \end{equation}
+Figure \ref{fig:ch3_30} shows the results of $r_{orb}$ calculation in a different view. It illustrates the contour plots for selected orbit radii (0.5~cm ,1.5~cm, 3~cm). Overlapping (blue on a top, then pink and green) colored surfaces match subspaces of stable periodic orbit existence.
 
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/orbit_vs_R_A_delta05cm.png}
-\caption{Particle stable orbit radius $r_{orb}$ dependence on  particle radius $R$ and vortex strain parameter $A$ for cloud-like parameter ranges and vortex core size $\delta=0.5~cm$. Black line represents stable orbit existence condition.}
+\caption{Particle stable orbit radius $r_{orb}$ dependence on  particle radius $R$ and vortex strain parameter $A$ for cloud-like parameter ranges and vortex core size $\delta=0.5~cm$. Black line represents critical parameter value as for stable orbit existence.}
 \label{fig:ch3_3a}
+\end{figure*}
+
+
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/fig05.png}
+\caption{Contour plot of stable periodic orbit radius for droplets of radii $R=3,13,23 \ \mu m$ for cloud-like parameter ranges of $\delta$ and $A$. Overlapping (blue on a top, then pink and green) colored surfaces match subspaces in which stable periodic 2D orbit exist for droplet radius given by its colour. Dashed lines are contour plots for $r_{orb}$ equal to 0.5~cm ,1.5~cm, 3~cm. Black points represent simulation parameters sets (refered to in ???).}
+\label{fig:ch3_30}
 \end{figure*}
 
 It is interesting to notice that the dimensional angular velocity $\omega_{orb}$ is independent of $A$. It is in fact inversly proportional to particle radius $R$ and vortex core size $\delta$:
@@ -539,14 +549,39 @@ A_{max}=2^{-\frac{1}{2}} (4\pi)^{-1} P^{\frac{1}{2}} \left[(1+2\tau_p\gamma/P)^{
 \label{ch3:eq36}
 \end{align}
 
-\noindent The maximal strain parameter $A_{max}$ (minimal circulation $\Gamma_{min}$) increases (decreases) weakly with $P$. So the larger the vortex core size $\delta$ and gravity influence $g sin\theta$ the larger the minimal circulation needed
-
-
+\noindent The maximal strain parameter $A_{max}$ (minimal circulation $\Gamma_{min}$) increases (decreases) weakly with $P$. However the direct link to system parameters is intricate. Fig.\ref{fig:ch3_10} presents its value vs. particle radius and vortex core size and $A_{cr}$ contour line is also depicted in this figure.
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/Amax_vs_delta_vs_R.png}
+\caption{Maximal strain parameter $A_{max}$ with respect to vortex core size $\delta$ and particle radius $R$, for an arbitrary alignment angle $\theta=\pi/4$. $A_{cr}$ contour value is shown with a dashed line.}
+\label{fig:ch3_10}
+\end{figure*}
+Finally we can formulate the conclusion that increasing vortex core size $\delta$ or decresing particle size causes the decreas in $A_{max}$ (equivalent to increase in minimal circulation $\Gamma_{min}$).\\
 ...\\
 Dodac cos tutaj o tej publikacji Sapsin And Haler 2010 o przyciaganiu czastek inercyjnych przez powolne rozmaitosci. - jesli starczy czasu.
 
 \section{Time scales of single particle motion}
-We were able to find approximate relations of a few timescales for single particle motion in Burgers vortex: exit time $\tau_{ex}$, connected to timescale of motion along the axis $\tau_z$, no-gravity orbit rotation timescale $\tau_{orb}$ and no-gravity axis docking timescale $\tau_{d1}$. For ease of reference, these approximations are summarised in Table \ref{tab:ch3_5}. Several conclusions about three dimensional particle motion can be drawn from the comparison of the separately derived time scales:
+
+\begin{table}
+\small
+\tabcolsep=0.2cm
+\caption{Summary of single particle motion timescales}.
+\centering
+\begin{tabular}{|l|}
+\hline 
+$\tau_z\approx 2\gamma^{-1}$\\
+\hline 
+$\tau_{ex}(Z^\ast,z_0^\ast; \tau_z)\approx \tau_z \log\left(L(Z^\ast,z_0^\ast)\right)$\\
+\hline 
+$\tau_{orb}=\sqrt{2 \tau_p \gamma^{-1}}$\\
+\hline
+$\tau_{d1} =2 \gamma^{-1} \left(1-\frac{St}{(4\pi)^{2} A}\right)^{-1}$\\
+\hline
+\end{tabular}
+\label{tab:ch3_5}
+\end{table}
+
+Approximate relations of a few timescales for single particle motion in Burgers vortex were found: exit time $\tau_{ex}$, connected to timescale of motion along the axis $\tau_z$, no-gravity orbit rotation timescale $\tau_{orb}$ and no-gravity axis docking timescale $\tau_{d1}$. For ease of reference, these approximations are summarised in Table \ref{tab:ch3_5}. Several conclusions about three dimensional particle motion can be drawn from the comparison of the separately derived time scales:
 \begin{enumerate}
 \item $\tau_z$ is approximately independent of particle radius $R$ and vortex strain $A$.
 \item $\tau_{orb}<<\tau_z$
@@ -556,26 +591,10 @@ We were able to find approximate relations of a few timescales for single partic
 \frac{\tau_z}{\tau_{d1}} = 1-\frac{St}{(4 \pi)^2 A}.
 \label{ch3:eq33}
 \end{equation}
-If $St/A \approx 0$, then $\tau_z \approx \tau_{d1}$. Increasing $St/A$ causes $\tau_z$ to be smaller then $\tau_{d1}$. It means that in general, particles are expelled from the vortex faster then approach the vortex axis in docking process and the difference is larger the larger $St/A$ is. The exact relation between process times depend on the initial conditions of particle motion.
+If $St/A \approx 0$, then $\tau_z \approx \tau_{d1}$. Increasing $St/A$ causes $\tau_z$ to be smaller then $\tau_{d1}$. It means that in general, particles are expelled from the vortex  through its lids faster then approach the vortex axis in docking process. The difference is larger the larger $St/A$ is. The exact relation between process times depend on the initial conditions of particle motion as well.
 \end{enumerate} 
 
-
-%\begin{table}
-%\small
-%\tabcolsep=0.2cm
-%\caption{Tabeleczka}.
-%\centering
-%\begin{tabular}{|c|c|c|}
-%\hline 
-% &  & \\
-%\\
-%\hline
-%\end{tabular}
-%\label{tab:ch3_5}
-%\end{table}
-%
-. \\
-. \\
-
-Podsumowanie rozdzialu.
+\section{Summary}
+The subject of this chapter was the motion of a single finite-size particle subjected to viscosity and gravity forces only, in a steady fluid motion modeled by a Burgers vortex with stretching. This analysis has deepened the knowledge on the subject, especially in relation to the paper of \citet{Marcu1995} and with respect to conditions expected in atmospheric clouds.
+Generally it proves the hypothesis that the nature of cloud droplet motion in such a simplified system is complex and very much dependent on the parameters of the model. It cannot be easily reduced or approximated. The intuition suggests that when it comes to multi-particle, polydisperse system there is a great potential in particle segregation, clustering and relative velocity influence.
 \end{document}
