@@ -8,12 +8,13 @@
 
 \label{ch:holes} % For referencing the chapter elsewhere, use \autoref{ch:name} 
 
-
+This chapter presents experimental, theoretical and numerical results concerning cloud voids. Cloud voids are a phenomenon that was registered only once and was published for the first time in \citet{Karpinska2019} by the author of this thesis and others, including the experimental group. \ref{ch4s1} presents the experimental results in details. \ref{ch4s2} proposes the necessary conditions for cloud void formation, assuming the model exploited in \autoref{ch:single} in polydisperse particle case. ??? dokonczyc po napisaniu rozdzialu
 
 %----------------------------------------------------------------------------------------
 \section{Cloud voids experiment results}
+\label{ch4s1}
 Cloud voids observations were performed at UFS on Zugspitze slopes in August 2011. Experimental methods used were described in Sec.\autoref{ch2s4}. This section presents the measurement results.\\
-First, 30-minute long records of turbulence and droplet properties corresponding to the camera acquisition series in two mesurement days were chosen for analysis. Droplet size raw measurements are presented in Fig. \ref{fig:ch4_1} and the corresponsing statistics in Table \ref{tab:ch4_1}. Both cloud droplets, as well as drizzle drops were captured. On August 29th the droplet number concentration was visibly larger. Unfortunately the device deficiency did not allow for reliable measurement of the droplet concentration on August 29th. Next, the probability distribution of the droplet size has been calculated and presented in Fig.\ref{fig:ch4_2}. For comparison, the corresponding gaussian distributions have been plotted. It clearly shows that the actual distributions are far from gaussian. There are clear differences between the distributions measured on both days: the first one is much wider, the tail reach larger values and on average the droplets are about twice as big.
+First, 30-minute long records of turbulence and droplet properties corresponding to the camera acquisition series in two measurement days were chosen for analysis. Droplet size raw measurements are presented in Fig. \ref{fig:ch4_1} and the corresponding statistics in Table \ref{tab:ch4_1}. Both cloud droplets, as well as drizzle drops were captured. On August 29th the droplet number concentration was visibly larger. Unfortunately the device deficiency did not allow for reliable measurement of the droplet concentration on August 29th. Next, the probability distribution of the droplet size has been calculated and presented in Fig.\ref{fig:ch4_2}. For comparison, the corresponding gaussian distributions have been plotted. It clearly shows that the actual distributions are far from gaussian. There are clear differences between the distributions measured on both days: the first one is much wider, the tail reach larger values and on average the droplets are about twice as big.
 
 \begin{figure}[h]
 \centering
@@ -83,7 +84,7 @@ There were a few series of cloud void images collected with various laser-camera
 
 %------------------------------------------------
 \section{Cloud void creation conditions}
-\label{sec:void}
+\label{ch4s2}
 Using conclusions concerning the motion of a single particle, the following hypothesis on polydisperse particle collective behaviour can be formulated: a void can be created if a majority of the droplets have an unstable equilibrium point close to the axis $r^{\ast}_0<r^{\ast}_s$, leading to a limit cycle or periodic orbit attraction. The radius of curvature should be large enough for a void to be noticable. If multiple equilibrium points exist, attraction by a stable equilibrium point far from the axis $r^{\ast}_0>r^{\ast}_{min}$ should not considerably influence droplet trajectories close to the void considerably. The first and the last condition are inspected in the Subsect.\ref{ssec:poly}, the second  condition in the  Subsect.\ref{ssec:par}.
 
 \subsection{Polydisperse particles motion analysis}

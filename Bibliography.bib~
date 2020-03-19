@@ -1870,3 +1870,17 @@
 	year = "2002"
 }
 
+@article{Orlanski1975,
+	abstract = "Some atmospheric scale definitions are reviewed and a proposed new subdivision of scales that covers the entire spectrum is described.",
+	author = "Orlanski, Isidoro",
+	issn = "00030007, 15200477",
+	journal = "Bulletin of the American Meteorological Society",
+	number = "5",
+	pages = "527--530",
+	publisher = "American Meteorological Society",
+	title = "{A Rational Subdivision of Scales for Atmospheric Processes}",
+	url = "http://www.jstor.org/stable/26216020",
+	volume = "56",
+	year = "1975"
+}
+

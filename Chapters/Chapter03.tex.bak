@@ -136,12 +136,12 @@ The system without gravity force in 2D space is equal to the system in which gra
 \end{array}.\right.
 \label{ch3:eq16}
 \end{equation}
-and the system posses axial symmetry. This set of equations depends on two parameters only: $St/A$ and $St$. The attractors: an equillibrium point positioned on the vortex axis $r^+=0$ or a circular orbit of radius $r^+_{orb}$ (defined later), inherit the axial symmetry. The system changes according to Hopf bifurcation scheme. Lets put $\alpha=16 \pi^2-St/A$ as a bifurcation parameter. This translates to the fact, that if:
+and the system posses axial symmetry. This set of equations depends on two parameters only: $St/A$ and $St$. The attractors: an equilibrium point positioned on the vortex axis $r^+=0$ or a circular orbit of radius $r^+_{orb}$ (defined later), inherit the axial symmetry. The system changes according to Hopf bifurcation scheme. Lets put $\alpha=16 \pi^2-St/A$ as a bifurcation parameter. This translates to the fact, that if:
 \begin{equation}
-St \geq St_{cr}(A) \equiv 16 \pi^2 A,
+St \leq St_{cr}(A) \equiv 16 \pi^2 A,
 \label{ch3:eq17}
 \end{equation}
-the only attractor, the equillibrium point at the axis, is a stable focus ($\alpha \leq 0$). In the opposite case $St < St_{cr}$, the equilibrium point is an unstable focus, accompanied by a stable periodic cicular orbit ($\alpha>0$). Particle trajectories around such attractors are presented schematically in Fig. \autoref{fig:ch2_04}. Having established the existence of attractors, their impact on particle kinematics is studied.\\
+the only attractor, the equilibrium point at the axis, is a stable focus ($\alpha \leq 0$). In the opposite case $St > St_{cr}$, the equilibrium point is an unstable focus, accompanied by a stable periodic circular orbit ($\alpha>0$). Particle trajectories around such attractors are presented schematically in Fig. \autoref{fig:ch2_04}. Having established the existence of attractors, their impact on particle kinematics is studied.\\
 
 \subsubsection{Stable periodic orbit}
 
@@ -175,14 +175,20 @@ shown in Fig.\ref{fig:ch3_3} as straight dashed blue line.
 \end{figure*}
 
 The second conclusion based on the solution to equation \ref{ch3:eq18} is that nondimensional angular velocity at circular periodic orbit is: $\omega^{+}_{orb}=\sqrt{A/St}$, or in other words, particle rotation time $\tau^+_{orb}=\sqrt{St/A}$. What is interesting, particle angular momentum $\omega^{+} r^{+ 2}$ on circular orbit (orange line plot in Fig. \ref{fig:ch3_3}, right Y-axis) in large radius limit is approximately constant in time and independent of particle size, equal to $(2 \pi)^{-1}$. \\
-A cloud-like view at the periodic orbit issue is considered below. Periodic orbit existence condition from Eq.\ref{ch3:eq17} is reformulated to:
+A cloud-like view at the periodic orbit issue is considered below. Periodic orbit (non)existence condition from Eq.\ref{ch3:eq17} is reformulated to:
 \begin{equation}
-R \geq R_{cr}(A,\delta)=12 \pi \sqrt{\frac{\rho_a}{2\rho_p}}\  A \delta.
-\label{ch3:eq19}
+R \geq R_{cr}(A,\delta)=12 \pi \sqrt{\frac{\rho_a}{2\rho_p}}\delta A.
+\label{ch3:eq19a}
 \end{equation}
-The numerical solution presented in Fig.\ref{fig:ch3_3} are now shown in the Fig. \ref{fig:ch3_3a} in dimensional form, where vortex core size is chosen arbitrarly: $\delta=0.5~cm$. In this parameters' range, the particle orbit radius is of the order of vortex core size. One can see, that in the large orbit limit, from Eq.\ref {ch3:eq18c} there is:
+or alternatively:
 \begin{equation}
-r_{orb}\propto R^{1/2} \delta^{1/2} A^{-1/2}
+A \leq A_{max}(R,\delta)=\sqrt{\frac{2\rho_p}{\rho_a}}\  \frac{R}{12 \pi \delta}\approx 1.2 \frac{R}{\delta}.
+\label{ch3:eq19a}
+\end{equation}
+So the critical strain parameter value $A_{max}$ ($A_{cr}$ is designated to another bifurcation process) in cloud-like conditions is of the order of the droplet radius to vortex radius ratio.
+The numerical solution presented in Fig.\ref{fig:ch3_3} are now shown in the Fig. \ref{fig:ch3_3a} in dimensional form, where vortex core size is chosen arbitrarily: $\delta=0.5~cm$. In this parameters' range, the particle orbit radius is of the order of vortex core size. One can see, that in the large orbit limit, from Eq.\ref {ch3:eq18c} there is:
+\begin{equation}
+r_{orb}\propto \sqrt{R \delta A^{-1}}
 \label{ch3:eq19b}
 \end{equation}
 Figure \ref{fig:ch3_30} shows the results of $r_{orb}$ calculation in a different view. It illustrates the contour plots for selected orbit radii (0.5~cm ,1.5~cm, 3~cm). Overlapping (blue on a top, then pink and green) colored surfaces match subspaces of stable periodic orbit existence.
@@ -485,7 +491,7 @@ $A \geq A_{cr}$ &  \multirow{2}{*}{\ } & \multicolumn{3}{|c|}{stable node}\\
 \label{tab:ch3_3}
 \end{table}
  
-The stability properties can be analysed with $S_v$ as a leading parameter too, in contrast to equilibrium curve viewpoint. Figure \ref{fig:ch3_8} presents equilibrium point $r^+_0$ plots versus $A$. Line colors refer to various $S_v$ parameters. Continous line represents stable point, dashed - unstable. Three colored regions in the background mark three stability domains: light gray corresponds to condition in Eq.\ref{ch3:eq31} satisfied (a stable node), light green to the same condition not satisfied (a saddle), light red points to the focus region $r^+_0<r_s$. Stability of the focus is governed by Eq.\ref{ch3:eq30}, so $St$ must be considered as well. An example of stability properties in the region $r^+_0<r_s$ is shown by the cross signs - they represent the example of unstable focii for $St=0.5$. $r_s$, $r_i$ and $A_{cr}$ are marked on the axes for reference.
+The stability properties can be analysed with $S_v$ as a leading parameter too, in contrast to equilibrium curve viewpoint. Figure \ref{fig:ch3_8} presents equilibrium point $r^+_0$ plots versus $A$. Line colors refer to various $S_v$ parameters. Continuous line represents stable point, dashed - unstable. Three colored regions in the background mark three stability domains: light gray corresponds to condition in Eq.\ref{ch3:eq31} satisfied (a stable node), light green to the same condition not satisfied (a saddle), light red points to the focus region $r^+_0<r_s$. Stability of the focus is governed by Eq.\ref{ch3:eq30}, so $St$ must be considered as well. An example of stability properties in the region $r^+_0<r_s$ is shown by the cross signs - they represent the example of unstable foci for $St=0.5$. $r_s$, $r_i$ and $A_{cr}$ are marked on the axes for reference.
 
 \begin{figure*}
 \centering
@@ -545,7 +551,7 @@ At $r^{\ast}=0$ stability condition takes the same form as for the case without 
 \noindent The (un)stability condition, which is to the best knowledge equivalent to existance of a limit cycle, after algebraic transformations comes down to the requirement that the strain parameter is small enough $A < A_{max}$ and consequently circulation large enough $\Gamma > \Gamma_{min}$, where the $A_{max}$ value is estimated as follows:
 \begin{align}
 P \equiv 1+\nu^{-1}g^2\tau_p^3\sin^2\theta-2^{-1}\tau_p\gamma,\\
-A_{max}=2^{-\frac{1}{2}} (4\pi)^{-1} P^{\frac{1}{2}} \left[(1+2\tau_p\gamma/P)^{\frac{1}{2}} - 1 \right]^{\frac{1}{2}}.
+A_{max}=\left[2^{-1} (4\pi)^{-2} P  ((1+2\frac{\tau_p\gamma}{P^2})^{\frac{1}{2}} - 1 )\right]^{\frac{1}{2}}.
 \label{ch3:eq36}
 \end{align}
 
@@ -556,6 +562,15 @@ A_{max}=2^{-\frac{1}{2}} (4\pi)^{-1} P^{\frac{1}{2}} \left[(1+2\tau_p\gamma/P)^{
 \caption{Maximal strain parameter $A_{max}$ with respect to vortex core size $\delta$ and particle radius $R$, for an arbitrary alignment angle $\theta=\pi/4$. $A_{cr}$ contour value is shown with a dashed line.}
 \label{fig:ch3_10}
 \end{figure*}
+Tutaj koemntarz do nowego rysunku.
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/Amax_vs_R.png}
+\caption{Maximal strain parameter $A_{max}$ with respect to  particle radius $R$ for a few vortex core sizes $\delta$, drawn for a bundle of alignment angles. $A_{cr}$  value is shown with a dashed line.}
+\label{fig:ch3_11}
+\end{figure*}
+
+
 Finally we can formulate the conclusion that increasing vortex core size $\delta$ or decresing particle size causes the decreas in $A_{max}$ (equivalent to increase in minimal circulation $\Gamma_{min}$).\\
 ...\\
 Dodac cos tutaj o tej publikacji Sapsin And Haler 2010 o przyciaganiu czastek inercyjnych przez powolne rozmaitosci. - jesli starczy czasu.
@@ -583,9 +598,8 @@ $\tau_{d1} =2 \gamma^{-1} \left(1-\frac{St}{(4\pi)^{2} A}\right)^{-1}$\\
 
 Approximate relations of a few timescales for single particle motion in Burgers vortex were found: exit time $\tau_{ex}$, connected to timescale of motion along the axis $\tau_z$, no-gravity orbit rotation timescale $\tau_{orb}$ and no-gravity axis docking timescale $\tau_{d1}$. For ease of reference, these approximations are summarised in Table \ref{tab:ch3_5}. Several conclusions about three dimensional particle motion can be drawn from the comparison of the separately derived time scales:
 \begin{enumerate}
-\item $\tau_z$ is approximately independent of particle radius $R$ and vortex strain $A$.
-\item $\tau_{orb}<<\tau_z$
-\item $\tau_{orb}<<\tau_{ex}$ as long as the logarithmic part in Eq.\ref{ch3:eq14} is not significantly smaller than 1. It means that particle starting far from vortex "lids' is able to swirl around the vortex axis for significant amount of time before being expelled by motion along vortex axis.
+\item $\tau_z$ is approx. independent of particle radius $R$ and vortex strain $A$.
+\item $\tau_{orb}<<\tau_z$, so as long as the logarithmic part in Eq.\ref{ch3:eq14} is not significantly smaller than 1, the particle starting far from vortex "lids' is able to swirl around the vortex axis for significant amount of time before being expelled by motion along vortex axis.
 \item The relation between axis docking timescale and motion along the axis timescale depends primarily on $St/A$ parameter:
 \begin{equation}
 \frac{\tau_z}{\tau_{d1}} = 1-\frac{St}{(4 \pi)^2 A}.
@@ -595,6 +609,7 @@ If $St/A \approx 0$, then $\tau_z \approx \tau_{d1}$. Increasing $St/A$ causes $
 \end{enumerate} 
 
 \section{Summary}
-The subject of this chapter was the motion of a single finite-size particle subjected to viscosity and gravity forces only, in a steady fluid motion modeled by a Burgers vortex with stretching. This analysis has deepened the knowledge on the subject, especially in relation to the paper of \citet{Marcu1995} and with respect to conditions expected in atmospheric clouds.
-Generally it proves the hypothesis that the nature of cloud droplet motion in such a simplified system is complex and very much dependent on the parameters of the model. It cannot be easily reduced or approximated. The intuition suggests that when it comes to multi-particle, polydisperse system there is a great potential in particle segregation, clustering and relative velocity influence.
+The subject of this chapter was the motion of a single finite-size particle subjected to viscosity and gravity forces only, in a steady fluid motion modelled by a Burgers vortex with stretching. This analysis bridged the gaps and deepened the knowledge on the subject presented in the paper of \citet{Marcu1995} and by setting a relation to conditions expected in atmospheric clouds.
+Generally it proves the hypothesis that the nature of 3D cloud droplet motion in such a simplified system is complex and very much dependent on the parameters of the model, which are here vortex stretching, strain, alignment angle and particle size. It cannot be easily reduced or approximated. Particle motion in 2D is governed by orbit attraction/repulsion, which are foci, nodes, circular periodic orbit and/or limit cycle. How much the presence of these orbits determines the total motion of a particle in 3D is primarily influenced by the ratio of time scales of motion in 2D and along the axis. This ratio can be explicitly specified only in selected cases of motion. The intuition suggests that when it comes to multi-particle, polydisperse system, these results demonstrate a great potential in particle segregation, clustering and relative velocity influence.
+
 \end{document}
