@@ -178,7 +178,7 @@ The second conclusion based on the solution to equation \ref{ch3:eq18} is that n
 A cloud-like view at the periodic orbit issue is considered below. Periodic orbit (non)existence condition from Eq.\ref{ch3:eq17} is reformulated to:
 \begin{equation}
 R \geq R_{cr}(A,\delta)=12 \pi \sqrt{\frac{\rho_a}{2\rho_p}}\delta A.
-\label{ch3:eq19a}
+\label{ch3:eq19}
 \end{equation}
 or alternatively:
 \begin{equation}
@@ -548,21 +548,22 @@ Secondly, the function $\phi(r^\ast_0)$ is approximated as follows:
 \end{equation}
 
 At $r^{\ast}=0$ stability condition takes the same form as for the case without gravity.\\
-\noindent The (un)stability condition, which is to the best knowledge equivalent to existance of a limit cycle, after algebraic transformations comes down to the requirement that the strain parameter is small enough $A < A_{max}$ and consequently circulation large enough $\Gamma > \Gamma_{min}$, where the $A_{max}$ value is estimated as follows:
+\noindent The (un)stability condition, which is to the best knowledge equivalent to existence of a limit cycle, after algebraic transformations comes down to the requirement that the strain parameter is small enough $A < A_{max}$ and consequently circulation large enough $\Gamma > \Gamma_{min}$, where the $A_{max}$ value is estimated as follows:
 \begin{align}
 P \equiv 1+\nu^{-1}g^2\tau_p^3\sin^2\theta-2^{-1}\tau_p\gamma,\\
 A_{max}=\left[2^{-1} (4\pi)^{-2} P  ((1+2\frac{\tau_p\gamma}{P^2})^{\frac{1}{2}} - 1 )\right]^{\frac{1}{2}}.
 \label{ch3:eq36}
 \end{align}
 
-\noindent The maximal strain parameter $A_{max}$ (minimal circulation $\Gamma_{min}$) increases (decreases) weakly with $P$. However the direct link to system parameters is intricate. Fig.\ref{fig:ch3_10} presents its value vs. particle radius and vortex core size and $A_{cr}$ contour line is also depicted in this figure.
+\noindent The maximal strain parameter $A_{max}$ (minimal circulation $\Gamma_{min}$) increases (decreases) weakly with $P$. However the direct link to system parameters is intricate. Fig.\ref{fig:ch3_10} presents its value vs. particle radius and vortex core size for an arbitrary alignment angle.
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/Amax_vs_delta_vs_R.png}
-\caption{Maximal strain parameter $A_{max}$ with respect to vortex core size $\delta$ and particle radius $R$, for an arbitrary alignment angle $\theta=\pi/4$. $A_{cr}$ contour value is shown with a dashed line.}
+\caption{Maximal strain parameter $A_{max}$ with respect to vortex core size $\delta$ and particle radius $R$, for an arbitrary alignment angle $\theta=\pi/4$.}
 \label{fig:ch3_10}
 \end{figure*}
-Tutaj koemntarz do nowego rysunku.
+Figure \ref{fig:ch3_11} presents the same relation in a slightly different form. There are just a few $\delta$ values explored. Each coloured band represents $A_{max}$ range obtained  for a bundle of alignment angles $\theta \in (0,\pi/2)$. The dependence between $A_{max}$ and $R$ is clearly linear when $\theta=0$. In fact in such a case it agrees with the relation shown in \ref{ch3:eq19a}.
+
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/Amax_vs_R.png}
@@ -571,7 +572,7 @@ Tutaj koemntarz do nowego rysunku.
 \end{figure*}
 
 
-Finally we can formulate the conclusion that increasing vortex core size $\delta$ or decresing particle size causes the decreas in $A_{max}$ (equivalent to increase in minimal circulation $\Gamma_{min}$).\\
+Finally we can formulate the general conclusion that increasing vortex core size $\delta$ or decreasing particle size (when $\theta$ is not large) causes the decrease in $A_{max}$ (equivalent to increase in minimal circulation $\Gamma_{min}$).\\
 ...\\
 Dodac cos tutaj o tej publikacji Sapsin And Haler 2010 o przyciaganiu czastek inercyjnych przez powolne rozmaitosci. - jesli starczy czasu.
 
