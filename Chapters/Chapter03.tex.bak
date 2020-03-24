@@ -9,7 +9,7 @@
 \label{ch:single} % For referencing the chapter elsewhere, use \autoref{ch:single}
 
 %----------------------------------------------------------------------------------------
-This chapter addresses the dynamics of the system, which is the particle moving in a Burgers vortex, defined by the set of differential equations (Eq.\ref{ch2:eq03a}-\ref{ch2:eq03c} and its dimensional counterpart). The system differs significantly depending on gravity presence. First, with the use of dynamical system formalism, the system is stratified into its orbits and dynamics of these orbits is determined. Second, particular emphasis is placed on describing the characteristic time scales of the motion and their mutual relations. These tasks are performed with the hope of finding a measure of spatial pattern formation efficiencyn in relation to model parametes.\\
+This chapter addresses the dynamics of the system, which is the particle moving in a Burgers vortex, defined by the set of differential equations (Eq.\ref{ch2:eq03a}-\ref{ch2:eq03c} and its dimensional counterpart). The system differs significantly depending on gravity presence. First, with the use of dynamical system formalism, the system is stratified into its orbits and dynamics of these orbits is determined. Second, particular emphasis is placed on describing the characteristic time scales of the motion and their mutual relations. These tasks are performed with the hope of finding a measure of spatial pattern formation efficiency in relation to the model parameters.\\
 It was stated before, that the equation describing particle motion along the vortex axis (Eq. \ref{ch2:eq03c}) is independent from the ones describing motion in 2D space (Eq.\ref{ch2:eq03a}-\ref{ch2:eq03b}). Thus in this chapter they are analysed in separate sections.
  
 \section{Motion along the vortex axis}
@@ -26,7 +26,7 @@ Gravity force and stretching can balance only if $z$ is positive, so $z_b>0$. It
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/z_b_vs_delta_R.png}
-\caption{Equillibrium position $z_b$ versus vortex core size $\delta$ and particle radius $R$. Plot variables' ranges correspond to cloud-like conditions.}
+\caption{Equillibrium position $z_b$ versus vortex core size $\delta$ and particle radius $R$ for $\theta=\pi/2$. Plot variables' ranges correspond to cloud-like conditions.}
 \label{fig:ch3_0}
 \end{figure*}
 
@@ -236,7 +236,7 @@ Angular velocity on periodic orbit does not depend on $A$, but its existence doe
 
 Particle rotation time being an inverse of angular velocity is proportional to vortex core radius and particle radius:
 \begin{equation}
-\tau_{orb}=\sqrt{2 \tau_p \gamma^{-1}} \propto R \delta.
+\tau_{orb}=\sqrt{\nu^{-1} \tau_p}\delta=\sqrt{2 \tau_p \gamma^{-1}} \propto R \delta.
 \label{ch3:eq21}
 \end{equation}
 
