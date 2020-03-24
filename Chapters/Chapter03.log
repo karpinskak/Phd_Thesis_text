@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  20 MAR 2020 11:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  23 MAR 2020 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,11 +1369,7 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 LaTeX Warning: Unused global option(s):
     [headinclude,footinclude=true,dottedtoc,paper=a4,ngerman].
 
-(./Chapter03.aux
-
-LaTeX Warning: Label `ch3:eq19a' multiply defined.
-
-)
+(./Chapter03.aux)
 \openout1 = `Chapter03.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1637,15 +1633,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
  []
 
-[6] <../gfx/r0_2_sqrt_St_A_omega_r0_2.png, id=116, 850.67813pt x 637.63219pt>
+[6] <../gfx/r0_2_sqrt_St_A_omega_r0_2.png, id=116, 843.15pt x 632.3625pt>
 File: ../gfx/r0_2_sqrt_St_A_omega_r0_2.png Graphic file (type png)
 
 <use ../gfx/r0_2_sqrt_St_A_omega_r0_2.png>
 Package pdftex.def Info: ../gfx/r0_2_sqrt_St_A_omega_r0_2.png used on input lin
-e 172.
-(pdftex.def)             Requested size: 360.0pt x 269.84688pt.
+e 177.
+(pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 172--173
+Overfull \hbox (24.0pt too wide) in paragraph at lines 177--178
  [] 
  []
 
@@ -1654,30 +1650,22 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 172--173
 File: ../gfx/orbit_vs_R_A_delta05cm.png Graphic file (type png)
 
 <use ../gfx/orbit_vs_R_A_delta05cm.png>
-Package pdftex.def Info: ../gfx/orbit_vs_R_A_delta05cm.png used on input line 1
-98.
+Package pdftex.def Info: ../gfx/orbit_vs_R_A_delta05cm.png used on input line 2
+10.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 198--199
+Overfull \hbox (24.0pt too wide) in paragraph at lines 210--211
  [] 
  []
 
 <../gfx/fig05.png, id=134, 843.15pt x 632.3625pt>
 File: ../gfx/fig05.png Graphic file (type png)
  <use ../gfx/fig05.png>
-Package pdftex.def Info: ../gfx/fig05.png used on input line 206.
+Package pdftex.def Info: ../gfx/fig05.png used on input line 218.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 206--207
+Overfull \hbox (24.0pt too wide) in paragraph at lines 218--219
  [] 
- []
-
-
-Overfull \hbox (52.94812pt too wide) detected at line 215
-$\U/zeur/m/n/10.95 ![] \U/zeus/m/n/10.95 ½ []\U/zeur/m/n/10.95 ^^\[] \U/zeus/m/
-n/10.95 ½ \U/zeur/m/n/10.95 ^^N[][] \U/zeus/m/n/10.95 ½ [] ½ \U/zeur/m/n/10.95 
-3^^W[]\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 R^^N\U/zeus/m/n/10.95 ©[] / ¨\U/zeur
-/m/n/10.95 R^^N\U/zeus/m/n/10.95 ©[]\T1/pplj/m/n/10.95 .$  
  []
 
 <../gfx/orbit_vel_vs_R_and_delta.png, id=137, 843.15pt x 632.3625pt>
@@ -1685,286 +1673,278 @@ File: ../gfx/orbit_vel_vs_R_and_delta.png Graphic file (type png)
 
 <use ../gfx/orbit_vel_vs_R_and_delta.png>
 Package pdftex.def Info: ../gfx/orbit_vel_vs_R_and_delta.png used on input line
- 221.
+ 232.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 221--222
+Overfull \hbox (24.0pt too wide) in paragraph at lines 232--233
  [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
+[8 <../gfx/orbit_vs_R_A_delta05cm.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
-[8 <../gfx/orbit_vs_R_A_delta05cm.png (PNG copy)>] [9 <../gfx/fig05.png (PNG co
-py)> <../gfx/orbit_vel_vs_R_and_delta.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 238
+[9 <../gfx/fig05.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 249
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-<../gfx/point_docking_vel_traj_in_time_noscal.png, id=153, 843.15pt x 632.3625p
+<../gfx/point_docking_vel_traj_in_time_noscal.png, id=155, 843.15pt x 632.3625p
 t>
 File: ../gfx/point_docking_vel_traj_in_time_noscal.png Graphic file (type png)
  <use ../gfx/point_docking_vel_traj_in_time_noscal.png>
 Package pdftex.def Info: ../gfx/point_docking_vel_traj_in_time_noscal.png used 
-on input line 265.
+on input line 276.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 265--266
+Overfull \hbox (24.0pt too wide) in paragraph at lines 276--277
  [] 
  []
 
 
-<../gfx/orbit_docking_vel_traj_in_time_noscal.png, id=154, 843.15pt x 632.3625p
+<../gfx/orbit_docking_vel_traj_in_time_noscal.png, id=156, 843.15pt x 632.3625p
 t>
 File: ../gfx/orbit_docking_vel_traj_in_time_noscal.png Graphic file (type png)
  <use ../gfx/orbit_docking_vel_traj_in_time_noscal.png>
 Package pdftex.def Info: ../gfx/orbit_docking_vel_traj_in_time_noscal.png used 
-on input line 272.
+on input line 283.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 272--273
+Overfull \hbox (24.0pt too wide) in paragraph at lines 283--284
  [] 
  []
 
-
-<../gfx/point_docking_vel_traj_in_time_scal.png, id=159, 843.15pt x 632.3625pt>
+[10 <../gfx/orbit_vel_vs_R_and_delta.png (PNG copy)>] [11 <../gfx/point_docking
+_vel_traj_in_time_noscal.png (PNG copy)> <../gfx/orbit_docking_vel_traj_in_time
+_noscal.png (PNG copy)>]
+<../gfx/point_docking_vel_traj_in_time_scal.png, id=172, 843.15pt x 632.3625pt>
 File: ../gfx/point_docking_vel_traj_in_time_scal.png Graphic file (type png)
 <use ../gfx/point_docking_vel_traj_in_time_scal.png>
 Package pdftex.def Info: ../gfx/point_docking_vel_traj_in_time_scal.png used on
- input line 281.
+ input line 292.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 281--282
+Overfull \hbox (24.0pt too wide) in paragraph at lines 292--293
  [] 
  []
 
 
-<../gfx/orbit_docking_vel_traj_in_time_scal.png, id=162, 843.15pt x 632.3625pt>
+<../gfx/orbit_docking_vel_traj_in_time_scal.png, id=175, 843.15pt x 632.3625pt>
 File: ../gfx/orbit_docking_vel_traj_in_time_scal.png Graphic file (type png)
 <use ../gfx/orbit_docking_vel_traj_in_time_scal.png>
 Package pdftex.def Info: ../gfx/orbit_docking_vel_traj_in_time_scal.png used on
- input line 288.
+ input line 299.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 288--289
- [] 
- []
-
-[10] [11 <../gfx/point_docking_vel_traj_in_time_noscal.png (PNG copy)> <../gfx/
-orbit_docking_vel_traj_in_time_noscal.png (PNG copy)>] [12 <../gfx/point_dockin
-g_vel_traj_in_time_scal.png (PNG copy)> <../gfx/orbit_docking_vel_traj_in_time_
-scal.png (PNG copy)>]
-<../gfx/both_docking_ang_vel.png, id=188, 1124.2pt x 562.1pt>
-File: ../gfx/both_docking_ang_vel.png Graphic file (type png)
-
-<use ../gfx/both_docking_ang_vel.png>
-Package pdftex.def Info: ../gfx/both_docking_ang_vel.png used on input line 299
-.
-(pdftex.def)             Requested size: 360.0pt x 179.99574pt.
 
 Overfull \hbox (24.0pt too wide) in paragraph at lines 299--300
  [] 
  []
 
+[12 <../gfx/point_docking_vel_traj_in_time_scal.png (PNG copy)>]
+<../gfx/both_docking_ang_vel.png, id=190, 1124.2pt x 562.1pt>
+File: ../gfx/both_docking_ang_vel.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use ../gfx/both_docking_ang_vel.png>
+Package pdftex.def Info: ../gfx/both_docking_ang_vel.png used on input line 310
+.
+(pdftex.def)             Requested size: 360.0pt x 179.99574pt.
 
- [13 <../gfx/both_docking_ang_vel.png>]
-<../gfx/tau_d1_fit_vs_StA.png, id=203, 843.15pt x 632.3625pt>
-File: ../gfx/tau_d1_fit_vs_StA.png Graphic file (type png)
-
-<use ../gfx/tau_d1_fit_vs_StA.png>
-Package pdftex.def Info: ../gfx/tau_d1_fit_vs_StA.png used on input line 315.
-(pdftex.def)             Requested size: 360.0pt x 270.00006pt.
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 315--316
+Overfull \hbox (24.0pt too wide) in paragraph at lines 310--311
  [] 
  []
 
-[14 <../gfx/tau_d1_fit_vs_StA.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
+[13 <../gfx/orbit_docking_vel_traj_in_time_scal.png (PNG copy)>]
+<../gfx/tau_d1_fit_vs_StA.png, id=204, 843.15pt x 632.3625pt>
+File: ../gfx/tau_d1_fit_vs_StA.png Graphic file (type png)
+
+<use ../gfx/tau_d1_fit_vs_StA.png>
+Package pdftex.def Info: ../gfx/tau_d1_fit_vs_StA.png used on input line 326.
+(pdftex.def)             Requested size: 360.0pt x 270.00006pt.
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 326--327
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
 
  []
 
-<../gfx/surf_logtdoc_vs_A_vs_St_full.png, id=213, 843.15pt x 632.3625pt>
+[14 <../gfx/both_docking_ang_vel.png>]
+<../gfx/surf_logtdoc_vs_A_vs_St_full.png, id=218, 843.15pt x 632.3625pt>
 File: ../gfx/surf_logtdoc_vs_A_vs_St_full.png Graphic file (type png)
 
 <use ../gfx/surf_logtdoc_vs_A_vs_St_full.png>
 Package pdftex.def Info: ../gfx/surf_logtdoc_vs_A_vs_St_full.png used on input 
-line 358.
+line 369.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 358--359
+Overfull \hbox (24.0pt too wide) in paragraph at lines 369--370
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
-
- []
-
-[15 <../gfx/surf_logtdoc_vs_A_vs_St_full.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 374--376
 
  []
 
 
-LaTeX Warning: Citation 'Marcu1995' on page 16 undefined on input line 380.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 379--381
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
-<../gfx/eq_curves.png, id=224, 849.1725pt x 653.44125pt>
+[15 <../gfx/tau_d1_fit_vs_StA.png (PNG copy)>]
+
+LaTeX Warning: Citation 'Marcu1995' on page 16 undefined on input line 391.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
+
+ []
+
+<../gfx/eq_curves.png, id=227, 849.1725pt x 653.44125pt>
 File: ../gfx/eq_curves.png Graphic file (type png)
 
 <use ../gfx/eq_curves.png>
-Package pdftex.def Info: ../gfx/eq_curves.png used on input line 408.
+Package pdftex.def Info: ../gfx/eq_curves.png used on input line 419.
 (pdftex.def)             Requested size: 360.0pt x 277.02586pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 408--409
+Overfull \hbox (24.0pt too wide) in paragraph at lines 419--420
  [] 
  []
 
-[16]
-Overfull \hbox (79.36559pt too wide) in paragraph at lines 427--439
+[16 <../gfx/surf_logtdoc_vs_A_vs_St_full.png (PNG copy)>]
+Overfull \hbox (79.36559pt too wide) in paragraph at lines 438--450
  [][] 
  []
 
 
-LaTeX Warning: Citation 'Marcu1995' on page 17 undefined on input line 441.
+LaTeX Warning: Citation 'Marcu1995' on page 17 undefined on input line 452.
 
 
-Overfull \hbox (10.24313pt too wide) detected at line 445
+Overfull \hbox (10.24313pt too wide) detected at line 456
 $\U/zeur/m/n/10.95 ^^^\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 r[]\U/zeus/m/n/10.95
  © ½ [] [] [] \T1/pplj/m/n/10.95 .$  
  []
 
-<../gfx/stability_functions.png, id=238, 835.62187pt x 627.09282pt>
+[17 <../gfx/eq_curves.png (PNG copy)>]
+<../gfx/stability_functions.png, id=247, 835.62187pt x 627.09282pt>
 File: ../gfx/stability_functions.png Graphic file (type png)
 
 <use ../gfx/stability_functions.png>
-Package pdftex.def Info: ../gfx/stability_functions.png used on input line 450.
+Package pdftex.def Info: ../gfx/stability_functions.png used on input line 461.
 
 (pdftex.def)             Requested size: 360.0pt x 270.16136pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 450--451
+Overfull \hbox (24.0pt too wide) in paragraph at lines 461--462
  [] 
  []
 
-[17 <../gfx/eq_curves.png (PNG copy)>]
 
-LaTeX Warning: Citation 'Marcu1995' on page 18 undefined on input line 468.
+LaTeX Warning: Citation 'Marcu1995' on page 18 undefined on input line 479.
 
-
-Overfull \hbox (65.48055pt too wide) in paragraph at lines 482--492
+[18 <../gfx/stability_functions.png (PNG copy)>]
+Overfull \hbox (65.48055pt too wide) in paragraph at lines 493--503
  [][] 
  []
 
-[18 <../gfx/stability_functions.png (PNG copy)>]
-<../gfx/r0_vs_A_plus_stability.png, id=264, 843.15pt x 632.3625pt>
+<../gfx/r0_vs_A_plus_stability.png, id=266, 843.15pt x 632.3625pt>
 File: ../gfx/r0_vs_A_plus_stability.png Graphic file (type png)
 
 <use ../gfx/r0_vs_A_plus_stability.png>
-Package pdftex.def Info: ../gfx/r0_vs_A_plus_stability.png used on input line 4
-98.
+Package pdftex.def Info: ../gfx/r0_vs_A_plus_stability.png used on input line 5
+09.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 498--499
+Overfull \hbox (24.0pt too wide) in paragraph at lines 509--510
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
-
-Underfull \vbox (badness 8189) has occurred while \output is active []
-
- [19 <../gfx/r0_vs_A_plus_stability.png (PNG copy)>]
-<../gfx/scenarios_9p_T500_D5_N5.png, id=273, 764.10469pt x 730.22812pt>
+<../gfx/scenarios_9p_T500_D5_N5.png, id=268, 764.10469pt x 730.22812pt>
 File: ../gfx/scenarios_9p_T500_D5_N5.png Graphic file (type png)
 
 <use ../gfx/scenarios_9p_T500_D5_N5.png>
 Package pdftex.def Info: ../gfx/scenarios_9p_T500_D5_N5.png used on input line 
-507.
+518.
 (pdftex.def)             Requested size: 360.0pt x 344.04294pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 507--508
+Overfull \hbox (24.0pt too wide) in paragraph at lines 518--519
  [] 
  []
 
 
-LaTeX Warning: Citation 'Marcu1995' on page 20 undefined on input line 512.
+LaTeX Warning: Citation 'Marcu1995' on page 19 undefined on input line 523.
+
+[19]
+
+LaTeX Warning: Reference `eq27' on page 20 undefined on input line 544.
 
 
-Underfull \vbox (badness 1331) has occurred while \output is active []
-
- [20 <../gfx/scenarios_9p_T500_D5_N5.png (PNG copy)>]
-
-LaTeX Warning: Reference `eq27' on page 21 undefined on input line 533.
+LaTeX Warning: Citation 'Marcu_95' on page 20 undefined on input line 544.
 
 
-LaTeX Warning: Citation 'Marcu_95' on page 21 undefined on input line 533.
-
-
-Overfull \hbox (206.07254pt too wide) detected at line 537
+Overfull \hbox (206.07254pt too wide) detected at line 548
 $[][] \U/zeus/m/n/10.95 ½ \U/zeur/m/n/10.95 r[] [] \U/zeus/m/n/10.95 ½ \U/zeur/
 m/n/10.95 r[] \U/zeus/m/n/10.95 « [] ' \U/zeur/m/n/10.95 r[] \U/zeus/m/n/10.95 
 « [][] ½ \U/zeur/m/n/10.95 r[] [] \T1/pplj/m/n/10.95 ,$  
  []
 
-<../gfx/Amax_vs_delta_vs_R.png, id=288, 843.15pt x 632.3625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <../gfx/r0_vs_A_plus_stability.png (PNG copy)>] [21 <../gfx/scenarios_9p_T
+500_D5_N5.png (PNG copy)>] <../gfx/Amax_vs_delta_vs_R.png, id=295, 843.15pt x 6
+32.3625pt>
 File: ../gfx/Amax_vs_delta_vs_R.png Graphic file (type png)
 
 <use ../gfx/Amax_vs_delta_vs_R.png>
-Package pdftex.def Info: ../gfx/Amax_vs_delta_vs_R.png used on input line 561.
+Package pdftex.def Info: ../gfx/Amax_vs_delta_vs_R.png used on input line 572.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 561--562
+Overfull \hbox (24.0pt too wide) in paragraph at lines 572--573
  [] 
  []
 
-[21] <../gfx/Amax_vs_R.png, id=301, 843.15pt x 632.3625pt>
+<../gfx/Amax_vs_R.png, id=298, 843.15pt x 632.3625pt>
 File: ../gfx/Amax_vs_R.png Graphic file (type png)
 
 <use ../gfx/Amax_vs_R.png>
-Package pdftex.def Info: ../gfx/Amax_vs_R.png used on input line 569.
+Package pdftex.def Info: ../gfx/Amax_vs_R.png used on input line 580.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 569--570
+Overfull \hbox (24.0pt too wide) in paragraph at lines 580--581
  [] 
  []
 
-[22 <../gfx/Amax_vs_delta_vs_R.png (PNG copy)>]
+[22] [23 <../gfx/Amax_vs_delta_vs_R.png (PNG copy)> <../gfx/Amax_vs_R.png (PNG 
+copy)>]
 
-LaTeX Warning: Citation 'Marcu1995' on page 23 undefined on input line 613.
+LaTeX Warning: Citation 'Marcu1995' on page 24 undefined on input line 624.
 
-[23 <../gfx/Amax_vs_R.png (PNG copy)>] [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 616.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 616.
+[24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
  (./Chapter03.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 616.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 616.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
 Package rerunfilecheck Info: File `Chapter03.out' has not changed.
 (rerunfilecheck)             Checksum: 4D9A85F85AFAD35A30714ABE610E1C4B;602.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -1976,13 +1956,13 @@ Package logreq Info: Writing requests to 'Chapter03.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21546 strings out of 493304
- 340436 string characters out of 6139871
- 741830 words of memory out of 5000000
- 24415 multiletter control sequences out of 15000+600000
+ 21552 strings out of 493304
+ 340514 string characters out of 6139871
+ 738830 words of memory out of 5000000
+ 24419 multiletter control sequences out of 15000+600000
  58053 words of font info for 118 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 55i,13n,71p,1689b,1547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,71p,1689b,1548s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
@@ -2000,10 +1980,10 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on Chapter03.pdf (24 pages, 1200337 bytes).
+Output written on Chapter03.pdf (24 pages, 1188200 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 500000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 110 named destinations out of 1000 (max. 500000)
  10397 words of extra memory for PDF output out of 12000 (max. 10000000)
 
