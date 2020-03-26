@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  24 MAR 2020 17:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  26 MAR 2020 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1801,7 +1801,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
-[15 <../gfx/tau_d1_fit_vs_StA.png (PNG copy)>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <../gfx/tau_d1_fit_vs_StA.png (PNG copy)>]
 
 LaTeX Warning: Citation 'Marcu1995' on page 16 undefined on input line 391.
 
@@ -1810,7 +1813,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 390--392
 
  []
 
-<../gfx/eq_curves.png, id=227, 849.1725pt x 653.44125pt>
+[16 <../gfx/surf_logtdoc_vs_A_vs_St_full.png (PNG copy)>]
+<../gfx/eq_curves.png, id=235, 849.1725pt x 653.44125pt>
 File: ../gfx/eq_curves.png Graphic file (type png)
 
 <use ../gfx/eq_curves.png>
@@ -1821,7 +1825,7 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 419--420
  [] 
  []
 
-[16 <../gfx/surf_logtdoc_vs_A_vs_St_full.png (PNG copy)>]
+
 Overfull \hbox (79.36559pt too wide) in paragraph at lines 438--450
  [][] 
  []
@@ -1835,8 +1839,7 @@ $\U/zeur/m/n/10.95 ^^^\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 r[]\U/zeus/m/n/10.95
  © ½ [] [] [] \T1/pplj/m/n/10.95 .$  
  []
 
-[17 <../gfx/eq_curves.png (PNG copy)>]
-<../gfx/stability_functions.png, id=247, 835.62187pt x 627.09282pt>
+<../gfx/stability_functions.png, id=240, 835.62187pt x 627.09282pt>
 File: ../gfx/stability_functions.png Graphic file (type png)
 
 <use ../gfx/stability_functions.png>
@@ -1848,6 +1851,7 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 461--462
  [] 
  []
 
+[17 <../gfx/eq_curves.png (PNG copy)>]
 
 LaTeX Warning: Citation 'Marcu1995' on page 18 undefined on input line 479.
 
@@ -1856,7 +1860,7 @@ Overfull \hbox (65.48055pt too wide) in paragraph at lines 493--503
  [][] 
  []
 
-<../gfx/r0_vs_A_plus_stability.png, id=266, 843.15pt x 632.3625pt>
+<../gfx/r0_vs_A_plus_stability.png, id=265, 843.15pt x 632.3625pt>
 File: ../gfx/r0_vs_A_plus_stability.png Graphic file (type png)
 
 <use ../gfx/r0_vs_A_plus_stability.png>
@@ -1873,7 +1877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
-<../gfx/scenarios_9p_T500_D5_N5.png, id=268, 764.10469pt x 730.22812pt>
+<../gfx/scenarios_9p_T500_D5_N5.png, id=267, 764.10469pt x 730.22812pt>
 File: ../gfx/scenarios_9p_T500_D5_N5.png Graphic file (type png)
 
 <use ../gfx/scenarios_9p_T500_D5_N5.png>
@@ -1902,19 +1906,16 @@ m/n/10.95 r[] \U/zeus/m/n/10.95 « [] ' \U/zeur/m/n/10.95 r[] \U/zeus/m/n/10.95
 « [][] ½ \U/zeur/m/n/10.95 r[] [] \T1/pplj/m/n/10.95 ,$  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <../gfx/r0_vs_A_plus_stability.png (PNG copy)>] [21 <../gfx/scenarios_9p_T
-500_D5_N5.png (PNG copy)>] <../gfx/Amax_vs_delta_vs_R.png, id=295, 843.15pt x 6
-32.3625pt>
+[20 <../gfx/r0_vs_A_plus_stability.png (PNG copy)>] [21 <../gfx/scenarios_9p_T5
+00_D5_N5.png (PNG copy)>]
+<../gfx/Amax_vs_delta_vs_R.png, id=295, 843.15pt x 632.3625pt>
 File: ../gfx/Amax_vs_delta_vs_R.png Graphic file (type png)
 
 <use ../gfx/Amax_vs_delta_vs_R.png>
-Package pdftex.def Info: ../gfx/Amax_vs_delta_vs_R.png used on input line 572.
+Package pdftex.def Info: ../gfx/Amax_vs_delta_vs_R.png used on input line 573.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 572--573
+Overfull \hbox (24.0pt too wide) in paragraph at lines 573--574
  [] 
  []
 
@@ -1922,24 +1923,24 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 572--573
 File: ../gfx/Amax_vs_R.png Graphic file (type png)
 
 <use ../gfx/Amax_vs_R.png>
-Package pdftex.def Info: ../gfx/Amax_vs_R.png used on input line 580.
+Package pdftex.def Info: ../gfx/Amax_vs_R.png used on input line 582.
 (pdftex.def)             Requested size: 360.0pt x 270.00006pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 580--581
+Overfull \hbox (24.0pt too wide) in paragraph at lines 582--583
  [] 
  []
 
 [22] [23 <../gfx/Amax_vs_delta_vs_R.png (PNG copy)> <../gfx/Amax_vs_R.png (PNG 
 copy)>]
 
-LaTeX Warning: Citation 'Marcu1995' on page 24 undefined on input line 624.
+LaTeX Warning: Citation 'Marcu1995' on page 24 undefined on input line 626.
 
 [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 629.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 629.
  (./Chapter03.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 629.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 629.
 Package rerunfilecheck Info: File `Chapter03.out' has not changed.
 (rerunfilecheck)             Checksum: 4D9A85F85AFAD35A30714ABE610E1C4B;602.
 
@@ -1961,7 +1962,7 @@ Package logreq Info: Writing requests to 'Chapter03.run.xml'.
 Here is how much of TeX's memory you used:
  21552 strings out of 493304
  340514 string characters out of 6139871
- 738830 words of memory out of 5000000
+ 739830 words of memory out of 5000000
  24419 multiletter control sequences out of 15000+600000
  58053 words of font info for 118 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1983,7 +1984,7 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on Chapter03.pdf (24 pages, 1181548 bytes).
+Output written on Chapter03.pdf (24 pages, 1234581 bytes).
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
  336 compressed objects within 4 object streams
