@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  26 MAR 2020 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  30 MAR 2020 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1639,16 +1639,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Reference `fig:ch3_9' on page 5 undefined on input line 95.
 
-
-LaTeX Warning: Reference `tab:ch3_4' on page 5 undefined on input line 95.
-
-
-LaTeX Warning: Reference `eq8' on page 5 undefined on input line 101.
-
 [5 <../gfx/closeups.png>]
+
+LaTeX Warning: Reference `eq8' on page 6 undefined on input line 101.
+
 LaTeX Font Info:    Try loading font information for TS1+pplj on input line 107
 .
-
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
@@ -1674,12 +1670,7 @@ LaTeX Warning: Reference `tab01' on page 6 undefined on input line 118.
 [6] [7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
- (./Chapter04.aux
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
+ (./Chapter04.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `Chapter04.out' has not changed.
@@ -1698,13 +1689,13 @@ Package logreq Info: Writing requests to 'Chapter04.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21218 strings out of 493304
- 334365 string characters out of 6139871
+ 21217 strings out of 493304
+ 334354 string characters out of 6139871
  736830 words of memory out of 5000000
- 24209 multiletter control sequences out of 15000+600000
+ 24208 multiletter control sequences out of 15000+600000
  52401 words of font info for 102 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 55i,11n,71p,1689b,1488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,71p,1689b,1487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-d
@@ -1718,7 +1709,7 @@ fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><
 usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Chapter04.pdf (7 pages, 30240816 bytes).
+Output written on Chapter04.pdf (7 pages, 30243431 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
