@@ -575,7 +575,7 @@ A_{max}=\left[2^{-1} (4\pi)^{-2} P  ((1+2\frac{\tau_p\gamma}{P^2})^{\frac{1}{2}}
 \label{fig:ch3_10}
 \end{figure*}
 
-Figure \ref{fig:ch3_11} presents the same relation in a slightly different form. There are just a few $\delta$ values explored. Each coloured band represents $A_{max}$ range obtained  for a bundle of alignment angles $\theta \in (0,\pi/2)$. The dependence between $A_{max}$ and $R$ is clearly linear when $\theta=0$. In fact in such a case it agrees with the relation shown in \ref{ch3:eq19a}.
+Figure \ref{fig:ch3_11} presents the same relation in a slightly different form. There are just a few $\delta$ values explored. Each coloured band represents $A_{max}$ range obtained  for a bundle of alignment angles $\theta \in (0,\pi/2)$. The dependence between $A_{max}$ and $R$ is clearly linear when $\theta=0$. In fact in such a case it agrees with the relation shown in \ref{ch3:eq19a}. However when increasing $\theta$, at some point the dependence between $A_{max}$ and $R$ becomes non monotonic. It means that for an arbitrary $\delta$ and $\theta$ large enough, $A_{max}$ values are constrained from above. In other words, if a vortex has arbitrary $\delta$ and $\theta$ large enough, there is a value of $A$ above which there is no limit cycle solution for any particle size.
 
 \begin{figure*}
 \centering
@@ -583,7 +583,6 @@ Figure \ref{fig:ch3_11} presents the same relation in a slightly different form.
 \caption{Maximal strain parameter $A_{max}$ with respect to  particle radius $R$ for a few vortex core sizes $\delta$, drawn for a bundle of alignment angles. $A_{cr}$  value is shown with a dashed line.}
 \label{fig:ch3_11}
 \end{figure*}
-
 
 Finally we can formulate the general conclusion that increasing vortex core size $\delta$ or decreasing particle size (when $\theta$ is not large) causes the decrease in $A_{max}$ (equivalent to increase in minimal circulation $\Gamma_{min}$).\\
 ...\\
