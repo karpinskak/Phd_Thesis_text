@@ -558,15 +558,15 @@ Secondly, the function $\phi(r^\ast_0)$ is approximated as follows:
 \label{ch3:eq35}
 \end{equation}
 
-At $r^{\ast}=0$ stability condition takes the same form as for the case without gravity.\\
-\noindent The (un)stability condition, which is, to the best knowledge, equivalent to existence of a limit cycle, after algebraic transformations comes down to the requirement that the strain parameter is small enough $A < A_{max}$ and consequently circulation large enough $\Gamma > \Gamma_{min}$, where the $A_{max}$ value is estimated as follows:
+At $r^{\ast}=0$ the (un)stability condition takes the same form as for the case without gravity.\\
+\noindent The unstability condition, which is, to the best knowledge, equivalent to the existence of a limit cycle, after algebraic transformations comes down to the requirement that the strain parameter is small enough $A < A_{max}$ and consequently circulation large enough $\Gamma > \Gamma_{min}$, where the $A_{max}$ value is estimated as follows:
 \begin{align}
 P \equiv 1+\nu^{-1}g^2\tau_p^3\sin^2\theta-2^{-1}\tau_p\gamma,\\
 A_{max}=\left[2^{-1} (4\pi)^{-2} P  ((1+2\frac{\tau_p\gamma}{P^2})^{\frac{1}{2}} - 1 )\right]^{\frac{1}{2}}.
 \label{ch3:eq36}
 \end{align}
 
-\noindent The maximal strain parameter $A_{max}$ (minimal circulation $\Gamma_{min}$) increases (decreases) weakly with $P$. However the direct link to system parameters is intricate. Fig.\ref{fig:ch3_10} presents its value vs. particle radius and vortex core size for an arbitrary alignment angle.
+\noindent $A_{max}$ makes sense only if $P$ takes positive values and this is equivalent to the condition that $R/\delta<\sqrt(\frac{9 \rho_a}{2 \rho_p}\approx 0.067)$. This is guaranteed for cloud-like conditions. The maximal strain parameter $A_{max}$ (minimal circulation $\Gamma_{min}$) increases (decreases) weakly with $P$. However the direct link to system parameters is intricate. Fig.\ref{fig:ch3_10} presents its value vs. particle radius and vortex core size for an arbitrary alignment angle.
 
 \begin{figure*}
 \centering
@@ -575,16 +575,25 @@ A_{max}=\left[2^{-1} (4\pi)^{-2} P  ((1+2\frac{\tau_p\gamma}{P^2})^{\frac{1}{2}}
 \label{fig:ch3_10}
 \end{figure*}
 
-Figure \ref{fig:ch3_11} presents the same relation in a slightly different form. There are just a few $\delta$ values explored. Each coloured band represents $A_{max}$ range obtained  for a bundle of alignment angles $\theta \in (0,\pi/2)$. The dependence between $A_{max}$ and $R$ is clearly linear when $\theta=0$. In fact in such a case it agrees with the relation shown in \ref{ch3:eq19a}. However when increasing $\theta$, at some point the dependence between $A_{max}$ and $R$ becomes non monotonic. It means that for an arbitrary $\delta$ and $\theta$ large enough, $A_{max}$ values are constrained from above. In other words, if a vortex has arbitrary $\delta$ and $\theta$ large enough, there is a value of $A$ above which there is no limit cycle solution for any particle size.
-
 \begin{figure*}
 \centering
-\noindent \includegraphics[width=30pc]{gfx/Amax_vs_R.png}
+\noindent \includegraphics[width=30pc]{gfx/Amax_vs_R_.png}
 \caption{Maximal strain parameter $A_{max}$ with respect to  particle radius $R$ for a few vortex core sizes $\delta$, drawn for a bundle of alignment angles. $A_{cr}$  value is shown with a dashed line.}
 \label{fig:ch3_11}
 \end{figure*}
 
-Finally we can formulate the general conclusion that increasing vortex core size $\delta$ or decreasing particle size (when $\theta$ is not large) causes the decrease in $A_{max}$ (equivalent to increase in minimal circulation $\Gamma_{min}$).\\
+Figure \ref{fig:ch3_11} presents the same relation in a slightly different form. There are just a few $\delta$ values explored. Each coloured band represents $A_{max}$ range obtained for a bundle of alignment angles $\theta \in (0,\pi/2)$. While increasing $R$, for small particle radii, $A_{max}$ increases almost linearly with $R$, then the relation reaches maximum and $A_{max}$ decreases with $R$. The linear dependency for $\theta=0$ agrees with the relation shown in \ref{ch3:eq19a}, so $A_{max} \propto R/\delta$. The position of the maximum depends on $\theta$ and is practically independent of $\delta$ (at 17.10~$\mu$m for $\theta=\pi/2$ and $\delta=0.1$~cm, at 17.00~$\mu$m for $\theta=\pi/2$ and $\delta=0.9$~cm).
+
+
+
+
+
+
+The dependence between $A_{max}$ and $R$ is clearly linear when $\theta=0$ in this range. In fact in such a case it agrees with the relation shown in \ref{ch3:eq19a}. However when increasing $\theta$, at some point the dependence between $A_{max}$ and $R$ becomes non-monotonic. It means that for an arbitrary $\delta$ and $\theta$ large enough, $A_{max}$ values are constrained from above. In other words, if a vortex has arbitrary $\delta$ and $\theta$ large enough, there is a value of $A$ above which there is no limit cycle solution for any particle size. The other way of looking at this solution is that for arbitrary $\delta$ and $\theta$ small enough so that the relation between $A$ and $R$ is monotonic, for a given $A$ there exist a range of particle sizes $R$ constrained only from below, that has limit cycle solutions. If $theta$ is large and the relation is non-monotonic, then this range is constrained from above as well. However the upper constrain is not considered here (??? najpierw sprawdzic, czy faktycznie gorne w tych zakresach jest mniejsze niz R2).
+
+
+
+Finally we can formulate the general conclusion that increasing vortex core size $\delta$, or decreasing particle size when $\theta$ is small, causes the decrease in $A_{max}$ (equivalent to increase in minimal circulation $\Gamma_{min}$).\\
 ...\\
 Dodac cos tutaj o tej publikacji Sapsin And Haler 2010 o przyciaganiu czastek inercyjnych przez powolne rozmaitosci. - jesli starczy czasu.
 
