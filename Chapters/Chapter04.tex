@@ -92,19 +92,27 @@ The use of analytical model requires the precise definition of a void. For the s
 \label{ssec:poly}
 
 %Obtaining a general mathematically strict condition for creation of an arbitrary sized void in arbitrary polydisperse collection of droplets would be too detailed and too complicated to be profitable for the interpretation of crude experimental results. 
-The conditions defined above for the motion of the polydisperse collection of droplets in the 2D space are met if most of the drops realize motion scenarios referred to in Fig. \autoref{fig:ch3_9} as (1b)-(3b), and possibly only a small part of the largest droplets of scenario (5). If there is a void characterized by $(A,\delta,\theta)$, then the size range $[R_1,R_2]$ of particles that realize one or more of the scenarios (1b)-(3b) is constrained. All of the particles must have at least one unstable focus $r^+_0$ near the axis. This condition is  satisfied when $R_1$ is large enough, so that $A<A_{max}(R_1,\delta,\theta)$, and $R_2$ is small enough, so $S_v(R_2,A, \delta,\theta)<S_{v\ max}(A)$ if $A<A_{cr}$ or $r^+_0>r_s$ if $A>A_{cr}$. Let's express this inequalities in common terms.
+The conditions defined above for the motion of the polydisperse collection of droplets in the 2D space are met if most of the drops realize motion scenarios referred to in Fig. \autoref{fig:ch3_9} as (1b)-(3b), and possibly only a small part of the largest droplets of scenario (5). If there is a void characterized by $(A,\delta,\theta)$, then the size range $[R_<,R_>]$ of particles that realize one or more of the scenarios (1b)-(3b) is constrained. All of the particles must have at least one unstable focus $r^+_0$ near the axis. This is guaranteed by the two conditions: $r^+_0<r_s$ and $A<A_{max}(R,\delta,\theta)$ for all $R \in [R_<,R_>]$. So for a vortex described by $(A, \delta, \theta)$ the range $[R_1,R_2]$ is approximately defined by $A_{max}$ as described in last paragraph of \autoref{ch3s2ss2}. However, it can be further restricted by the condition $r^+_0<r_s$. To verify the last, a value called $R_s$ is calculated numerically and it is defined by the relation $r^+_0(R_s,A,\delta,\theta)=r_s$. Finally, limit cycle is a solution for a range of particle radii $[R_<,R_>]$ if:
+\begin{itemize}
+\item $R_1<R_s<R_2$, then $R_<=R_1$, $R_>=R_s$, or
+\iem $R_1<R_2<R_s$, then $R_<=R_1$, $R_>=R_2$.
+\end{itemize}
+Figure \ref{fig:ch4_5} presents results of numerical calculations of $R_1$, $R_2$, $R_s$ in the vortex parameters domain, specific for cloud-like conditions. Figure \ref{fig:ch4_5} shows final results: left margin of the range $R_>$, right margin of the range $R_<$ and their interval magnitude, at the same time giving approximate parameter ranges of cloud void-creating vortex.
 
 \begin{figure}[h]
 \centering
 \noindent\includegraphics[width=35pc]{gfx/.png}
-\caption{}
-\label{fig:ch_54}
+\caption{Approximated size range of particles $[R_1,R_2]$ that has a limit cycle solution, with respect to vortex parameters (first and second row), $R_s$ (third row), as defined in the text body and the interval between $R_2$ and $R_s$ (fourth row), obtained numerically. Three alignment angles values are presented. Vortex parameters domain corresponds to cloud-like conditions.}
+\label{fig:ch4_5}
 \end{figure}
 
+\begin{figure}[h]
+\centering
+\noindent\includegraphics[width=35pc]{gfx/.png}
+\caption{Numerical calculation of approximated size range of particles $[R_<,R_>]$ (first and second row) that create a cloud void, as well as interval between them (third row) in relation with vortex parameters. Three alignment angles values are presented. Vortex parameters domain corresponds to cloud-like conditions.}
+\label{fig:ch4_6}
+\end{figure}
 
-The most obvious conclusion is that when circulation of the vortex is too small: $A \geq A_{cr}$,  the motion of particles is determined mostly by the gravitational force and resembles sedimentation through the vortex with slightly curved trajectories. Circulation must then be large enough: at least $A \leq A_{cr}$ for void to be created.\\
-The other condition is that equilibrium points near the vortex center for the majority of the particles are unstable, allowing circulation around the vortex axis. Inequality \ref{eq8} is exploited here to find the qualitative dependence between vortex and particle parameters that fulfils this condition.\\
-\noindent The following conclusions can be drawn from the above approximate relations:
 
 \begin{itemize}
 \item There is a threshold (minimal) value of circulation needed for void creation. It increases with inclination angle ($\sin \theta$) and vortex size $\delta$.
@@ -116,11 +124,18 @@ The other condition is that equilibrium points near the vortex center for the ma
 
 \subsection{Particle orbit in a void - the radius of curvature}
 \label{ssec:par}
-In order to obtain a void, a majority of the droplets must circle around the axis and the curvature of their trajectories should be large enough for a void to be noticable. In order to estimate the curvature radius we perform the following reasoning. For simplicity particle and vortex constants and parameters are now chosen to match those of water droplets in the cloudy air and henceforward particles are called droplets.
+In order to obtain a void, a majority of the droplets must circle around the axis and the curvature of their trajectories should be large enough for a void to be noticable. In order to estimate the curvature radius we perform the following reasoning. 
 Firstly, a basic vortex spatial scale is established for the measurement conditions. Premises found in the literature discussed in the introduction were used for making the assumption that the proportionality constant in Eq. \ref{eq1} is in the range $m\in[3.5, 24]$. It means $\delta \in [0.18,1.20]$~cm for August 27th measurements.
 Secondly, the droplet trajectory curvature radius is approximated by the periodic orbit radius which is a solution of Eq. \ref{eq5}. For this reason, solutions of Eq.\ref{eq5} are presented in Fig.\ref{fig05} for various representative vortex parameters. Every color represents one of droplet sizes: $R=3,13,23$~$\mu m$ chosen to be within the experimental range for August 27th (see Table \ref{tab01}). Overlapping colored surfaces match regions in which solutions can exist (what corresponds to the condition $St<St_{cr}$). Dashed lines are contour plots of solutions of chosen (close to experimental) void sizes: 0.5~cm, 1.5~cm, 3~cm. Using the information presented in this plot, the analysed strain parameter was further limited, from $A<A_{cr}$ down to $A \in [10^{-4}, 8\cdot10^{-3}]$.
 
+Figure \ref{fig:ch4_30} shows the results of $r_{orb}$ calculation in a different view. It illustrates the contour plots for selected orbit radii (0.5~cm ,1.5~cm, 3~cm). Overlapping (blue on a top, then pink and green) coloured surfaces match subspaces of stable periodic orbit existence.
 
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/fig05.png}
+\caption{Contour plot of stable periodic orbit radius for droplets of radii $R=3,13,23 \ \mu m$ for cloud-like parameter ranges of $\delta$ and $A$. Overlapping (blue on a top, then pink and green) colored surfaces match subspaces in which stable periodic 2D orbit exist for droplet radius given by its colour. Dashed lines are contour plots for $r_{orb}$ equal to 0.5~cm ,1.5~cm, 3~cm. Black points represent simulation parameters sets (refered to in ???).}
+\label{fig:ch4_30}
+\end{figure*}
 
 \subsection{Timescales of motion}
 %------------------------------------------------
