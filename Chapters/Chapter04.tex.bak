@@ -97,25 +97,27 @@ The conditions defined above for the motion of the polydisperse collection of dr
 \item $R_1<R_s<R_2$, then $R_<=R_1$, $R_>=R_s$, or
 \iem $R_1<R_2<R_s$, then $R_<=R_1$, $R_>=R_2$.
 \end{itemize}
-Figure \ref{fig:ch4_5} presents results of numerical calculations of $R_1$, $R_2$, $R_s$ in the vortex parameters domain, specific for cloud-like conditions. Figure \ref{fig:ch4_5} shows final results: left margin of the range $R_>$, right margin of the range $R_<$ and their interval magnitude, at the same time giving approximate parameter ranges of cloud void-creating vortex.
+Figure \ref{fig:ch4_5} presents results of numerical calculations of $R_1$, $R_2$, $R_s$ in the vortex parameters domain, specific for cloud-like conditions (first, second and third row respectively). Color scale was selected to be common to all three variables. Alignment angle $\theta$ cases are arbitrary, but smaller then $\pi/4$, for the clarity of the figures. For the larger the angle, the narrower the $A$ and $\delta$ domain in which limit cycle is a solution. The fourth row shows the difference $R_2-R_s$. $R_1$ decreases when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases. On the contrary to $R_1$, $R_2$ and $R_s$ increase when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases. The last row reveals, that the inequality sign between $R_2$ and $R_s$ is not constant, but changes with vortex parameters. $R_>$ should be calculated in two ways, depending on these parameters.
 
 \begin{figure}[h]
 \centering
 \noindent\includegraphics[width=35pc]{gfx/.png}
-\caption{Approximated size range of particles $[R_1,R_2]$ that has a limit cycle solution, with respect to vortex parameters (first and second row), $R_s$ (third row), as defined in the text body and the interval between $R_2$ and $R_s$ (fourth row), obtained numerically. Three alignment angles values are presented. Vortex parameters domain corresponds to cloud-like conditions.}
+\caption{Approximated size range of particles $[R_1,R_2]$ that has a limit cycle solution, represented by color scale, with respect to vortex parameters (first and second row), $R_s$ (third row), as defined in the text body and the interval between $R_2$ and $R_s$ (fourth row), obtained numerically. Colorscale is common for $R_1$, $R_2$ and $R_s$, separate for $R_2-R_s$. Three alignment angle values selected are represented in columns. Vortex parameters domain corresponds to cloud-like conditions.}
 \label{fig:ch4_5}
 \end{figure}
 
+Figure \ref{fig:ch4_5} shows final results: left margin of the range $R_>$, right margin of the range $R_<$ and their interval magnitude, at the same time giving approximate parameter ranges of cloud void-creating vortex.
+Values presented in the figure reach from well below 1 to around 25 $\um$, so they are relevant for cloud droplets.
 \begin{figure}[h]
 \centering
 \noindent\includegraphics[width=35pc]{gfx/.png}
-\caption{Numerical calculation of approximated size range of particles $[R_<,R_>]$ (first and second row) that create a cloud void, as well as interval between them (third row) in relation with vortex parameters. Three alignment angles values are presented. Vortex parameters domain corresponds to cloud-like conditions.}
+\caption{Numerical calculation of approximated size range of particles $[R_<,R_>]$ (first and second row) that create a cloud void, as well as interval between them $\Delta R$ (third row) in relation with vortex parameters. Colorscale is common for all the variables. Three alignment angle values selected are represented in columns. Vortex parameters domain corresponds to cloud-like conditions.}
 \label{fig:ch4_6}
 \end{figure}
 
 
 \begin{itemize}
-\item There is a threshold (minimal) value of circulation needed for void creation. It increases with inclination angle ($\sin \theta$) and vortex size $\delta$.
+\item There is a threshold (minimal) value of circulation needed for void creation. It increases with inclination angle ($\sin \theta$) and vortex size $\delta$.\\
 \item The greater the circulation the smaller particles  have their unstable points near the axis.
 \item The range of particles having unstable points near the axis increases with increasing circulation and decreases with increasing gravity influence and vortex size $\delta$.
 \end{itemize}

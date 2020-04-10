@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  13 MAR 2020 13:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2020.2.24)  10 APR 2020 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1729,7 +1729,7 @@ sent
  []
 
 [6]
-Underfull \vbox (badness 4441) has occurred while \output is active []
+Underfull \vbox (badness 6910) has occurred while \output is active []
 
  [7 <../gfx/Yeung_chunky_vortices.png>]
 
@@ -1737,7 +1737,7 @@ LaTeX Warning: Citation 'Bodenschatz2010' on page 8 undefined on input line 126
 .
 
 
-LaTeX Warning: Reference `Wyngaard2010' on page 8 undefined on input line 127.
+LaTeX Warning: Citation 'Wyngaard2010' on page 8 undefined on input line 127.
 
 
 LaTeX Warning: Citation 'Jen-LaPlante2016' on page 8 undefined on input line 12
@@ -1774,6 +1774,11 @@ LaTeX Warning: Citation 'Zilitinkevich2019' on page 8 undefined on input line 1
 Overfull \hbox (65.4483pt too wide) in paragraph at lines 126--128
 \T1/pplj/m/n/10.95 droplet evo-lu-tion and in-ter-acts with large-scale cloud d
 y-nam-ics [[]].
+ []
+
+
+Overfull \hbox (0.96385pt too wide) in paragraph at lines 126--128
+\T1/pplj/m/n/10.95 scalars prop-er-ties in ma-rine bound-ary layer clouds [[],
  []
 
 
@@ -1820,12 +1825,6 @@ LaTeX Warning: Citation 'Maxey1983' on page 9 undefined on input line 142.
 
 LaTeX Warning: Citation 'Calzavarini2012' on page 11 undefined on input line 17
 8.
-
-
-Overfull \hbox (6.58838pt too wide) in paragraph at lines 178--179
-\T1/pplj/m/n/10.95 across the par-ti-cle. Sim-u-la-tions have shown how-ever [[
-]]
- []
 
 [11]
 
@@ -2262,6 +2261,9 @@ Underfull \vbox (badness 4556) has occurred while \output is active []
 LaTeX Warning: Citation 'Xu2012' on page 17 undefined on input line 249.
 
 
+LaTeX Warning: Citation 'Wilczek2011' on page 17 undefined on input line 251.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 247--253
 
  []
@@ -2283,6 +2285,9 @@ Package rerunfilecheck Info: File `Chapter01.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                Chapter01
 (biblatex)                and rerun LaTeX afterwards.
@@ -2292,13 +2297,13 @@ Package logreq Info: Writing requests to 'Chapter01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21301 strings out of 493304
- 335631 string characters out of 6139871
+ 21300 strings out of 493304
+ 335617 string characters out of 6139871
  752830 words of memory out of 5000000
- 24239 multiletter control sequences out of 15000+600000
+ 24238 multiletter control sequences out of 15000+600000
  63074 words of font info for 121 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 55i,20n,71p,3240b,1494s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,71p,3242b,1494s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2318,7 +2323,7 @@ onts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Chapter01.pdf (18 pages, 704918 bytes).
+Output written on Chapter01.pdf (18 pages, 705114 bytes).
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)
  199 compressed objects within 2 object streams

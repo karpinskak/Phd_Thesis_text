@@ -152,7 +152,7 @@ Equation \ref{ch1:eq04} decomposed into components looks therefore as follows:
 \ddot{z}=\tau_p^{-1}\left(\gamma z - \dot{z}\right) - g \cos{\theta}
 \label{ch2:eq02}
 \end{align}
-The system is primarely dependent on a set of six dimensional parameters: $\{\Gamma, \gamma, \theta, \tau_p, g, \nu \}$. The non-dimensionalization however leads to Eq. \ref{ch3:eq03a}-\ref{ch3:eq03c} and gives a set of 4 dimensionless parameters $\{St, S_v, \theta, A \}$. to be defined below Dimensionless variables are denoted henceforth by $^{+}$.
+The system is primarely dependent on a set of six dimensional parameters: $\{\Gamma, \gamma, \theta, \tau_p, g, \nu \}$. The non-dimensionalization however leads to Eq. \ref{ch3:eq03a}-\ref{ch3:eq03c} and gives a set of 4 dimensionless parameters $\{St, S_v, \theta, A \}$ to be defined below. Dimensionless variables are denoted henceforth by $^{+}$.
 
 \begin{align}
 \ddot{r^+}-r^+\dot{\varphi^+}^2=-St^{-1}\left(A r^++\dot{r^+}+S_v \sin\varphi\right) \label{ch2:eq03a} \\
