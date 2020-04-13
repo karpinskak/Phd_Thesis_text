@@ -8,7 +8,7 @@
 
 \label{ch:holes} % For referencing the chapter elsewhere, use \autoref{ch:name} 
 
-This chapter presents experimental, theoretical and numerical results concerning cloud voids. Cloud voids are a phenomenon that was registered only once and was published for the first time in \citet{Karpinska2019} by the author of this thesis and others, including the experimental group. \ref{ch4s1} presents the experimental results in details. \ref{ch4s2} proposes the necessary conditions for cloud void formation, assuming the model exploited in \autoref{ch:single} in polydisperse particle case. ??? dokonczyc po napisaniu rozdzialu
+This chapter presents experimental, theoretical and numerical results concerning cloud voids. Cloud voids are a phenomenon that was registered only once and was published for the first time in \citet{Karpinska2019} by the author of this thesis and others, including the experimental group. \ref{ch4s1} presents the experimental results in details. \ref{ch4s2} proposes the necessary conditions for cloud void formation, assuming the model exploited in \autoref{ch:single} in polydisperse particle case and verifies them in cloud-like conditions.
 
 %----------------------------------------------------------------------------------------
 \section{Cloud voids experiment results}
@@ -88,7 +88,7 @@ There were a few series of cloud void images collected with various laser-camera
 Lets assume that cloud voids are caused by the presence of a long-lasting vortex that appear numerously in turbulence structure and lets use the model of particle motion in a vortex explored in \autoref{ch:single}, applied to cloud particles in atmospheric turbulence. Is the model able to produce a "void effect"? If yes, what are the necessary conditions? How they translate to model parameters? This section tries to answer all these questions.\\
 The use of analytical model requires the precise definition of a void. For the start, we have a collection of cloud droplets of certain size distribution, distributed uniformly in the air, where the appearance of a Burgers vortex of a certain size, circulation and gravity alignment, creates a void of a few centimetres size, lasting a few seconds. Here the void is defined as an inhomogeneity in droplet field, a region almost devoid of droplets. It has nearly cylindrical shape, in the cross section it takes a form close to a circle or an ellipsoid. In order to obtain a void using the model, the following hypothesis on polydisperse particle collective behaviour are formulated. Firstly, the majority of droplets' trajectories are determined by limit cycle attraction. Secondly, the radius of curvature of the limit cycle is large enough to recognize it, as the void in observations is clearly distinguishable from random spatial distribution fluctuations. Attraction by a single stable equilibrium point far from the axis is not considerable, so the trajectories do not cross the void. Finally, the time needed to form the void is shorter then exit time for most of the particles. These conditions are inspected in the following subsections.
 
-\subsection{Polydisperse particles motion analysis}
+\subsection{Polydisperse droplet trajectories}
 \label{ssec:poly}
 
 %Obtaining a general mathematically strict condition for creation of an arbitrary sized void in arbitrary polydisperse collection of droplets would be too detailed and too complicated to be profitable for the interpretation of crude experimental results. 
@@ -97,7 +97,7 @@ The conditions defined above for the motion of the polydisperse collection of dr
 \item $R_1<R_s<R_2$, then $R_<=R_1$, $R_>=R_s$, or
 \item $R_1<R_2<R_s$, then $R_<=R_1$, $R_>=R_2$.
 \end{itemize}
-Figure \ref{fig:ch4_5} presents results of numerical calculations of $R_1$, $R_2$, $R_s$ in the vortex parameters domain, specific for cloud-like conditions (first, second and third row respectively). Color scale was selected to be common to all three variables. Alignment angle $\theta$ cases are arbitrary, but smaller then $\pi/4$, for the clarity of the figures. For the larger the angle, the narrower the $A$ and $\delta$ domain in which limit cycle is a solution. The fourth row shows the difference $R_2-R_s$. $R_1$ decreases when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases. On the contrary to $R_1$, $R_2$ and $R_s$ increase when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases. The last row reveals, that the inequality sign between $R_2$ and $R_s$ is not constant, but changes with vortex parameters. $R_>$ should be calculated in two ways, depending on these parameters.
+Figure \ref{fig:ch4_5} presents results of numerical calculations of $R_1$, $R_2$, $R_s$ in the vortex parameters domain, specific for cloud-like conditions (first, second and third row respectively). Colour scale was selected to be common to all three variables. Alignment angle $\theta$ cases are arbitrary, but smaller then $\pi/4$, for the clarity of the figures. For the larger the angle, the narrower the $A$ and $\delta$ domain in which limit cycle is a solution. The fourth row shows the difference $R_2-R_s$. $R_1$ decreases when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases. On the contrary to $R_1$, $R_2$ and $R_s$ increase when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases. The last row reveals, that the inequality sign between $R_2$ and $R_s$ is not constant, but changes with vortex parameters. $R_>$ should be calculated in two ways, depending on these parameters.
 
 \begin{figure}[h]
 \centering
@@ -106,41 +106,44 @@ Figure \ref{fig:ch4_5} presents results of numerical calculations of $R_1$, $R_2
 \label{fig:ch4_5}
 \end{figure}
 
-Figure \ref{fig:ch4_5} shows final results: left margin of the range $R_>$, right margin of the range $R_<$ and their interval magnitude, at the same time giving approximate parameter ranges of cloud void-creating vortex.
-Values presented in the figure reach from well below 1 to around 25 $\mu m$, so they are relevant for cloud droplets.
+Figure \ref{fig:ch4_5} shows final results: left margin of the range $R_>$, right margin of the range $R_<$ and their interval magnitude, thus giving approximate parameter ranges of cloud void-creating vortex. Colour scales in this case differ to highlight the accurate values. Presented $R_<$ values reach from around 29~$\mu m$ for $\theta=\pi/16$ and around 19~$\mu m$ for $\theta=\pi/4$ to well below 1~$\mu m$, so they are surely relevant for cloud droplets. $R_>$ has opposite $A$ dependence and it reaches from around 17~$\mu m$ for all three $theta$ to particle sizes that are far out of cloud droplets bounds. What is interesting, is the interval magnitude $\Delta R$. The minimal value of those presented in the figure is $min(\Delta R)=27, 14, 4 \ \mu m$ for $\theta=\pi/16, \pi/8, \pi/4$ respectively. These are also values that are of the same order as in cloud conditions.
 
 \begin{figure}[h]
 \centering
 \noindent\includegraphics[width=35pc]{gfx/RlRrDeltaR.png}
-\caption{Numerical calculation of approximated size range of particles $[R_<,R_>]$ (first and second row) that create a cloud void, as well as interval between them $\Delta R$ (third row) in relation with vortex parameters. Colorscale is common for all the variables. Three alignment angle values selected are represented in columns. Vortex parameters domain corresponds to cloud-like conditions.}
+\caption{Numerical calculation of approximated size range of particles $[R_<,R_>]$ (first and second row) that create a cloud void, as well as interval between them $\Delta R$ (third row) in relation with vortex parameters. Colorscale is common for $R_>$ and $\Delta R$. Three alignment angle values selected are represented in columns. Vortex parameters domain corresponds to cloud-like conditions.}
 \label{fig:ch4_6}
 \end{figure}
 
+$R_1$ decreases when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases. On the contrary to $R_1$, $R_2$ and $R_s$ increase when strain parameter $A$ decreases (circulation increases) or vortex size $\delta$ decreases.
 
-\begin{itemize}
-\item There is a threshold (minimal) value of circulation needed for void creation. It increases with inclination angle ($\sin \theta$) and vortex size $\delta$.
-\item The greater the circulation the smaller particles  have their unstable points near the axis.
-\item The range of particles having unstable points near the axis increases with increasing circulation and decreases with increasing gravity influence and vortex size $\delta$.
-\end{itemize}
+Finally some general clues about cloud void formation in 2D on the basis of theoretical model are lined:
+\begin{enumerate}
+\item There is a threshold (minimal) value of circulation needed for void creation (corresponding to $A_{max}$. It increases with inclination angle ($\sin \theta$) and vortex size $\delta$.\\
+\item The greater the circulation the smaller particles have their unstable points near the axis.
+\item The range of particles having unstable points near the axis increases with increasing circulation and decreases with increasing inclination angle and vortex size $\delta$.
+\end{enumerate}
 
-\noindent Building up on these results it may be concluded that it is harder to observe voids created by horizontally aligned vortices than vertically aligned ones and also more difficult to observe voids the larger particle size range is.\\
+\noindent Building up on these results it may be concluded that theoretical void formation conditions can be fulfilled in cloud-like conditions when it comes to 2D space. According to the model it should be harder to observe voids in vortices of larger $\delta$. When it comes to the inclination, the larger the angle, the smaller the particles thrown out of vortex center. On the other hand, increasing inclination angle decreases the range of particles circling around the void. However, larger droplets motion resemble then sedimentation through the vortex and altogether increasing inclination angle might facilitate void formation. The last conclusion is that it should be more difficult to observe voids the larger particle size range is.\\
 
-\subsection{Particle orbit in a void - the radius of curvature}
+\subsection{Void size estimation}
 \label{ssec:par}
-In order to obtain a void, a majority of the droplets must circle around the axis and the curvature of their trajectories should be large enough for a void to be noticable. In order to estimate the curvature radius we perform the following reasoning. 
-Firstly, a basic vortex spatial scale is established for the measurement conditions. Premises found in the literature discussed in the introduction were used for making the assumption that the proportionality constant in Eq. \ref{eq1} is in the range $m\in[3.5, 24]$. It means $\delta \in [0.18,1.20]$~cm for August 27th measurements.
-Secondly, the droplet trajectory curvature radius is approximated by the periodic orbit radius which is a solution of Eq. \ref{eq5}. For this reason, solutions of Eq.\ref{eq5} are presented in Fig.\ref{fig05} for various representative vortex parameters. Every color represents one of droplet sizes: $R=3,13,23$~$\mu m$ chosen to be within the experimental range for August 27th (see Table \ref{tab01}). Overlapping colored surfaces match regions in which solutions can exist (what corresponds to the condition $St<St_{cr}$). Dashed lines are contour plots of solutions of chosen (close to experimental) void sizes: 0.5~cm, 1.5~cm, 3~cm. Using the information presented in this plot, the analysed strain parameter was further limited, from $A<A_{cr}$ down to $A \in [10^{-4}, 8\cdot10^{-3}]$.
+The curvature of droplet trajectories should be large enough for a void to be noticeable. In order to estimate the curvature radius we perform the following reasoning. In the face of lack of analytical limit cycle solution, droplet trajectory curvature radius can be approximated by the periodic orbit radius, which was explored in detail in \autoref{ch3s2ss1sss1}. For this reason, stable periodic orbit radius numerical calculation results are presented in a novel form in Fig.\ref{fig:ch4_30} for various representative vortex parameters. Every color represents one of droplet sizes: $R=3,13,23$~$\mu m$ chosen to be within the experimental range for August 27th (see Table \ref{tab:ch4_1}). The figure illustrates contour plots for selected orbit radii (0.5~cm ,2~cm, 5~cm), corresponding to cloud void sizes observed. Overlapping (blue on a top, then pink and green) coloured surfaces match subspaces of stable periodic orbit existence. 
 
-Figure \ref{fig:ch4_30} shows the results of $r_{orb}$ calculation in a different view. It illustrates the contour plots for selected orbit radii (0.5~cm ,1.5~cm, 3~cm). Overlapping (blue on a top, then pink and green) coloured surfaces match subspaces of stable periodic orbit existence.
-
+Figure \ref{fig:ch4_30} shows the results of $r_{orb}$ calculation in a different view. 
 \begin{figure*}
 \centering
-\noindent \includegraphics[width=30pc]{gfx/fig05.png}
-\caption{Contour plot of stable periodic orbit radius for droplets of radii $R=3,13,23 \ \mu m$ for cloud-like parameter ranges of $\delta$ and $A$. Overlapping (blue on a top, then pink and green) colored surfaces match subspaces in which stable periodic 2D orbit exist for droplet radius given by its colour. Dashed lines are contour plots for $r_{orb}$ equal to 0.5~cm ,1.5~cm, 3~cm. Black points represent simulation parameters sets (refered to in ???).}
-\label{fig:ch4_30}
+\noindent \includegraphics[width=30pc]{gfx/void_radii_R_3_13_23.png}
+\caption{Contour plot of stable periodic orbit radius for droplets of radii $R=3,13,23 \ \mu m$ for cloud-like parameter ranges of $\delta$ and $A$. Overlapping (blue on a top, then pink and green) coloured surfaces match parameter domains in which stable periodic 2D orbit exist for droplet radius given by its colour. Dashed lines are contour plots for $r_{orb}$ equal to 0.5~cm ,2~cm, 5~cm. Black points represent simulation parameters sets (filled later, reffered to in ???).}
+\label{fig:ch4_7}
 \end{figure*}
 
+Figure \ref{fig:ch4_7} narrows down further the void-forming parameter domain.
+
 \subsection{Timescales of motion}
+
+\section{Summary}
+3D void formation due to the presence of Burgers vortex in droplets field is fully possible for cloud-like conditions.
 %------------------------------------------------
 
 \end{document}

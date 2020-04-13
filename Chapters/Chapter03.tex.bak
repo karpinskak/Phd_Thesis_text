@@ -144,7 +144,7 @@ St \leq St_{cr}(A) \equiv 16 \pi^2 A,
 the only attractor, the equilibrium point at the axis, is a stable focus ($\alpha \leq 0$). In the opposite case $St > St_{cr}$, the equilibrium point is an unstable focus, accompanied by a stable periodic circular orbit ($\alpha>0$). Particle trajectories around such attractors are presented schematically in Fig. \autoref{fig:ch2_04}. Having established the existence of attractors, their impact on particle kinematics is studied.\\
 
 \subsubsection{Stable periodic orbit}
-
+\label{ch3s2ss1sss1}
 The first type of trajectory that is analysed is the particle moving on stable periodic orbit. The radius of the periodic orbit, denoted as $r^+_{orb}$, satisfies the equation:
 \begin{equation}
  \left[1-\exp\left( -r^{+ 2}/2 \right) \right]/2 \pi r^{+ 2}=\sqrt{A/St}, 
