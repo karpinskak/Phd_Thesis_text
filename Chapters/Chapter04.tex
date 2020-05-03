@@ -134,14 +134,24 @@ Figure \ref{fig:ch4_30} shows the results of $r_{orb}$ calculation in a differen
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/void_radii_R_3_13_23.png}
-\caption{Contour plot of stable periodic orbit radius for droplets of radii $R=3,13,23 \ \mu m$ for cloud-like parameter ranges of $\delta$ and $A$. Overlapping (blue on a top, then pink and green) coloured surfaces match parameter domains in which stable periodic 2D orbit exist for droplet radius given by its colour. Dashed lines are contour plots for $r_{orb}$ equal to 0.5~cm ,2~cm, 5~cm. Black points represent simulation parameters sets (filled later, reffered to in ???).}
+\caption{Contour plot of stable periodic orbit radius for droplets of radii $R=3,13,23 \ \mu m$ for cloud-like parameter ranges of $\delta$ and $A$. Overlapping (blue on a top, then pink and green) coloured surfaces match parameter domains in which stable periodic 2D orbit exist for droplet radius given by its colour. Dashed lines are contour plots for $r_{orb}$ equal to 0.5~cm ,2~cm, 5~cm. Black points represent simulation parameters sets (filled later, referred to in ???).}
 \label{fig:ch4_7}
 \end{figure*}
 
-Figure \ref{fig:ch4_7} narrows down further the void-forming parameter domain.
+Figure \ref{fig:ch4_7} further narrows down the void-forming parameter domain.
 
 \subsection{Timescales of motion}
-
+Timescales of motion found for a single particle can be interpreted in the case of polydisperse collection of particles. Lets take the arbitrary range of sizes $[R_<,R_>]$ and find the relations between their timescales. Firstly, motion along vortex axis is governed by $\tau_z$ quantity, which approximately does not depend on particle size. Difference in total exit times results from the difference of equilibrium point position $z_b \propto R^2$ and according to Eq.\ref{ch3:eq14}:
+\begin{equation}
+\frac{\tau_{ex >}}{\tau_{ex <}}=\frac{log(L(Z^*_>,z_{0 >}^*)}{L(Z^*_<,z_{0 <}^*)}.
+\label{ch4:eq1}
+\end{equation}
+When it comes to circular orbit timescale, there is:
+\begin{equation}
+\frac{\tau_{orb >}}{\tau_{orb <}}=\frac{R_>}{R_<},
+\label{ch4:eq2}
+\end{equation}
+so it increases proportionally with droplet size. Finally the relations for docking times are implicit. Figure \autoref{fig:ch3_4b} - tu opisac, ze tam gdzie dazy do nieskonczonosci czas dokowania, to wiadomo, ze szybciej wypadna przez tau_z mniejsze. A takie regiony sa dwa. Moze ten wykres przerobic na delta i A, zeby byl porownywalny z tymi powyzej?
 \section{Summary}
 3D void formation due to the presence of Burgers vortex in droplets field is fully possible for cloud-like conditions.
 %------------------------------------------------

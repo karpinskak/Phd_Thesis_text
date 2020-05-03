@@ -103,7 +103,7 @@ L(Z,z_0;z_b)=\frac{Z-sign(z_0-z_b)z_b}{|z_0-z_b|}=\frac{Z/z_b-sign(z_0-z_b)}{|z_
 Then the estimated exit time:
 \begin{align}
 \tau_{ex}(Z^\ast,z_0^\ast; \tau_z)\approx \tau_z \log\left(L(Z^\ast,z_0^\ast)\right)\\
-L(Z^\ast,z_0^\ast)= \frac{Z^\ast-sign(z_0^\ast-1)}{|z_0^\ast-1|}\\
+L(Z^\ast,z_0^\ast)= \frac{Z^\ast-sign(z_0^\ast-1)}{|z_0^\ast-1|}
 \label{ch3:eq14}
 \end{align}
 where $Z^\ast \in (1,\infty), \ z_0^\ast \in [-Z^\ast,1)\cup (1,Z^\ast]$. For $z_0^\ast=1$ (when $z_0=z_b$) the estimation gives $\tau_{ex}=\infty$, so it agrees with the fact, that $z_b$ is an unstable equillibrium point.
@@ -178,8 +178,17 @@ shown in Fig.\ref{fig:ch3_3} as straight dashed blue line. After all, $r^+_{orb}
 \caption{Particle stable periodic orbit radius $r^+_{orb}$ square (left y-axis) and orbit nondimensional angular momentum (right y-axis) with respect to parameter $\sqrt{St/A}$. Dashed lines represent asymptotic relations.}
 \label{fig:ch3_3}
 \end{figure*}
-
-The second conclusion based on the solution to equation \ref{ch3:eq18} is that non-dimensional angular velocity at circular periodic orbit $\omega^{+}_{orb}=\sqrt{A/St}$, or in other words, particle rotation time $\tau^+_{orb}=\sqrt{St/A}$. What is interesting, particle angular momentum $\omega^{+} r^{+ 2}$ on circular orbit (orange line plot in Fig. \ref{fig:ch3_3}, right Y-axis) in large radius limit is approximately constant in time and independent of particle size, equal to $(2 \pi)^{-1}$. \\
+The second conclusion based on the solution to equation \ref{ch3:eq18} is that non-dimensional angular velocity at circular periodic orbit is
+\begin{equation}
+\omega^{+}_{orb}=\sqrt{A/St},
+\label{ch3:eq18d}
+\end{equation}
+or in other words, particle rotation time is $\tau^+_{orb}=\sqrt{St/A}$. What is interesting, is that the orbit angular velocity is equal to fluid angular velocity:
+\begin{equation}
+\omega^{+}_{orb}=u^+_{\phi}(r^+_{orb})/r^+_{orb}.
+\label{ch3:eq18e}
+\end{equation}
+so particle circling on its orbit has zero relative velocity with respect to the fluid. What is more, particle angular momentum $\omega^{+} r^{+ 2}$ on circular orbit (orange line plot in Fig. \ref{fig:ch3_3}, right Y-axis) in large radius limit is approximately constant in time and independent of particle size, equal to $(2 \pi)^{-1}$. \\
 $\sqrt{St/A}$ solely determines orbit stratification in 2D space in no-gravity case and the circular periodic orbit dynamics. It is then important to investigate its connection to dimensional system parameters:
 \begin{equation}
 \sqrt{\frac{St}{A}}=\sqrt{\frac{2\rho_p}{9 \rho_a}} \frac{R}{A \delta} 
@@ -353,13 +362,20 @@ Estimated dimensional timescale $\tau_{d1}$ depends primarily on $\gamma^{-1}$. 
 %Another obsevation is that when $St/A$ increases towards the critical value $16 \pi^2$, the docking time $t^+_{doc}$  tends to infinity.
 %%%%%
 
-Further the analysis of $t^+_{doc}$ for arbitrary parameter ranges was conducted. Figure \ref{fig:ch3_4} presents the results of $t^+_{doc}$ numerical calculation with respect to $St$ and $A$. The colorscale is logarithmic. Line that consists of local maxima respresents the $St=St_{cr}(A)$ boarder. For $St\approx St_{cr}(A)$ the forces working on the particle almost balance, so the docking time is very long. When approaching the critical value, it asymptotically goes to infinity.
+Further the analysis of $t^+_{doc}$ for arbitrary parameter ranges was conducted. Figure \ref{fig:ch3_4a} presents the results of $t^+_{doc}$ numerical calculation with respect to $St$ and $A$. The colorscale is logarithmic. Line that consists of local maxima represents the $St=St_{cr}(A)$ boarder. For $St\approx St_{cr}(A)$ the forces working on the particle almost balance, so the docking time is very long. When approaching the critical value, it asymptotically goes to infinity. Figure \ref{fig:ch3_4b} shows the same results, but in dimensional form. The exact values cannot be easily interpreted, but what is important is that the asymptotic behaviour described is conserved. There is also rapid growth of docking time observed in $St \rightarrow 0$ limit. 
 
 \begin{figure*}
 \centering
 \noindent \includegraphics[width=30pc]{gfx/surf_logtdoc_vs_A_vs_St_full.png}
-\caption{Docking time calculated numerically with respect to $St$ and $A$ for arbitrary variable ranges with $\sigma=10^{-5}$. Line of local maxima corresponds to $St=St_{cr}(A)$ and shows the stability boarder: particles to the left undergo in-orbit docking, particles to the right - axis docking.}
-\label{fig:ch3_4}
+\caption{Nondimensional docking time calculated numerically with respect to $St$ and $A$ for arbitrary variable ranges with $\sigma=10^{-5}$. Line of local maxima corresponds to $St=St_{cr}(A)$ and shows the stability border: particles to the left undergo in-orbit docking, particles to the right - axis docking.}
+\label{fig:ch3_4a}
+\end{figure*}
+
+\begin{figure*}
+\centering
+\noindent \includegraphics[width=30pc]{gfx/surf_logtdoc_vs_A_vs_St_full_dimensional_R13.png}
+\caption{Dimensional docking time as presented in Fig.\ref{fig:ch3_4a} in the case $R=13$~$\mu m$.}
+\label{fig:ch3_4b}
 \end{figure*}
 
 Although the docking time is defined in a twofold way, it seems to have a physical meaning: the values are of a similar order, it goes towards on the both sides of the critical value.\\
