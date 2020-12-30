@@ -106,7 +106,7 @@ Then the estimated exit time:
 L(Z^\ast,z_0^\ast)= \frac{Z^\ast-sign(z_0^\ast-1)}{|z_0^\ast-1|}
 \label{ch3:eq14}
 \end{align}
-where $Z^\ast \in (1,\infty), \ z_0^\ast \in [-Z^\ast,1)\cup (1,Z^\ast]$. For $z_0^\ast=1$ (when $z_0=z_b$) the estimation gives $\tau_{ex}=\infty$, so it agrees with the fact, that $z_b$ is an unstable equillibrium point.
+where $Z^\ast \in (1,\infty), \ z_0^\ast \in [-Z^\ast,1)\cup (1,Z^\ast]$. For $z_0^\ast=1$ (when $z_0=z_b$) the estimation gives $\tau_{ex}=\infty$, so it agrees with the fact, that $z_b$ is an unstable equilibrium point.
 
 \begin{figure*}
 \centering
